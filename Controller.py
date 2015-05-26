@@ -12,7 +12,7 @@ import Irc.In
 import Irc.Out
 import Irc.CommandParser
 
-import Logs.Logger
+import Logger.Logger
 
 import Database.DatabaseUpdater
 
@@ -25,13 +25,12 @@ def startup(channel, check_online=False):
         import sys
         sys.stderr = open('Logs/Errors/{}/Controller.txt'.format(channel), 'w')
     processes = []
-    # processes.append(multiprocessing.Process(target=Package.Module.start, args=()))
     bot = Objects.Bot.Bot(channel, debug)
     q = Objects.Queues.queues()
     processes.append(multiprocessing.Process(target=Periodic.Followers.start, args=(bot, q)))
     if check_online:
         processes.append(multiprocessing.Process(target=Periodic.Check_Online.start, args=(bot, q)))
-    processes.append(multiprocessing.Process(target=Logs.Logger.start, args=(bot, q)))
+    processes.append(multiprocessing.Process(target=Logger.Logger.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Database.DatabaseUpdater.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Irc.In.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Irc.Out.start, args=(bot, q)))
@@ -56,7 +55,7 @@ def startup(channel, check_online=False):
                 if check_online:
                     processes.append(multiprocessing.Process(target=Periodic.Check_Online.main, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Periodic.LinesOfText.main, args=(bot, q)))
-                processes.append(multiprocessing.Process(target=Logs.Logger.start, args=(bot, q)))
+                processes.append(multiprocessing.Process(target=Logger.Logger.start, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Database.DatabaseUpdater.start, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Irc.In.start, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Irc.Out.start, args=(bot, q)))

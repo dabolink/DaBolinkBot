@@ -1,0 +1,5 @@
+Oauth oauth:y6cofk0p01xq6nf0980zja84u6elkw
+Botnick DaBolinkBot
+Botowner Dabolink
+Server irc.twitch.tv
+Port 6667
