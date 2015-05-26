@@ -1,0 +1,11 @@
+Process Process-8:
+Traceback (most recent call last):
+  File "E:\Python27\lib\multiprocessing\process.py", line 258, in _bootstrap
+    self.run()
+  File "E:\Python27\lib\multiprocessing\process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Owner\PycharmProjects\DaBolinkBot\Irc\CommandParser.py", line 114, in start
+    commands(bot, q, cmd[0].name, cmd[1][0][1:], cmd[1][1:])
+  File "C:\Users\Owner\PycharmProjects\DaBolinkBot\Irc\CommandParser.py", line 78, in commands
+    print (user.name + " : " + str(command) + " " + str(parameters))
+AttributeError: 'str' object has no attribute 'name'

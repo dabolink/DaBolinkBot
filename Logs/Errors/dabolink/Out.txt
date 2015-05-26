@@ -1,0 +1,9 @@
+Process Process-7:
+Traceback (most recent call last):
+  File "E:\Python27\lib\multiprocessing\process.py", line 258, in _bootstrap
+    self.run()
+  File "E:\Python27\lib\multiprocessing\process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Owner\PycharmProjects\DaBolinkBot\Irc\Out.py", line 57, in start
+    output = q.out_queue.get()
+TypeError: parse_output() takes exactly 3 arguments (4 given)

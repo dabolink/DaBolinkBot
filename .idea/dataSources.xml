@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2246289604">
+    <data-source source="LOCAL" name="Thepretenderr" uuid="33c4f57f-e485-46bc-b88f-82bb2dde2707">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Database/Databases/thepretenderr_bot.db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="DaBolinkBot" uuid="4cfd7020-222e-472b-9590-11176baac79f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Database/Databases/DaBolinkBot_bot.db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="DaBolink" uuid="70f24b69-9b28-47ed-87e9-2d7553384f28">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Database/Databases/DaBolink_bot.db</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
