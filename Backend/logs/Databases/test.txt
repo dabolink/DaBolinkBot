@@ -1,0 +1,5 @@
+05-26 14:44 :> added greckal to database
+05-26 14:44 :> added the_forkies to database
+05-26 14:44 :> added dabolinkbot to database
+05-26 15:40 :> the_forkies left the channel
+05-26 15:41 :> the_forkies has joined the channel

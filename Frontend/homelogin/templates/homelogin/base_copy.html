@@ -1,0 +1,76 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href="{%static "homelogin/favicon.ico" %}" />
+
+    <title>DaBolinkBot</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "homelogin/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="{% static "homelogin/cover.css" %}" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="site-wrapper" style="border: pink dotted">
+
+      <div class="site-wrapper-inner" style="border: blue dotted">
+
+        <div class="cover-container" style="border: green dotted">
+              <nav class="navbar navbar-inverse">
+                <ul class="nav masthead-nav" style="border: white dotted">
+				  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                  <li><a data-toggle="tab" href="#features">Features</a></li>
+                  {% if username %}
+                  <li><a data-toggle="tab" href="#bookmarks">Bookmarks</a></li>
+                  <li><a data-toggle="tab" href="#settings">Settings</a></li>
+                  {% endif %}
+                  <li><a data-toggle="tab" href="#contact">Contact</a></li>
+                  {% if username %}
+                  <li>
+                  <form method="post">
+                    {% csrf_token %}
+                  <input type="submit" name="logout">
+                  </form>
+                  </li>
+                  {% else %}
+                  <li>
+                    <form name="/user/" method="post">
+                      {% csrf_token %}
+                      {{ form2.as_p}}
+                      <input type="submit" class="glyphicon glyphicon-search" name="search" value="search">
+                    </form>
+                  </li>
+                  {% endif %}
+                </ul>
+              </nav>
+          {% block content %} {% endblock %}
+          <div class="mastfoot">
+              <p>Landing page for <a href="http://www.twitch.tv/dabolinkbot">DaBolinkBot</a>, by <a href="http://github.com/kradical">kradical</a> and <a href="http://github.com/dabolink">DaBolink</a> and some assistance from <a href="http://github.com/programmingjoe">Joe</a>.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src='{% static "homelogin/home.js" %}'></script>
+    <script src='{% static "homelogin/jquery.js" %}'></script>
+    <script src='{% static "homelogin/bootstrap.min.js" %}'></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src='{% static "homelogin/viewportbug.js" %}'></script>
+  </body>
+</html>

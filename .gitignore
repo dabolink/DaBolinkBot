@@ -1,0 +1,14 @@
+.idea/
+Backend/Controller.pyc
+Backend/Values*
+Backend/Database/Databases/*.db
+*.pyc
+*~
+*.swp
+*.bat
+!startupLive.bat
+!startupTest.bat
+*.lnk
+test.py
+Frontend/values*
+.gitignore
