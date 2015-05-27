@@ -41,15 +41,16 @@ def get_channel_userstats(channel, user):
     if not user:
         return jsonify({'result': 'failure'})
     result = cur.execute("SELECT * FROM Users WHERE user = ?", (user,)).fetchone()
-    return jsonify({
-        "user": result[0],
-        channel: {
-            "hours": result[1],
-            "credits": result[2],
-            "lines_of_text": result[3]
-        }
-    })
-    pass
+    if result:
+        return jsonify({
+            "user": result[0],
+            channel: {
+                "hours": result[1],
+                "credits": result[2],
+                "lines_of_text": result[3]
+            }
+        })
+    return make_response(jsonify({'error': 'User Not found'}), 404)
 # @app.route('/todo/api/v1.0/user/get', methods=['GET'])
 # def get_tasks():
 #     return jsonify({'tasks': tasks})
@@ -81,12 +82,12 @@ def get_userstats(user):
         if result:
             channelJSON = {}
             channelJSON[database[19:-3]] = {
-                "hours": result[0],
-                "credits": result[1],
-                "lines of text": result[2],
+                "hours": result[1],
+                "credits": result[2],
+                "lines of text": result[3],
             }
             channels.append(channelJSON)
-    if not channels == {}:
+    if not channels == []:
         return jsonify({
             "user": user,
             "channels": channels

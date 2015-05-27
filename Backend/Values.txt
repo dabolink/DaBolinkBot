@@ -3,3 +3,4 @@ Botnick DaBolinkBot
 Botowner Dabolink
 Server irc.twitch.tv
 Port 6667
+Clientid nec642fe1th1bqxccovwy89dz2hzk8f
