@@ -19,8 +19,8 @@ def print_log(bot, type, message=None):
             stream = API.Twitch.get_stream(bot.channel)["stream"]
             if stream:
                 from time import gmtime
-                curTime = gmtime()
-                bmtime = Time.Time.getTimeDiff(stream["created_at"], curTime)
+                cur_time = gmtime()
+                bmtime = Time.Time.getTimeDiff(stream["created_at"], cur_time)
                 message = str(bmtime) + "\n"
             else:
                 message = "bookmark failed: stream not up"
@@ -41,12 +41,12 @@ def start(bot, q):
     if bot.debug:
         import sys
         sys.stderr = open('Logs/Errors/{}/Logger.txt'.format(bot.channel), 'w')
-    killSecure = False
-    while q.kill_queue.empty() or not killSecure:
+    kill_secure = False
+    while q.kill_queue.empty() or not kill_secure:
         if not q.log_queue.empty():
             var = q.log_queue.get()
             if var[0] == "KILL":
-                killSecure = True
+                kill_secure = True
             elif len(var) > 1:
                 print_log(bot, var[0], var[1])
             else:

@@ -1,6 +1,6 @@
 from requests import ConnectionError
 from time import sleep
-
+import API.Twitch
 
 def start(bot, q):
     if bot.debug:
@@ -9,7 +9,6 @@ def start(bot, q):
     i = 0
     sleep(60)
     while q.kill_queue.empty():
-        import API.Twitch
         try:
             stream = API.Twitch.get_stream(bot.channel)
             if not stream["stream"]:
