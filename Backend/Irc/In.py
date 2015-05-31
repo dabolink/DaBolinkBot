@@ -44,14 +44,20 @@ def start(bot, q):
     irc.send("JOIN #{}\r\n".format(channel))
     try:
         chatters = API.Twitch.get_channel_viewers(bot.channel)["chatters"]
-    except (TypeError, ConnectionError):
+        for mod in chatters["moderators"]:
+            q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(mod, bot.start_time, True)))
+        for viewer in chatters["viewers"]:
+            q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
+    except ConnectionError:
         while not chatters:
             chatters = API.Twitch.get_channel_viewers(bot.channel)
         chatters = chatters["chatters"]
-    for mod in chatters["moderators"]:
-        q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(mod, bot.start_time, True)))
-    for viewer in chatters["viewers"]:
-        q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
+        for mod in chatters["moderators"]:
+            q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(mod, bot.start_time, True)))
+        for viewer in chatters["viewers"]:
+            q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
+    except TypeError:
+        pass
     irc_send(bot, irc, "/mods")
     mods = [bot.channel, ]
     socket.setdefaulttimeout(5)
@@ -73,7 +79,7 @@ def start(bot, q):
                             q.command_queue.put((msg.user, command))
                         else:
                             if not msg.user.name == "dabolinkbot":
-                                print "<{}>{}".format(msg.user.name, msg.message)
+                                print "<{}>{}".format(msg.user.name, repr(msg.message))
                             q.database_queue.put(("incLOT", msg.user.name))
                 elif msg.type == "JOIN" or msg.type == "PART":
                     q.var_queue.put(("VIEWER", msg.type, msg.user))

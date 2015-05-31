@@ -4,7 +4,7 @@ links = True
 cv = None
 
 def irc_send(bot, irc, message):
-    irc.send("PRIVMSG #{} :{}\r\n".format(bot.channel, message))
+    irc.send("PRIVMSG #{} : {}\r\n".format(bot.channel, message))
 
 def parse_output(bot, irc, output):
     global links
@@ -64,7 +64,7 @@ def start(bot, q):
     irc.send("USER {} 0 * :{}\r\n".format(botnick, botowner))
     irc.send("NICK {}\r\n".format(botnick))
     irc.send("JOIN #{}\r\n".format(channel))
-
+    irc_send(bot, irc, bot.hello_message)
     while q.kill_queue.empty():
         if not q.out_queue.empty():
             output = q.out_queue.get()

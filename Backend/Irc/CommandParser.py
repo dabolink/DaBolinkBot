@@ -13,18 +13,9 @@ def admin_commands(bot, q, user, command, parameters=None):
     elif command == "quote":
         if parameters:
             if parameters[0] == "add":
-
-                #TODO reimplement
-                # Database.add_quote(Variables.Channel, " ".join(parameters[1:]))
-                # IRC.irc_send("added quote to db")
-                pass
+                q.database_queue.put(("QUOTE", "ADD", " ".join(parameters[1:])))
         else:
-            # try:
-            #     quote = Database.get_random_quote(Variables.Channel)
-            #     IRC.irc_send("\"" + quote[1] + "\"" + " - " + quote[2] + "(" + quote[0] + ")")
-            # except IndexError:
-            #     print "no quotes"
-            pass
+            q.database_queue.put(("QUOTE", "GET"))
     elif command == "toggle":
         if parameters[0] == "links" and len(parameters) == 1:
             q.out_queue.put(("TOGGLE",))
@@ -67,10 +58,9 @@ def admin_commands(bot, q, user, command, parameters=None):
     elif command == "reset":
         pass
         # q.control_queue.put(("RESET",))
-
-    elif command == "users":
-        q.var_queue.put(("PRINT", command))
-        pass
+    # elif command == "friendship":
+    #     print "here"
+    #     q.out_queue.put(("PRIVMSG", u'\xE5\x8D\x8D'.encode('utf8') + " Repost this windmill of friendship if you think Europe should embrace racial diversity "))
     else:
         commands(bot, q, user, command, parameters)
 
@@ -101,6 +91,8 @@ def commands(bot, q, user, command, parameters):
         else:
             u = " ".join(parameters)
             q.var_queue.put(("QUEUE", "PUT", user, u))
+    elif command == "commands" or "command":
+        q.out_queue.put(("PRIVMSG", "http://www.twitch.tv/dabolinkbot <- list of commands"))
     else:
         pass
 

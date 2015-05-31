@@ -53,6 +53,7 @@ def startup(channel, check_online=False):
                 q = Objects.Queues.queues()
                 processes.append(multiprocessing.Process(target=Periodic.Followers.main, args=(bot, q)))
                 if check_online:
+                    print "check online activated"
                     processes.append(multiprocessing.Process(target=Periodic.Check_Online.main, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Periodic.LinesOfText.main, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Logger.Logger.start, args=(bot, q)))
