@@ -6,6 +6,7 @@
 a,
 a:focus,
 a:hover {
+  text-decoration: none;
   color: #fff;
 }
 
@@ -116,6 +117,18 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+
+.btn-twitch {
+  background-color: #6600CC;
+  color: #FFFFFF;
+  border-color: #6600CC;
+  border-radius: 0;
+}
+
+.header-twitch{
+  color: #6600CC;
+}
+
 
 
 /*

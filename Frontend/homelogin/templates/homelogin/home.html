@@ -1,17 +1,26 @@
 {% extends "homelogin/base.html" %}
 
-{% block nav %}
-<li class="active"><a href="{% url "home" %}">Login</a></li>
-<li><a href="{% url "features" %}">Features</a></li>
-<li><a href="{% url "contact" %}">Contact</a></li>
-{% endblock nav %}
-
 {% block content %}
-<div class="inner cover">
-  <h1 class="cover-heading">Login via twitch</h1>
-  <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-  <p class="lead">
-  <a href="{% url "twitch" %}" class="btn btn-lg btn-default">Learn more</a>
-  </p>
+<div class="inner cover tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <p class="lead">
+    <a href="{% url "twitch" %}" class="btn btn-lg btn-default btn-twitch">Login</a>
+    </p>
+    <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span><h1>
+    <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
+  </div>
+
+  <div id="features" class="tab-pane fade">
+    <h1 class="cover-heading">Features</h1>
+    <p class="lead">Describe Dabolink Bot, pitch page</p>
+  </div>
+
+  <div id="contact" class="tab-pane fade">
+    <h1 class="cover-heading">Contact</h1>
+    <p class="lead">Email submission box, and email address, and twitch link</p>
+    <p class="lead">
+    <a href="#" class="btn btn-lg btn-default">Send</a>
+    </p>
+  </div>
 </div>
 {% endblock content%}

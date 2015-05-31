@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" type="image/png" href="{%static "homelogin/favicon.ico" %}" />
 
-    <title>Dabolink bot</title>
+    <title>DaBolinkBot</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{% static "homelogin/bootstrap.min.css" %}" rel="stylesheet">
@@ -29,10 +29,12 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Dabolink Bot</h3>
+              <h3 class="masthead-brand">DaBolinkBot</h3>
               <nav>
                 <ul class="nav masthead-nav">
-				  {% block nav %} {% endblock nav %}
+				  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+                  <li><a data-toggle="tab" href="#features">Features</a></li>
+                  <li><a data-toggle="tab" href="#contact">Contact</a></li>
                 </ul>
               </nav>
             </div>
