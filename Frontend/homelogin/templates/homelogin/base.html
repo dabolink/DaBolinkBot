@@ -32,9 +32,7 @@
               <h3 class="masthead-brand">Dabolink Bot</h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="{% url "home" %}">Login</a></li>
-                  <li><a href="{% url "features" %}">Features</a></li>
-                  <li><a href="{% url "contact" %}">Contact</a></li>
+				  {% block nav %} {% endblock nav %}
                 </ul>
               </nav>
             </div>
