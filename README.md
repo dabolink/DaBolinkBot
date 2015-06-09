@@ -13,3 +13,13 @@ To run locally navigate to DabolinkBot/Frontend/ and run "python manage.py runse
 Now navigate to http://localhost:8000.
 
 Congrats. You did it.
+
+## Backend notes
+
+Dependencies:
+
+requests library
+
+to run locally navigate to DabolinkBot/Backend/ and run "python server.py"
+
+documentation can be found in the v1_resources folder
