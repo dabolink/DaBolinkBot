@@ -37,11 +37,11 @@ def start(bot, q):
     while q.kill_queue.empty():
         try:
             channel_follow = get_channel_follows(bot.channel, q)
+            check_num = channel_follow["_total"]
         except ConnectionError:
             sleep(60)
             print "connection error > following"
             continue
-        check_num = channel_follow["_total"]
         if num_followers < check_num:
             print "new follower"
             follow_str = ""
@@ -59,6 +59,7 @@ def start(bot, q):
             num_followers = check_num
             update_followers(bot.channel, q)
         else:
-            q.database_queue(("QUEUE", "GET"))
+            print "no new followers", num_followers
+            # q.database_queue(("QUOTE", "GET"))
         sleep(10)
     print "FOLLOWERS"

@@ -91,7 +91,7 @@ def commands(bot, q, user, command, parameters):
         else:
             u = " ".join(parameters)
             q.var_queue.put(("QUEUE", "PUT", user, u))
-    elif command == "commands" or "command":
+    elif command == "commands" or command == "command":
         q.out_queue.put(("PRIVMSG", "http://www.twitch.tv/dabolinkbot <- list of commands"))
     else:
         pass

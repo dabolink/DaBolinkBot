@@ -19,14 +19,15 @@ import Database.DatabaseUpdater
 import Periodic.Followers
 import Periodic.Check_Online
 
-def startup(channel, check_online=False):
+def startup(channel, check_online=False, q=None):
+    if not q:
+        q = Objects.Queues.queues()
     debug = False
     if debug:
         import sys
         sys.stderr = open('Logs/Errors/{}/Controller.txt'.format(channel), 'w')
     processes = []
     bot = Objects.Bot.Bot(channel, debug)
-    q = Objects.Queues.queues()
     processes.append(multiprocessing.Process(target=Periodic.Followers.start, args=(bot, q)))
     if check_online:
         processes.append(multiprocessing.Process(target=Periodic.Check_Online.start, args=(bot, q)))

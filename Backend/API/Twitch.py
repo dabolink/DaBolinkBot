@@ -52,8 +52,15 @@ def get_channel_viewers(user):
     """
     return formatAPI(requests.get("http://tmi.twitch.tv/group/user/{}/chatters".format(user)))
 
+def get_subscribers(channel):
+    return formatAPI(requests.get(APIURL + "channels/{}/subscriptions".format(channel)))
+
 
 def get_most_recent_highlight(user):
     vids = get_channel_videos(user, False)
     if len(vids["videos"]) > 0:
         return vids["videos"][0]["url"]
+
+if __name__ == "__main__":
+    print get_channel_viewers("thepretenderr")
+    print get_subscribers("thepretenderr")

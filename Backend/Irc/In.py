@@ -80,7 +80,8 @@ def start(bot, q):
                         else:
                             if not msg.user.name == "dabolinkbot":
                                 print "<{}>{}".format(msg.user.name, repr(msg.message))
-                            q.database_queue.put(("incLOT", msg.user.name))
+                            if len(msg.message) >= 10:
+								q.database_queue.put(("incLOT", msg.user.name))
                 elif msg.type == "JOIN" or msg.type == "PART":
                     q.var_queue.put(("VIEWER", msg.type, msg.user))
                 elif msg.type == "PING":
