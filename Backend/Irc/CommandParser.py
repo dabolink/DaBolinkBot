@@ -57,6 +57,8 @@ def admin_commands(bot, q, user, command, parameters=None):
 
     elif command == "reset":
         pass
+    elif command == "chant":
+        q.out_queue.put(("PRIVMSG", "this man looks gay, i have a boner, with this chant i summon Tyler"))
         # q.control_queue.put(("RESET",))
     # elif command == "friendship":
     #     print "here"
@@ -78,7 +80,7 @@ def commands(bot, q, user, command, parameters):
     elif command == "cv":
         q.var_queue.put(("CV",))
     elif command == "dabolinkbot":
-        q.out_queue.put(("PRIVMSG", "DaBolinkbot is superior to non-bots"))
+        q.out_queue.put(("PRIVMSG", "DaBolinkbot is superior to non-bots and other bots"))
     elif command == "uptime":
         import Time.Time
         Time.Time.uptime(bot, q)
