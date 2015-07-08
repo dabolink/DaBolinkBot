@@ -16,9 +16,9 @@ def bot_start(channel):
     if not channel:
         return jsonify({'result': 'failure'})
     try:
-        # for c in channels:
-        #     if c[0] == channel:
-        #         return jsonify({'result': 'failure', 'message': 'bot already in channel'})
+        for c in channels:
+            if c[0] == channel:
+                return jsonify({'result': 'failure', 'message': 'bot already in channel'})
         print "started bot in ", channel
         q = Objects.Queues.queues()
         p = multiprocessing.Process(target=Controller.startup, args=(channel, True, q))
