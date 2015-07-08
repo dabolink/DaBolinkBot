@@ -10,6 +10,8 @@ def admin_commands(bot, q, user, command, parameters=None):
             #TODO reimplement
     if command == "next":
         q.var_queue.put(("QUEUE", "GET"))
+    elif command == "donations":
+        q.database_queue.put(("DONATION", "GET"))
     elif command == "quote":
         if parameters:
             if parameters[0] == "add":
