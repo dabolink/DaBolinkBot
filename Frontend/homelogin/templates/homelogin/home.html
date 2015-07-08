@@ -4,10 +4,15 @@
 <div class="inner cover tab-content">
   <div id="home" class="tab-pane fade in active">
     <p class="lead">
+    {% if username %}Hello {{username}}. The bot in your channel is<br><br>
+    <button class="btn btn-lg {{ buttonclass }}" onclick="toggleBot(event, '{{ username }}')">{{ botstatus }}</button>
+    <p> Click to toggle! </p>
+    {% else %}
     <a href="{% url "twitch" %}" class="btn btn-lg btn-default btn-twitch">Login</a>
     </p>
     <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span><h1>
     <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
+    {% endif %}
   </div>
 
   <div id="features" class="tab-pane fade">

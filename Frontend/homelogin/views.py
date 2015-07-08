@@ -14,10 +14,15 @@ class Home(View):
             token_response = requests.post('https://api.twitch.tv/kraken/oauth2/token', data=payload)
             # Use access token to get user info
             token_response_json = json.loads(token_response.text)
-            authorization_header = {'Authorization': 'OAuth ' + token_response_json['access_token']}
-            user = requests.get('https://api.twitch.tv/kraken/user', headers=authorization_header)
-
-            return HttpResponse(user)
+            try:
+                authorization_header = {'Authorization': 'OAuth ' + token_response_json['access_token']}
+            except KeyError:
+                return render(request, 'homelogin/home.html')
+            username = requests.get('https://api.twitch.tv/kraken/user', headers=authorization_header).json()["display_name"]
+            botstatus = requests.get('http://localhost:5000/dabolinkbot/api/v1.0/bot/status/'+username).json()["online"]            
+            buttonclass = "btn-success" if botstatus else "btn-danger"
+            botstatus = "Online" if botstatus else "Offline"
+            return render(request, 'homelogin/home.html', {"username": username, "botstatus": botstatus, "buttonclass": buttonclass})
         else:
             return render(request, 'homelogin/home.html')
 
