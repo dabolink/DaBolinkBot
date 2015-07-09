@@ -1,4 +1,5 @@
-client_id hkqcg5olgs65atdx08q516aqm154c9a
-client_secret 3tmlse74r6z2yj95omk9kc3h8oah6d9
+client_id nec642fe1th1bqxccovwy89dz2hzk8f
+client_secret o5g3gjfmy0f5knd11013kliqaz40idp
 redirect_uri http://localhost:8000
 backend_server_ip http://localhost:5000
+test test
