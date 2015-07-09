@@ -1,5 +1,0 @@
-client_id nec642fe1th1bqxccovwy89dz2hzk8f
-client_secret o5g3gjfmy0f5knd11013kliqaz40idp
-redirect_uri http://localhost:8000
-backend_server_ip http://localhost:5000
-test test
