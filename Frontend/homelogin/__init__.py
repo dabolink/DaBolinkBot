@@ -1,4 +1,4 @@
-fname = "values.txt"
+fname = "valuesTest.txt"
 d = dict()
 with open(fname) as f:
     for line in f:
