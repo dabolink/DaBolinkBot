@@ -61,6 +61,7 @@ def start(bot, q):
             q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
     except TypeError:
         pass
+	mods.append(bot.channel)
     q.var_queue.put(("MODS",mods))
     socket.setdefaulttimeout(5)
     while q.kill_queue.empty():

@@ -1,1 +1,1 @@
-python "The_God.py"
+python Controller.py dabolink True
