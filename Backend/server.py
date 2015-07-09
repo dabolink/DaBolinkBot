@@ -18,11 +18,13 @@ def bot_start(channel):
     try:
         for c in channels:
             if c[0] == channel:
+                print "bot already in channel"
                 return jsonify({'result': 'failure', 'message': 'bot already in channel'})
         print "started bot in ", channel
         q = Objects.Queues.queues()
         p = multiprocessing.Process(target=Controller.startup, args=(channel, True, q))
         p.start()
+        print channels
         channels.append((channel, p, q))
         print channels
         return jsonify({'result': 'success'})
@@ -36,7 +38,7 @@ def bot_end(channel):
             print "ending bot in", c[0]
             c[2].kill_queue.put(("",))
             print channels
-            del c
+            channels.remove(c)
             print channels
             return jsonify({'result': 'success'})
     return jsonify({'result': 'failure'})
@@ -99,4 +101,4 @@ def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run("0.0.0.0")

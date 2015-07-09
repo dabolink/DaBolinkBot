@@ -13,6 +13,7 @@ class Message:
         result2 = re.match(":tmi.twitch.tv (.*) (.*) :(.+)", message)
         result3 = re.match(r":jtv MODE #(.*) ([+]|[-])o (.+)", message)
         result4 = re.match(r":(.*).tmi.twitch.tv(.*)", message)
+        print message
         if result1:
             self.type = result1.group(4)
             if result1.group(1) in mods:

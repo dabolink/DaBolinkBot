@@ -19,6 +19,7 @@ def start(bot, q):
     server = None
     password = None
     port = None
+    mods = []
     with open("Values.txt") as f:
         for line in f:
             (key, val) = line.split()
@@ -44,8 +45,10 @@ def start(bot, q):
     irc.send("JOIN #{}\r\n".format(channel))
     try:
         chatters = API.Twitch.get_channel_viewers(bot.channel)["chatters"]
+        print chatters
         for mod in chatters["moderators"]:
             q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(mod, bot.start_time, True)))
+            mods.append(mod)
         for viewer in chatters["viewers"]:
             q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
     except ConnectionError:
@@ -58,8 +61,7 @@ def start(bot, q):
             q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
     except TypeError:
         pass
-    irc_send(bot, irc, "/mods")
-    mods = [bot.channel, ]
+    q.var_queue.put(("MODS",mods))
     socket.setdefaulttimeout(5)
     while q.kill_queue.empty():
         msgData = irc.recv(2048)
@@ -93,6 +95,7 @@ def start(bot, q):
                         msg.LoM.append(bot.channel)
                     q.var_queue.put(("MODS", msg.LoM))
                     mods = msg.LoM
+                    print "mods updated"
                 elif msg.type == "ADMIN":
                     if not mods.__contains__(msg.user.name):
                         mods.append(msg.user.name)

@@ -19,13 +19,15 @@ def admin_commands(bot, q, user, command, parameters=None):
         else:
             q.database_queue.put(("QUOTE", "GET"))
     elif command == "toggle":
-        if parameters[0] == "links" and len(parameters) == 1:
-            q.out_queue.put(("TOGGLE",))
-        elif parameters[0] == "links":
-            if parameters[1] == "off":
-                q.out_queue.put(("TOGGLE", "OFF"))
-            elif parameters[1] == "on":
-                q.out.queue.put(("TOGGLE", "ON"))
+        if parameters:
+            if len(parameters) == 1:
+                if parameters[0] == "links":
+                    q.out_queue.put(("TOGGLE",))
+            elif parameters[0] == "links":
+                if parameters[1] == "off":
+                    q.out_queue.put(("TOGGLE", "OFF"))
+                elif parameters[1] == "on":
+                    q.out.queue.put(("TOGGLE", "ON"))
 
     elif command == "bookmark":
         q.log_queue.put(("BOOKMARK",))
@@ -97,6 +99,9 @@ def commands(bot, q, user, command, parameters):
             q.var_queue.put(("QUEUE", "PUT", user, u))
     elif command == "commands" or command == "command":
         q.out_queue.put(("PRIVMSG", "http://www.twitch.tv/dabolinkbot <- list of commands"))
+    elif command == "update":
+        if parameters[0] == "mods":
+	        q.out_queue.put(("/mods",))	
     else:
         pass
 
