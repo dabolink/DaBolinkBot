@@ -11,6 +11,7 @@ import VariableManager.VarManager
 import Irc.In
 import Irc.Out
 import Irc.CommandParser
+import Irc.ChatModerator
 
 import Logger.Logger
 
@@ -28,9 +29,10 @@ def startup(channel, check_online=False, q=None):
         sys.stderr = open('Logs/Errors/{}/Controller.txt'.format(channel), 'w')
     processes = []
     bot = Objects.Bot.Bot(channel, debug)
-    processes.append(multiprocessing.Process(target=Periodic.Followers.start, args=(bot, q)))
+    processes.append(multiprocessing.Process(target=Irc.ChatModerator.start, args=(bot, q)))
     if check_online:
         processes.append(multiprocessing.Process(target=Periodic.Check_Online.start, args=(bot, q)))
+        processes.append(multiprocessing.Process(target=Periodic.Followers.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Logger.Logger.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Database.DatabaseUpdater.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Irc.In.start, args=(bot, q)))
@@ -71,4 +73,4 @@ def startup(channel, check_online=False, q=None):
 
 if __name__ == "__main__":
     import sys
-    startup(sys.argv[1], bool(sys.argv[2]))
+    startup(sys.argv[1])

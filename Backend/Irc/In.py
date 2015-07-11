@@ -43,12 +43,15 @@ def start(bot, q):
     irc.send("USER {} 0 * :{}\r\n".format(botnick, botowner))
     irc.send("NICK {}\r\n".format(botnick))
     irc.send("JOIN #{}\r\n".format(channel))
+    irc.send("CAP REQ :twitch.tv/commands\r\n")
+    irc.send("CAP REQ :twitch.tv/membership\r\n")
+    sleep(1)
+    irc_send(bot, irc, "/mods")
     try:
         chatters = API.Twitch.get_channel_viewers(bot.channel)["chatters"]
         print chatters
         for mod in chatters["moderators"]:
             q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(mod, bot.start_time, True)))
-            mods.append(mod)
         for viewer in chatters["viewers"]:
             q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
     except ConnectionError:
@@ -61,8 +64,7 @@ def start(bot, q):
             q.var_queue.put(("VIEWER", "JOIN", Objects.User.User(viewer, bot.start_time, False)))
     except TypeError:
         pass
-	mods.append(bot.channel)
-    q.var_queue.put(("MODS",mods))
+    mods.append(bot.channel)
     socket.setdefaulttimeout(5)
     while q.kill_queue.empty():
         msgData = irc.recv(2048)
@@ -84,7 +86,7 @@ def start(bot, q):
                             if not msg.user.name == "dabolinkbot":
                                 print "<{}>{}".format(msg.user.name, repr(msg.message))
                             if len(msg.message) >= 10:
-								q.database_queue.put(("incLOT", msg.user.name))
+                                q.database_queue.put(("incLOT", msg.user.name))
                 elif msg.type == "JOIN" or msg.type == "PART":
                     q.var_queue.put(("VIEWER", msg.type, msg.user))
                 elif msg.type == "PING":
@@ -104,5 +106,5 @@ def start(bot, q):
                 i += 1
             sleep(1)
         except IndexError:
-            i = 0
+            pass
     print "IN"
