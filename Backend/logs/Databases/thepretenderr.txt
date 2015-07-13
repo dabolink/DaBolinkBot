@@ -1,0 +1,1859 @@
+05-22 18:44:> dabolink has joined the channel
+05-22 18:44:> dabolinkbot has joined the channel
+05-22 18:44:> thepretenderr has joined the channel
+05-22 18:44:> topez64 has joined the channel
+05-22 18:50:> thepretenderr left the channel
+05-22 18:51:> thepretenderr has joined the channel
+05-22 19:14:> redcoat1990 has joined the channel
+05-22 19:18:> infernodes78 has joined the channel
+05-22 19:19:> omgilikeitalot has joined the channel
+05-22 19:26:> added worsleychase to database
+05-22 19:38:> omgilikeitalot left the channel
+05-22 19:39:> topez64 left the channel
+05-22 19:45:> worsleychase left the channel
+05-22 19:55:> added xcalibur_255 to database
+05-22 19:57:> xcalibur_255 left the channel
+05-22 20:00:> xcalibur_255 has joined the channel
+05-22 20:01:> dabolink left the channel
+05-22 20:02:> dabolink has joined the channel
+05-22 20:02:> xcalibur_255 left the channel
+05-22 20:14:> infernodes78 left the channel
+05-22 20:16:> meetnik_ has joined the channel
+05-22 20:18:> redcoat1990 left the channel
+05-22 20:20:> infernodes78 has joined the channel
+05-22 20:29:> added mushious to database
+05-22 20:35:> mushious left the channel
+05-22 20:38:> infernodes78 left the channel
+05-22 20:43:> meetnik_ left the channel
+05-22 20:53:> optic_racer77 has joined the channel
+05-22 20:56:> optic_racer77 left the channel
+05-23 18:18:> dabolink has joined the channel
+05-23 18:18:> dabolinkbot has joined the channel
+05-23 18:19:> ninjakid574 has joined the channel
+05-23 18:19:> thepretenderr has joined the channel
+05-23 18:24:> dabolink left the channel
+05-23 18:30:> ninjakid574 left the channel
+05-23 18:32:> ianzhougaming has joined the channel
+05-23 19:41:> raskalian has joined the channel
+05-23 19:43:> infernodes78 has joined the channel
+05-23 19:45:> raskalian left the channel
+05-23 19:48:> added godshua to database
+05-23 19:50:> godshua left the channel
+05-23 19:54:> jrkyex has joined the channel
+05-23 19:55:> added redneck2001 to database
+05-23 19:57:> added captmikey to database
+05-23 20:06:> captmikey left the channel
+05-23 20:07:> redneck2001 left the channel
+05-23 20:15:> added anusvinger to database
+05-23 20:16:> anusvinger left the channel
+05-23 20:26:> added vexdone to database
+05-23 20:27:> vexdone left the channel
+05-23 20:32:> added kar0sh to database
+05-23 20:39:> ianzhougaming left the channel
+05-23 20:40:> kar0sh left the channel
+05-23 20:42:> ianzhougaming has joined the channel
+05-23 20:56:> added sh0uld to database
+05-23 21:00:> top users requested
+05-23 21:01:> dabolink has joined the channel
+05-23 21:07:> sh0uld left the channel
+05-23 21:10:> redcoat1990 has joined the channel
+05-23 21:12:> infernodes78 left the channel
+05-23 21:13:> kar0sh has joined the channel
+05-23 21:15:> kar0sh left the channel
+05-23 21:15:> redcoat1990 left the channel
+05-23 21:20:> added paobo to database
+05-23 21:21:> added zoltic8 to database
+05-23 21:22:> zoltic8 left the channel
+05-23 21:25:> ianzhougaming left the channel
+05-23 21:26:> ianzhougaming has joined the channel
+05-23 21:30:> added rockysaltynuds to database
+05-23 21:30:> added stringer68 to database
+05-23 21:34:> stringer68 left the channel
+05-23 21:37:> added todstelzer to database
+05-23 21:38:> rockysaltynuds left the channel
+05-23 21:46:> todstelzer left the channel
+05-23 22:13:> ninjakid574 has joined the channel
+05-23 22:13:> infernodes78 has joined the channel
+05-23 22:19:> top users requested
+05-23 22:19:> got userstats for jrkyex : (u'jrkyex', 12.327151111111114, 0.0, 29)
+05-23 22:26:> raskalian has joined the channel
+05-23 22:30:> ianzhougaming left the channel
+05-23 22:31:> ianzhougaming has joined the channel
+05-23 22:36:> added snipergreni to database
+05-23 22:36:> ianzhougaming left the channel
+05-23 22:37:> snipergreni left the channel
+05-23 22:39:> ianzhougaming has joined the channel
+05-23 22:54:> damperert has joined the channel
+05-23 22:56:> jrkyex left the channel
+05-23 22:57:> jrkyex has joined the channel
+05-23 23:02:> top users requested
+05-23 23:02:> got userstats for dabolink : (u'dabolink', 22.13208861111111, 0.0, 168)
+05-23 23:02:> infernodes78 left the channel
+05-23 23:03:> got userstats for ninjakid574 : (u'ninjakid574', 8.757141944444443, 0.0, 380)
+05-23 23:03:> got userstats for raskalian : (u'raskalian', 8.212550555555556, 0.0, 263)
+05-23 23:08:> paobo left the channel
+05-23 23:09:> infernodes78 has joined the channel
+05-23 23:13:> top users requested
+05-23 23:13:> infernodes78 left the channel
+05-23 23:17:> haladslader has joined the channel
+05-23 23:18:> top users requested
+05-23 23:19:> added quickshot1 to database
+05-23 23:24:> quickshot1 left the channel
+05-23 23:33:> added gamuro481 to database
+05-23 23:35:> dabolink has joined the channel
+05-23 23:35:> dabolinkbot has joined the channel
+05-23 23:35:> haladslader has joined the channel
+05-23 23:35:> jrkyex has joined the channel
+05-23 23:35:> thepretenderr has joined the channel
+05-23 23:35:> damperert has joined the channel
+05-23 23:35:> gamuro481 has joined the channel
+05-23 23:35:> ianzhougaming has joined the channel
+05-23 23:35:> ninjakid574 has joined the channel
+05-23 23:35:> raskalian has joined the channel
+05-23 23:36:> gamuro481 left the channel
+05-23 23:39:> added bl968 to database
+05-23 23:44:> added karamis_nakir to database
+05-23 23:47:> karamis_nakir left the channel
+05-23 23:49:> bl968 left the channel
+05-23 23:52:> added mrshoe1970 to database
+05-23 23:53:> added dischordance to database
+05-23 23:54:> added j_rohan11 to database
+05-23 23:54:> added 1982gosu to database
+05-23 23:54:> mrshoe1970 left the channel
+05-23 23:55:> got userstats for damperert : (u'damperert', 6.722267777777779, 0.0, 75)
+05-23 23:57:> 1982gosu left the channel
+05-23 23:58:> 1982gosu has joined the channel
+05-23 23:58:> added l0rd_magg0t to database
+05-23 23:58:> ianzhougaming left the channel
+05-23 23:59:> added zayvin to database
+05-23 23:59:> ianzhougaming has joined the channel
+05-23 23:59:> j_rohan11 left the channel
+05-24 00:02:> 1982gosu left the channel
+05-24 00:05:> added mcdraggin to database
+05-24 00:05:> zayvin left the channel
+05-24 00:07:> ianzhougaming left the channel
+05-24 00:08:> ianzhougaming has joined the channel
+05-24 00:09:> added blackhawkso to database
+05-24 00:09:> ianzhougaming left the channel
+05-24 00:11:> l0rd_magg0t left the channel
+05-24 00:13:> ianzhougaming has joined the channel
+05-24 00:15:> ianzhougaming left the channel
+05-24 00:15:> blackhawkso left the channel
+05-24 00:19:> got userstats for ninjakid574 : (u'ninjakid574', 10.0198325, 0.0, 495)
+05-24 00:22:> got userstats for mcdraggin : (u'mcdraggin', 0.2789158333333333, 0.0, 5)
+05-24 00:22:> added fullmetaljersey to database
+05-24 00:23:> got userstats for raskalian : (u'raskalian', 9.53221361111111, 0.0, 362)
+05-24 00:25:> raskalian left the channel
+05-24 00:26:> ianzhougaming has joined the channel
+05-24 00:31:> added gamer_158 to database
+05-24 00:32:> added jones377 to database
+05-24 00:32:> fullmetaljersey left the channel
+05-24 00:33:> jones377 left the channel
+05-24 00:38:> gamer_158 left the channel
+05-24 00:38:> mcdraggin left the channel
+05-24 00:42:> added bkbeer to database
+05-24 00:43:> got userstats for ninjakid574 : (u'ninjakid574', 10.424461944444444, 0.0, 523)
+05-24 00:52:> ianzhougaming left the channel
+05-24 00:53:> ianzhougaming has joined the channel
+05-24 01:06:> bkbeer left the channel
+05-24 01:10:> added tonytanman to database
+05-24 01:13:> tonytanman left the channel
+05-24 01:15:> damperert left the channel
+05-24 01:32:> added mr__s to database
+05-24 01:34:> dischordance left the channel
+05-24 01:36:> locagiess has joined the channel
+05-24 01:38:> added kdelicious to database
+05-24 01:39:> kdelicious left the channel
+05-24 01:40:> mr__s left the channel
+05-24 02:06:> added azureaccel to database
+05-24 02:09:> added arkm_001 to database
+05-24 02:11:> ianzhougaming left the channel
+05-24 02:16:> omgilikeitalot has joined the channel
+05-24 02:20:> added dondroopy to database
+05-24 02:20:> azureaccel left the channel
+05-24 02:21:> arkm_001 left the channel
+05-24 02:23:> omgilikeitalot left the channel
+05-24 02:24:> dondroopy left the channel
+05-24 02:26:> added inikolla to database
+05-24 02:27:> added m341ehw to database
+05-24 02:27:> inikolla left the channel
+05-24 02:32:> m341ehw left the channel
+05-24 02:38:> haladslader left the channel
+05-24 02:59:> ninjakid574 left the channel
+05-24 03:05:> added kingscorpio11 to database
+05-24 03:09:> kingscorpio11 left the channel
+05-24 04:18:> drinkingninja has joined the channel
+05-24 04:19:> drinkingninja left the channel
+05-24 04:46:> thepretenderr left the channel
+05-24 04:51:> locagiess left the channel
+05-24 07:38:> ninjakid574 has joined the channel
+05-24 07:39:> ninjakid574 left the channel
+05-24 10:24:> dabolink left the channel
+05-24 15:37:> jrkyex has joined the channel
+05-24 15:37:> thepretenderr has joined the channel
+05-24 15:37:> ninjakid574 has joined the channel
+05-24 15:37:> topez64 has joined the channel
+05-24 15:37:> dabolinkbot has joined the channel
+05-24 15:49:> got userstats for ninjakid574 : (u'ninjakid574', 10.624239722222221, 0.0, 555)
+05-24 15:50:> top users requested
+05-24 15:57:> infernodes78 has joined the channel
+05-24 16:02:> dabolink has joined the channel
+05-24 16:08:> infernodes78 left the channel
+05-24 16:20:> got userstats for ninjakid574 : (u'ninjakid574', 11.140568888888888, 0.0, 597)
+05-24 16:26:> got userstats for ninjakid574 : (u'ninjakid574', 11.240487777777776, 0.0, 598)
+05-24 16:37:> aksipanda has joined the channel
+05-24 16:42:> added yoloswagginsbaggins to database
+05-24 16:55:> got userstats for yoloswagginsbaggins : (u'yoloswagginsbaggins', 0.21029944444444443, 0.0, 1)
+05-24 16:55:> got userstats for ninjakid574 : (u'ninjakid574', 11.719918055555555, 0.0, 610)
+05-24 16:55:> got userstats for aksipanda : (u'aksipanda', 3.8639697222222225, 0.0, 21)
+05-24 16:55:> got userstats for thepretenderr : (u'thepretenderr', 40.756560833333324, 0.0, 77)
+05-24 16:56:> top users requested
+05-24 17:06:> yoloswagginsbaggins left the channel
+05-24 17:16:> damperert has joined the channel
+05-24 17:19:> dasmahboyx has joined the channel
+05-24 17:20:> added mortico to database
+05-24 17:21:> ninjakid574 left the channel
+05-24 17:22:> mortico left the channel
+05-24 17:28:> ianzhougaming has joined the channel
+05-24 17:37:> locagiess has joined the channel
+05-24 17:39:> ninjakid574 has joined the channel
+05-24 17:40:> got userstats for thepretenderr : (u'thepretenderr', 41.49828499999999, 0.0, 77)
+05-24 17:40:> got userstats for ninjakid574 : (u'ninjakid574', 11.738214722222223, 0.0, 616)
+05-24 17:43:> haladslader has joined the channel
+05-24 17:45:> locagiess left the channel
+05-24 17:47:> added youtubesuchti_paul to database
+05-24 17:49:> added xxl3lxx to database
+05-24 17:54:> drinkingninja has joined the channel
+05-24 17:54:> youtubesuchti_paul left the channel
+05-24 17:56:> ninjakid574 left the channel
+05-24 17:58:> added gainfulsnail226 to database
+05-24 17:58:> drinkingninja left the channel
+05-24 18:08:> infernodes78 has joined the channel
+05-24 18:08:> gainfulsnail226 left the channel
+05-24 18:18:> ianzhougaming left the channel
+05-24 18:30:> ianzhougaming has joined the channel
+05-24 18:45:> ninjakid574 has joined the channel
+05-24 18:45:> dasmahboyx left the channel
+05-24 18:45:> got userstats for ninjakid574 : (u'ninjakid574', 11.745429722222223, 0.0, 630)
+05-24 18:45:> top users requested
+05-24 18:48:> raskalian has joined the channel
+05-24 19:02:> haladslader left the channel
+05-24 19:02:> raskalian left the channel
+05-24 19:10:> ninjakid574 left the channel
+05-24 19:16:> added iresromulus to database
+05-24 19:17:> iresromulus left the channel
+05-24 19:18:> xxl3lxx left the channel
+05-24 19:19:> aksipanda left the channel
+05-24 19:31:> locagiess has joined the channel
+05-24 19:34:> added ungodlywolf to database
+05-24 19:35:> ungodlywolf left the channel
+05-24 20:01:> locagiess left the channel
+05-24 20:28:> damperert left the channel
+05-24 20:31:> raskalian has joined the channel
+05-24 20:36:> ianzhougaming left the channel
+05-24 20:42:> gingytrucking has joined the channel
+05-24 20:55:> ianzhougaming has joined the channel
+05-24 21:01:> added xxjanky013xx to database
+05-24 21:01:> added slothking22 to database
+05-24 21:01:> gingytrucking left the channel
+05-24 21:02:> gingytrucking has joined the channel
+05-24 21:04:> added zenky75 to database
+05-24 21:04:> slothking22 left the channel
+05-24 21:10:> zenky75 left the channel
+05-24 21:11:> ianzhougaming left the channel
+05-24 21:12:> ianzhougaming has joined the channel
+05-24 21:18:> xxjanky013xx left the channel
+05-24 21:19:> locagiess has joined the channel
+05-24 21:25:> added loganboy29 to database
+05-24 21:28:> added llll_chevy_llll to database
+05-24 21:40:> added hawkslead to database
+05-24 21:40:> loganboy29 left the channel
+05-24 21:40:> ianzhougaming left the channel
+05-24 21:40:> raskalian left the channel
+05-24 21:41:> ianzhougaming has joined the channel
+05-24 21:41:> hawkslead left the channel
+05-24 21:43:> added vanmantallyban to database
+05-24 21:44:> added plazalink to database
+05-24 21:44:> vanmantallyban left the channel
+05-24 21:45:> plazalink left the channel
+05-24 21:54:> added undefined77 to database
+05-24 21:54:> added j0hnr01 to database
+05-24 21:57:> gingytrucking left the channel
+05-24 21:58:> gingytrucking has joined the channel
+05-24 22:00:> j0hnr01 left the channel
+05-24 22:00:> undefined77 left the channel
+05-24 22:01:> added noiseimmunity to database
+05-24 22:06:> gingytrucking left the channel
+05-24 22:08:> added kmongkol to database
+05-24 22:09:> plazalink has joined the channel
+05-24 22:10:> plazalink left the channel
+05-24 22:11:> added public_enigma to database
+05-24 22:11:> gingytrucking has joined the channel
+05-24 22:12:> public_enigma left the channel
+05-24 22:13:> got userstats for thepretenderr : (u'thepretenderr', 46.05221388888888, 0.0, 81)
+05-24 22:14:> got userstats for infernodes78 : (u'infernodes78', 11.59057138888889, 0.0, 225)
+05-24 22:14:> added spoogly to database
+05-24 22:15:> yukichama has joined the channel
+05-24 22:15:> got userstats for jrkyex : (u'jrkyex', 20.445086944444444, 0.0, 53)
+05-24 22:17:> added theblindn to database
+05-24 22:17:> kmongkol left the channel
+05-24 22:21:> added autobodymonte to database
+05-24 22:24:> got userstats for noiseimmunity : (u'noiseimmunity', 0.38176305555555556, 0.0, 0)
+05-24 22:24:> added 505lobogaming to database
+05-24 22:24:> top users requested
+05-24 22:24:> top users requested
+05-24 22:24:> got userstats for jrkyex : (u'jrkyex', 20.594205555555554, 0.0, 56)
+05-24 22:25:> got userstats for locagiess : (u'locagiess', 1.1053905555555557, 0.0, 35)
+05-24 22:29:> yukichama left the channel
+05-24 22:32:> spoogly left the channel
+05-24 22:35:> added mightycrom123 to database
+05-24 22:38:> gingytrucking left the channel
+05-24 22:43:> noiseimmunity left the channel
+05-24 22:44:> gingytrucking has joined the channel
+05-24 22:46:> mightycrom123 left the channel
+05-24 22:47:> gingytrucking left the channel
+05-24 22:53:> added sahkom to database
+05-24 22:56:> added paflyboy202 to database
+05-24 22:58:> sahkom left the channel
+05-24 22:58:> paflyboy202 left the channel
+05-24 23:05:> added sbgxfrosty to database
+05-24 23:09:> 505lobogaming left the channel
+05-24 23:11:> added nicri82 to database
+05-24 23:13:> added foxhound556 to database
+05-24 23:15:> nicri82 left the channel
+05-24 23:17:> added cannonnhk to database
+05-24 23:22:> llll_chevy_llll left the channel
+05-24 23:23:> llll_chevy_llll has joined the channel
+05-24 23:24:> theblindn left the channel
+05-24 23:25:> autobodymonte left the channel
+05-24 23:29:> added oldchieftain to database
+05-24 23:29:> raskalian has joined the channel
+05-24 23:31:> raskalian left the channel
+05-24 23:36:> oldchieftain left the channel
+05-24 23:46:> cannonnhk left the channel
+05-24 23:50:> added ironhide1973 to database
+05-24 23:51:> added mrmarcola to database
+05-24 23:51:> foxhound556 left the channel
+05-24 23:51:> ironhide1973 left the channel
+05-25 00:15:> ianzhougaming left the channel
+05-25 00:16:> ianzhougaming has joined the channel
+05-25 00:19:> redcoat1990 has joined the channel
+05-25 00:28:> dabolink has joined the channel
+05-25 00:28:> dabolinkbot has joined the channel
+05-25 00:28:> jrkyex has joined the channel
+05-25 00:28:> thepretenderr has joined the channel
+05-25 00:28:> ianzhougaming has joined the channel
+05-25 00:28:> infernodes78 has joined the channel
+05-25 00:28:> llll_chevy_llll has joined the channel
+05-25 00:28:> locagiess has joined the channel
+05-25 00:28:> mrmarcola has joined the channel
+05-25 11:05:> jrkyex has joined the channel
+05-25 11:05:> dabolinkbot has joined the channel
+05-25 13:51:> jrkyex has joined the channel
+05-25 13:51:> thepretenderr has joined the channel
+05-25 13:51:> dabolinkbot has joined the channel
+05-25 13:52:> dabolinkbot has joined the channel
+05-25 13:52:> jrkyex has joined the channel
+05-25 13:52:> thepretenderr has joined the channel
+05-25 14:03:> damperert has joined the channel
+05-25 14:13:> ianzhougaming has joined the channel
+05-25 14:55:> bigbudhahaze has joined the channel
+05-25 14:56:> bigbudhahaze left the channel
+05-25 15:07:> added rymo_be to database
+05-25 15:07:> added fusion1983 to database
+05-25 15:08:> fusion1983 left the channel
+05-25 15:14:> added stevef2305 to database
+05-25 15:15:> stevef2305 left the channel
+05-25 15:17:> added operative_daze to database
+05-25 15:19:> rymo_be left the channel
+05-25 15:22:> operative_daze left the channel
+05-25 15:36:> damperert left the channel
+05-25 15:37:> damperert has joined the channel
+05-25 15:56:> ianzhougaming left the channel
+05-25 15:57:> ianzhougaming has joined the channel
+05-25 16:00:> infernodes78 has joined the channel
+05-25 16:08:> captmikey has joined the channel
+05-25 16:19:> sheepmetal has joined the channel
+05-25 16:20:> added silvermelodies to database
+05-25 16:24:> captmikey left the channel
+05-25 16:25:> silvermelodies left the channel
+05-25 16:33:> added snoweagle542 to database
+05-25 16:33:> added jips777 to database
+05-25 16:34:> snoweagle542 left the channel
+05-25 16:35:> jips777 left the channel
+05-25 16:38:> added norsk_norge to database
+05-25 16:39:> top users requested
+05-25 16:40:> sheepmetal left the channel
+05-25 16:41:> got userstats for jrkyex : (u'jrkyex', 25.35684083333333, 0.0, 61)
+05-25 16:44:> loxebi has joined the channel
+05-25 16:44:> norsk_norge left the channel
+05-25 16:46:> added nightbot to database
+05-25 16:47:> jips777 has joined the channel
+05-25 16:48:> jips777 left the channel
+05-25 16:49:> loxebi left the channel
+05-25 16:51:> added aardwyn to database
+05-25 16:52:> nightbot left the channel
+05-25 16:53:> aardwyn left the channel
+05-25 17:21:> added whocares47 to database
+05-25 17:21:> ianzhougaming left the channel
+05-25 17:22:> ianzhougaming has joined the channel
+05-25 17:24:> whocares47 left the channel
+05-25 17:51:> captmikey has joined the channel
+05-25 18:01:> ianzhougaming left the channel
+05-25 18:02:> ianzhougaming has joined the channel
+05-25 18:07:> added i_am_the_ups_man to database
+05-25 18:11:> i_am_the_ups_man left the channel
+05-25 18:32:> infernodes78 left the channel
+05-25 18:33:> captmikey left the channel
+05-25 18:37:> captmikey has joined the channel
+05-25 18:38:> captmikey left the channel
+05-25 18:47:> added ttc27 to database
+05-25 20:47:> dabolink has joined the channel
+05-25 20:47:> thepretenderr has joined the channel
+05-25 20:47:> dabolinkbot has joined the channel
+05-25 20:49:> ninjakid574 has joined the channel
+05-25 20:51:> ianzhougaming has joined the channel
+05-25 20:51:> ninjakid574 left the channel
+05-25 20:58:> dabolink has joined the channel
+05-25 20:58:> dabolinkbot has joined the channel
+05-25 20:58:> thepretenderr has joined the channel
+05-25 20:58:> ianzhougaming has joined the channel
+05-25 21:30:> added tornadocsa to database
+05-25 21:32:> tornadocsa left the channel
+05-25 21:37:> added very0angrybeaver to database
+05-25 21:43:> jrkyex has joined the channel
+05-25 22:10:> added paulson08 to database
+05-25 22:12:> paulson08 left the channel
+05-25 22:24:> topez64 has joined the channel
+05-25 22:25:> ianzhougaming left the channel
+05-25 22:33:> dabolink has joined the channel
+05-25 22:33:> dabolinkbot has joined the channel
+05-25 22:33:> jrkyex has joined the channel
+05-25 22:33:> thepretenderr has joined the channel
+05-25 22:33:> topez64 has joined the channel
+05-25 22:33:> very0angrybeaver has joined the channel
+05-25 22:40:> very0angrybeaver left the channel
+05-25 22:41:> added eisekopf to database
+05-25 22:42:> eisekopf left the channel
+05-25 22:50:> yukichama has joined the channel
+05-25 23:32:> topez64 left the channel
+05-26 00:06:> raskalian has joined the channel
+05-26 00:06:> damperert has joined the channel
+05-26 00:23:> added warenpeace1891 to database
+05-26 00:37:> raskalian left the channel
+05-26 00:43:> redcoat1990 has joined the channel
+05-26 00:44:> redcoat1990 left the channel
+05-26 00:44:> damperert left the channel
+05-26 13:18 :> jrkyex has joined the channel
+05-26 13:18 :> dabolinkbot has joined the channel
+05-26 13:19 :> thepretenderr has joined the channel
+05-26 13:21 :> haladslader has joined the channel
+05-26 13:31 :> ianzhougaming has joined the channel
+05-26 13:40 :> topez64 has joined the channel
+05-26 13:47 :> haladslader left the channel
+05-26 13:49 :> haladslader has joined the channel
+05-26 13:53 :> haladslader has joined the channel
+05-26 13:53 :> jrkyex has joined the channel
+05-26 13:53 :> thepretenderr has joined the channel
+05-26 13:53 :> ianzhougaming has joined the channel
+05-26 13:53 :> topez64 has joined the channel
+05-26 13:53 :> dabolinkbot has joined the channel
+05-26 13:56 :> dabolink has joined the channel
+05-26 13:56 :> got userstats for thepretenderr : (u'thepretenderr', 57.212298611111095, 0.0, 89)
+05-26 13:57 :> got userstats for haladslader : (u'haladslader', 8.499587777777778, 0.0, 72)
+05-26 13:57 :> got userstats for ianzhougaming : (u'ianzhougaming', 2.431672777777778, 0.0, 787)
+05-26 14:21 :> topez64 left the channel
+05-26 15:21 :> dabolink has joined the channel
+05-26 15:21 :> haladslader has joined the channel
+05-26 15:21 :> jrkyex has joined the channel
+05-26 15:21 :> thepretenderr has joined the channel
+05-26 15:21 :> captmikey has joined the channel
+05-26 15:21 :> ianzhougaming has joined the channel
+05-26 15:21 :> added llynp to database
+05-26 15:21 :> added solarflame5 to database
+05-26 15:21 :> dabolinkbot has joined the channel
+05-26 15:37 :> solarflame5 left the channel
+05-26 15:39 :> llynp left the channel
+05-26 15:40 :> captmikey left the channel
+05-27 23:04 :> thepretenderr has joined the channel
+05-27 23:04 :> ninjakid574 has joined the channel
+05-27 23:04 :> dabolinkbot has joined the channel
+05-27 23:06 :> ianzhougaming has joined the channel
+05-27 23:06 :> got userstats for thepretenderr : (u'thepretenderr', 57.61853222222221, 0.0, 90)
+05-27 23:07 :> got userstats for ninjakid574 : (u'ninjakid574', 11.792185, 0.0, 641)
+05-27 23:07 :> jrkyex has joined the channel
+05-27 23:28 :> dabolink has joined the channel
+05-27 23:28 :> dabolinkbot has joined the channel
+05-27 23:28 :> haladslader has joined the channel
+05-27 23:28 :> jrkyex has joined the channel
+05-27 23:28 :> thepretenderr has joined the channel
+05-27 23:28 :> ianzhougaming has joined the channel
+05-27 23:28 :> added jiggity22 to database
+05-27 23:28 :> ninjakid574 has joined the channel
+05-27 23:28 :> redcoat1990 has joined the channel
+05-27 23:28 :> got userstats for dabolink : (u'dabolink', 35.30010472222222, 0.0, 266)
+05-27 23:31 :> dabolink has joined the channel
+05-27 23:31 :> dabolinkbot has joined the channel
+05-27 23:31 :> haladslader has joined the channel
+05-27 23:31 :> jrkyex has joined the channel
+05-27 23:31 :> thepretenderr has joined the channel
+05-27 23:31 :> ianzhougaming has joined the channel
+05-27 23:31 :> ninjakid574 has joined the channel
+05-27 23:31 :> redcoat1990 has joined the channel
+05-27 23:32 :> dabolink has joined the channel
+05-27 23:32 :> dabolinkbot has joined the channel
+05-27 23:32 :> haladslader has joined the channel
+05-27 23:32 :> jrkyex has joined the channel
+05-27 23:32 :> thepretenderr has joined the channel
+05-27 23:32 :> ianzhougaming has joined the channel
+05-27 23:32 :> ninjakid574 has joined the channel
+05-27 23:32 :> redcoat1990 has joined the channel
+05-27 23:33 :> dabolink has joined the channel
+05-27 23:33 :> haladslader has joined the channel
+05-27 23:33 :> jrkyex has joined the channel
+05-27 23:33 :> thepretenderr has joined the channel
+05-27 23:33 :> ianzhougaming has joined the channel
+05-27 23:33 :> ninjakid574 has joined the channel
+05-27 23:33 :> redcoat1990 has joined the channel
+05-27 23:33 :> dabolinkbot has joined the channel
+05-27 23:33 :> top users requested
+05-27 23:34 :> dabolink has joined the channel
+05-27 23:34 :> dabolinkbot has joined the channel
+05-27 23:34 :> haladslader has joined the channel
+05-27 23:34 :> jrkyex has joined the channel
+05-27 23:34 :> thepretenderr has joined the channel
+05-27 23:34 :> added evotarus to database
+05-27 23:34 :> ianzhougaming has joined the channel
+05-27 23:34 :> ninjakid574 has joined the channel
+05-27 23:34 :> redcoat1990 has joined the channel
+05-27 23:34 :> top users requested
+05-27 23:35 :> evotarus left the channel
+05-27 23:36 :> dabolink has joined the channel
+05-27 23:36 :> dabolinkbot has joined the channel
+05-27 23:36 :> haladslader has joined the channel
+05-27 23:36 :> jrkyex has joined the channel
+05-27 23:36 :> thepretenderr has joined the channel
+05-27 23:36 :> ianzhougaming has joined the channel
+05-27 23:36 :> ninjakid574 has joined the channel
+05-27 23:36 :> redcoat1990 has joined the channel
+05-27 23:36 :> top users requested
+05-27 23:36 :> dabolink has joined the channel
+05-27 23:36 :> dabolinkbot has joined the channel
+05-27 23:36 :> haladslader has joined the channel
+05-27 23:36 :> jrkyex has joined the channel
+05-27 23:36 :> thepretenderr has joined the channel
+05-27 23:36 :> ianzhougaming has joined the channel
+05-27 23:36 :> ninjakid574 has joined the channel
+05-27 23:36 :> redcoat1990 has joined the channel
+05-27 23:36 :> top users requested
+05-27 23:37 :> dabolink has joined the channel
+05-27 23:37 :> dabolinkbot has joined the channel
+05-27 23:37 :> haladslader has joined the channel
+05-27 23:37 :> jrkyex has joined the channel
+05-27 23:37 :> thepretenderr has joined the channel
+05-27 23:37 :> added axelnykvist to database
+05-27 23:37 :> ianzhougaming has joined the channel
+05-27 23:37 :> ninjakid574 has joined the channel
+05-27 23:37 :> redcoat1990 has joined the channel
+05-27 23:37 :> top users requested
+05-27 23:39 :> dabolink has joined the channel
+05-27 23:39 :> dabolinkbot has joined the channel
+05-27 23:39 :> haladslader has joined the channel
+05-27 23:39 :> jrkyex has joined the channel
+05-27 23:39 :> thepretenderr has joined the channel
+05-27 23:39 :> axelnykvist has joined the channel
+05-27 23:39 :> ianzhougaming has joined the channel
+05-27 23:39 :> ninjakid574 has joined the channel
+05-27 23:39 :> redcoat1990 has joined the channel
+05-27 23:40 :> got userstats for haladslader : (u'haladslader', 8.914871388888889, 0.0, 73)
+05-27 23:40 :> top users requested
+05-27 23:41 :> added rakamakafo_81 to database
+05-27 23:41 :> raskalian has joined the channel
+05-27 23:42 :> got userstats for ianzhougaming : (u'ianzhougaming', 2.886184444444445, 0.0, 923)
+05-27 23:43 :> added dirtymax_na to database
+05-27 23:43 :> got userstats for dabolink : (u'dabolink', 35.3943525, 0.0, 284)
+05-27 23:44 :> axelnykvist left the channel
+05-27 23:44 :> rakamakafo_81 left the channel
+05-27 23:45 :> got userstats for raskalian : (u'raskalian', 9.591981944444443, 0.0, 491)
+05-28 00:03 :> dabolink has joined the channel
+05-28 00:03 :> haladslader has joined the channel
+05-28 00:03 :> thepretenderr has joined the channel
+05-28 00:03 :> added aiden_shepherd to database
+05-28 00:03 :> ianzhougaming has joined the channel
+05-28 00:03 :> locagiess has joined the channel
+05-28 00:03 :> added mattattack750 to database
+05-28 00:03 :> added minter101 to database
+05-28 00:03 :> ninjakid574 has joined the channel
+05-28 00:03 :> raskalian has joined the channel
+05-28 00:03 :> redcoat1990 has joined the channel
+05-28 00:03 :> dabolinkbot has joined the channel
+05-28 00:04 :> got userstats for haladslader : (u'haladslader', 9.011491944444444, 0.0, 73)
+05-28 00:05 :> added kiaurutelis to database
+05-28 00:06 :> deadlysilence57 has joined the channel
+05-28 00:07 :> deadlysilence57 left the channel
+05-28 00:07 :> locagiess left the channel
+05-28 00:09 :> added alphanites to database
+05-28 00:11 :> added morgan5290 to database
+05-28 00:35 :> dabolink has joined the channel
+05-28 00:35 :> thepretenderr has joined the channel
+05-28 00:35 :> ianzhougaming has joined the channel
+05-28 00:35 :> jiggity22 has joined the channel
+05-28 00:35 :> kiaurutelis has joined the channel
+05-28 00:35 :> locagiess has joined the channel
+05-28 00:35 :> mattattack750 has joined the channel
+05-28 00:35 :> minter101 has joined the channel
+05-28 00:35 :> ninjakid574 has joined the channel
+05-28 00:35 :> redcoat1990 has joined the channel
+05-28 00:35 :> dabolinkbot has joined the channel
+05-28 00:35 :> dabolink has joined the channel
+05-28 00:35 :> thepretenderr has joined the channel
+05-28 00:35 :> ianzhougaming has joined the channel
+05-28 00:35 :> jiggity22 has joined the channel
+05-28 00:35 :> kiaurutelis has joined the channel
+05-28 00:35 :> locagiess has joined the channel
+05-28 00:35 :> mattattack750 has joined the channel
+05-28 00:35 :> minter101 has joined the channel
+05-28 00:35 :> ninjakid574 has joined the channel
+05-28 00:35 :> redcoat1990 has joined the channel
+05-28 00:35 :> dabolinkbot has joined the channel
+05-28 00:36 :> locagiess left the channel
+05-28 00:36 :> jiggity22 left the channel
+05-28 00:38 :> got userstats for ninjakid574 : (u'ninjakid574', 12.087233055555554, 0.0, 678)
+05-28 00:39 :> got userstats for thepretenderr : (u'thepretenderr', 57.93300583333332, 0.0, 90)
+05-28 00:40 :> top users requested
+05-28 00:43 :> added orpheus665 to database
+05-28 00:45 :> mattattack750 left the channel
+05-28 00:48 :> orpheus665 left the channel
+05-28 00:57 :> gingytrucking has joined the channel
+05-28 01:01 :> ianzhougaming left the channel
+05-28 01:02 :> gingytrucking left the channel
+05-28 01:04 :> added equilibriumgamin to database
+05-28 01:05 :> added gridelli90 to database
+05-28 01:05 :> ninjakid574 left the channel
+05-28 01:08 :> gridelli90 left the channel
+05-28 01:08 :> equilibriumgamin left the channel
+05-28 01:08 :> minter101 left the channel
+05-28 01:15 :> ninjakid574 has joined the channel
+05-28 01:21 :> yukichama has joined the channel
+05-28 01:22 :> yukichama left the channel
+05-28 01:23 :> added thenewnick314 to database
+05-28 01:28 :> added crazyvaps to database
+05-28 01:32 :> rakamakafo_81 has joined the channel
+05-28 01:33 :> added bigwhoose to database
+05-28 01:34 :> orpheus665 has joined the channel
+05-28 01:34 :> added polln8r to database
+05-28 01:35 :> orpheus665 left the channel
+05-28 01:35 :> bigwhoose left the channel
+05-28 01:41 :> added 2bearshighfivng to database
+05-28 01:41 :> ninjakid574 left the channel
+05-28 01:42 :> added hugostiiglitz to database
+05-28 01:42 :> added rubusco to database
+05-28 01:44 :> 2bearshighfivng left the channel
+05-28 01:45 :> hugostiiglitz left the channel
+05-28 01:46 :> ninjakid574 has joined the channel
+05-28 01:46 :> got userstats for ninjakid574 : (u'ninjakid574', 12.090819999999999, 0.0, 681)
+05-28 01:46 :> top users requested
+05-28 01:49 :> rakamakafo_81 left the channel
+05-28 01:51 :> added xjdizzl3x to database
+05-28 01:51 :> added ziompolskiwroc to database
+05-28 01:51 :> rubusco left the channel
+05-28 01:52 :> xjdizzl3x left the channel
+05-28 01:56 :> added ike444 to database
+05-28 02:02 :> added mreoos to database
+05-28 02:03 :> polln8r left the channel
+05-28 02:04 :> ziompolskiwroc left the channel
+05-28 02:07 :> crazyvaps left the channel
+05-28 02:08 :> mreoos left the channel
+05-28 02:09 :> ike444 left the channel
+05-28 02:11 :> ike444 has joined the channel
+05-28 02:12 :> xjdizzl3x has joined the channel
+05-28 02:15 :> added gediminastgd to database
+05-28 02:17 :> added psycho_goldfish to database
+05-28 02:17 :> xjdizzl3x left the channel
+05-28 02:19 :> added drayfas to database
+05-28 02:20 :> added i_foresee_you to database
+05-28 02:20 :> psycho_goldfish left the channel
+05-28 02:21 :> i_foresee_you left the channel
+05-28 02:22 :> got userstats for thepretenderr : (u'thepretenderr', 59.652997222222204, 0.0, 90)
+05-28 02:22 :> added jarvis28000 to database
+05-28 02:24 :> rakamakafo_81 has joined the channel
+05-28 02:28 :> added forestfall to database
+05-28 02:29 :> forestfall left the channel
+05-28 02:34 :> added mroakroom to database
+05-28 02:35 :> mroakroom left the channel
+05-28 02:36 :> added console_genius to database
+05-28 02:37 :> added aleksandr7193 to database
+05-28 02:38 :> added yetti_ to database
+05-28 02:38 :> rakamakafo_81 left the channel
+05-28 02:38 :> aleksandr7193 left the channel
+05-28 02:39 :> thenewnick314 left the channel
+05-28 02:40 :> console_genius left the channel
+05-28 02:42 :> gediminastgd left the channel
+05-28 02:47 :> added makaayr to database
+05-28 02:47 :> redcoat1990 left the channel
+05-28 02:47 :> ike444 left the channel
+05-28 02:48 :> added crazyfarmerkemp to database
+05-28 02:48 :> drayfas left the channel
+05-28 02:51 :> ike444 has joined the channel
+05-28 02:55 :> kiaurutelis left the channel
+05-28 03:01 :> rakamakafo_81 has joined the channel
+05-28 03:03 :> added neacronv to database
+05-28 03:03 :> added majorproblem247 to database
+05-28 03:04 :> neacronv left the channel
+05-28 03:04 :> majorproblem247 left the channel
+05-28 03:05 :> got userstats for thepretenderr : (u'thepretenderr', 60.374100555555536, 0.0, 90)
+05-28 03:06 :> rakamakafo_81 left the channel
+05-28 03:07 :> added tuokki to database
+05-28 03:10 :> added jimmyintv to database
+05-28 03:10 :> yetti_ left the channel
+05-28 03:15 :> added vvsupervv to database
+05-28 03:15 :> jimmyintv left the channel
+05-28 03:20 :> vvsupervv left the channel
+05-28 03:20 :> makaayr left the channel
+05-28 03:20 :> dabolink left the channel
+05-28 03:21 :> dabolink has joined the channel
+05-28 03:21 :> makaayr has joined the channel
+05-28 03:21 :> mentrion has joined the channel
+05-28 03:22 :> polln8r has joined the channel
+05-28 03:22 :> added sharkbait1966 to database
+05-28 03:22 :> tuokki left the channel
+05-28 03:23 :> tuokki has joined the channel
+05-28 03:25 :> added miderachi to database
+05-28 03:26 :> miderachi left the channel
+05-28 03:27 :> ziompolskiwroc has joined the channel
+05-28 03:27 :> added istrel to database
+05-28 03:32 :> added ballsweater to database
+05-28 03:32 :> crazyfarmerkemp left the channel
+05-28 03:34 :> added jasalgsy to database
+05-28 03:34 :> ike444 left the channel
+05-28 03:35 :> polln8r left the channel
+05-28 03:35 :> jasalgsy left the channel
+05-28 03:37 :> added blueflame272 to database
+05-28 03:37 :> added d70dbf to database
+05-28 03:37 :> added jologaming598 to database
+05-28 03:37 :> ballsweater left the channel
+05-28 03:38 :> blueflame272 left the channel
+05-28 03:40 :> added terje86 to database
+05-28 03:44 :> terje86 left the channel
+05-28 03:44 :> sharkbait1966 left the channel
+05-28 03:45 :> darjeeling_tea has joined the channel
+05-28 03:45 :> added vvvsaturn to database
+05-28 03:45 :> sharkbait1966 has joined the channel
+05-28 03:45 :> jologaming598 left the channel
+05-28 03:51 :> gridelli90 has joined the channel
+05-28 03:53 :> gridelli90 left the channel
+05-28 03:55 :> added keirscova to database
+05-28 03:55 :> added bratytyler29 to database
+05-28 03:55 :> ziompolskiwroc left the channel
+05-28 03:55 :> d70dbf left the channel
+05-28 03:55 :> vvvsaturn left the channel
+05-28 03:57 :> darjeeling_tea left the channel
+05-28 03:57 :> keirscova left the channel
+05-28 04:01 :> rakamakafo_81 has joined the channel
+05-28 04:02 :> rakamakafo_81 left the channel
+05-28 04:03 :> added honey_bucket to database
+05-28 04:03 :> mentrion left the channel
+05-28 04:04 :> added theerithos to database
+05-28 04:04 :> mentrion has joined the channel
+05-28 04:05 :> theerithos left the channel
+05-28 04:10 :> added rhulaan to database
+05-28 04:11 :> got userstats for ninjakid574 : (u'ninjakid574', 14.505502499999999, 0.0, 687)
+05-28 04:11 :> added savagenipple to database
+05-28 04:11 :> ziompolskiwroc has joined the channel
+05-28 04:11 :> istrel left the channel
+05-28 04:12 :> got userstats for bratytyler29 : (u'bratytyler29', 0.26932972222222223, 0.0, 1)
+05-28 04:13 :> added rabbican to database
+05-28 04:13 :> honey_bucket left the channel
+05-28 04:13 :> savagenipple left the channel
+05-28 04:14 :> sharkbait1966 left the channel
+05-28 04:15 :> rhulaan left the channel
+05-28 04:15 :> rabbican left the channel
+05-28 04:15 :> bratytyler29 left the channel
+05-28 23:14 :> thepretenderr has joined the channel
+05-28 23:14 :> dabolinkbot has joined the channel
+05-28 23:28 :> dabolink has joined the channel
+05-28 23:30 :> dabolink has joined the channel
+05-28 23:30 :> dabolinkbot has joined the channel
+05-28 23:30 :> thepretenderr has joined the channel
+05-28 23:31 :> dabolink has joined the channel
+05-28 23:31 :> dabolinkbot has joined the channel
+05-28 23:31 :> thepretenderr has joined the channel
+05-28 23:32 :> got userstats for thepretenderr : (u'thepretenderr', 61.80950472222221, 0.0, 92)
+05-28 23:32 :> top users requested
+05-28 23:33 :> added tigertank601 to database
+05-28 23:36 :> ianzhougaming has joined the channel
+05-28 23:45 :> haladslader has joined the channel
+05-28 23:46 :> got userstats for haladslader : (u'haladslader', 9.144421666666666, 0.0, 77)
+05-28 23:52 :> ianzhougaming left the channel
+05-28 23:53 :> ianzhougaming has joined the channel
+05-29 00:08 :> tigertank601 left the channel
+05-29 00:08 :> haladslader left the channel
+05-29 00:09 :> haladslader has joined the channel
+05-29 00:09 :> tigertank601 has joined the channel
+05-29 00:13 :> tigertank601 left the channel
+05-29 00:16 :> thepretenderr left the channel
+05-29 00:18 :> thepretenderr has joined the channel
+05-29 00:18 :> added themonkeymasher to database
+05-29 00:22 :> themonkeymasher left the channel
+05-29 00:26 :> added awacorbis to database
+05-29 00:27 :> awacorbis left the channel
+05-29 00:42 :> raskalian has joined the channel
+05-29 00:53 :> aiden_shepherd has joined the channel
+05-29 00:58 :> rakamakafo_81 has joined the channel
+05-29 00:59 :> added valvolf777 to database
+05-29 01:00 :> rakamakafo_81 left the channel
+05-29 01:00 :> valvolf777 left the channel
+05-29 01:08 :> raskalian left the channel
+05-29 01:14 :> dabolink left the channel
+05-29 01:15 :> dabolink has joined the channel
+05-29 01:16 :> aiden_shepherd left the channel
+05-29 01:17 :> aiden_shepherd has joined the channel
+05-29 01:26 :> got userstats for thepretenderr : (u'thepretenderr', 62.94686249999999, 0.0, 95)
+05-29 01:29 :> added misterkillsteal to database
+05-29 01:30 :> top users requested
+05-29 01:31 :> rubusco has joined the channel
+05-29 01:31 :> misterkillsteal left the channel
+05-29 01:32 :> got userstats for ianzhougaming : (u'ianzhougaming', 4.70023, 0.0, 1101)
+05-29 01:37 :> aiden_shepherd left the channel
+05-29 01:46 :> rubusco left the channel
+05-29 01:47 :> rubusco has joined the channel
+05-29 01:49 :> rubusco left the channel
+05-29 01:54 :> got userstats for ianzhougaming : (u'ianzhougaming', 5.0775475000000005, 0.0, 1154)
+05-29 01:55 :> got userstats for thepretenderr : (u'thepretenderr', 63.43002222222221, 0.0, 95)
+05-29 01:55 :> got userstats for haladslader : (u'haladslader', 10.912169166666667, 0.0, 111)
+05-29 02:16 :> haladslader left the channel
+05-29 02:17 :> ianzhougaming left the channel
+05-29 02:18 :> ike444 has joined the channel
+05-29 02:41 :> locagiess has joined the channel
+05-29 02:48 :> ike444 left the channel
+05-29 02:49 :> ike444 has joined the channel
+05-29 03:17 :> yukichama has joined the channel
+05-29 03:21 :> rakamakafo_81 has joined the channel
+05-29 03:21 :> yukichama left the channel
+05-29 03:31 :> xjdizzl3x has joined the channel
+05-29 03:31 :> locagiess left the channel
+05-29 03:32 :> locagiess has joined the channel
+05-29 03:37 :> themonkeymasher has joined the channel
+05-29 03:37 :> rakamakafo_81 left the channel
+05-29 03:38 :> added ranswick to database
+05-29 03:39 :> ranswick left the channel
+05-29 03:41 :> themonkeymasher left the channel
+05-29 03:44 :> added agentwest122 to database
+05-29 03:45 :> added themeta96 to database
+05-29 03:45 :> agentwest122 left the channel
+05-29 03:57 :> xjdizzl3x left the channel
+05-29 03:58 :> rubusco has joined the channel
+05-29 03:58 :> themeta96 left the channel
+05-30 00:02 :> dabolink has joined the channel
+05-30 00:02 :> thepretenderr has joined the channel
+05-30 00:02 :> thecakeisyum has joined the channel
+05-30 00:02 :> dabolinkbot has joined the channel
+05-30 00:02 :> haladslader has joined the channel
+05-30 00:04 :> jrkyex has joined the channel
+05-30 00:04 :> thecakeisyum left the channel
+05-30 00:08 :> dabolink has joined the channel
+05-30 00:08 :> dabolinkbot has joined the channel
+05-30 00:08 :> haladslader has joined the channel
+05-30 00:08 :> jrkyex has joined the channel
+05-30 00:08 :> thepretenderr has joined the channel
+05-30 00:09 :> got userstats for dabolink : (u'dabolink', 39.32350694444444, 0.0, 355)
+05-30 00:09 :> got userstats for haladslader : (u'haladslader', 11.022189722222222, 0.0, 121)
+05-30 00:10 :> top users requested
+05-30 00:19 :> ike444 has joined the channel
+05-30 00:24 :> locagiess has joined the channel
+05-30 00:26 :> ike444 left the channel
+05-30 00:46 :> added desperado212 to database
+05-30 00:47 :> desperado212 left the channel
+05-30 00:55 :> added mikkeeeeeeee to database
+05-30 00:56 :> mikkeeeeeeee left the channel
+05-30 01:29 :> haladslader left the channel
+05-30 01:36 :> thepretenderr left the channel
+05-30 01:37 :> thepretenderr has joined the channel
+05-30 01:52 :> ragfly has joined the channel
+05-30 01:55 :> mentrion has joined the channel
+05-30 02:23 :> added chr0nocide to database
+05-30 02:25 :> haladslader has joined the channel
+05-30 02:26 :> chr0nocide left the channel
+05-30 02:53 :> added tienwoon1128 to database
+05-30 02:54 :> thepretenderr left the channel
+05-30 02:54 :> tienwoon1128 left the channel
+05-30 02:55 :> thepretenderr has joined the channel
+05-30 02:57 :> ragfly left the channel
+05-30 03:04 :> ragfly has joined the channel
+05-30 14:30 :> thepretenderr has joined the channel
+05-30 14:30 :> dabolinkbot has joined the channel
+05-30 14:33 :> officialp4nd3m1c has joined the channel
+05-30 14:45 :> added saintfur to database
+05-30 14:52 :> topez64 has joined the channel
+05-30 14:53 :> saintfur left the channel
+05-30 14:58 :> yukichama has joined the channel
+05-30 15:01 :> added b_ps to database
+05-30 15:03 :> b_ps left the channel
+05-30 15:05 :> yukichama left the channel
+05-30 15:18 :> dano_uk has joined the channel
+05-30 15:19 :> dano_uk left the channel
+05-30 15:39 :> dabolink has joined the channel
+05-30 15:49 :> locagiess has joined the channel
+05-30 15:56 :> added qrlite to database
+05-30 16:04 :> quickshot1 has joined the channel
+05-30 16:05 :> quickshot1 left the channel
+05-30 16:17 :> qrlite left the channel
+05-30 16:18 :> ike444 has joined the channel
+05-30 16:25 :> added hiaka2211 to database
+05-30 16:32 :> hiaka2211 left the channel
+05-30 16:49 :> ianzhougaming has joined the channel
+05-30 16:50 :> ianzhougaming left the channel
+05-30 17:01 :> ike444 left the channel
+05-30 20:16 :> dabolink has joined the channel
+05-30 20:16 :> thepretenderr has joined the channel
+05-30 20:16 :> officialp4nd3m1c has joined the channel
+05-30 20:16 :> dabolinkbot has joined the channel
+05-30 20:18 :> ninjakid574 has joined the channel
+05-30 20:24 :> officialp4nd3m1c left the channel
+05-30 20:25 :> officialp4nd3m1c has joined the channel
+05-30 20:27 :> ike444 has joined the channel
+05-30 20:28 :> ike444 left the channel
+05-30 20:31 :> optic_racer77 has joined the channel
+05-30 20:44 :> optic_racer77 left the channel
+05-30 20:52 :> got userstats for ninjakid574 : (u'ninjakid574', 15.165754999999999, 0.0, 727)
+05-30 20:53 :> got userstats for dabolink : (u'dabolink', 44.489835, 0.0, 362)
+05-30 20:53 :> added 3blackeyes to database
+05-30 21:05 :> added zombry_ to database
+05-30 21:06 :> zombry_ left the channel
+05-30 21:10 :> top users requested
+05-30 21:19 :> captmikey has joined the channel
+05-30 21:20 :> raskalian has joined the channel
+05-30 21:20 :> 3blackeyes left the channel
+05-30 21:27 :> raskalian left the channel
+05-30 21:39 :> polln8r has joined the channel
+05-30 21:46 :> topez64 has joined the channel
+05-30 21:51 :> polln8r left the channel
+05-30 21:58 :> 49ersfanman has joined the channel
+05-30 22:09 :> ianzhougaming has joined the channel
+05-30 22:10 :> added morkums to database
+05-30 22:10 :> captmikey left the channel
+05-30 22:11 :> 49ersfanman left the channel
+05-30 22:11 :> dabolink left the channel
+05-30 22:12 :> dabolink has joined the channel
+05-30 22:12 :> 49ersfanman has joined the channel
+05-30 22:16 :> added senihele to database
+05-30 22:16 :> 49ersfanman left the channel
+05-30 22:17 :> voxrocker has joined the channel
+05-30 22:19 :> voxrocker left the channel
+05-30 22:20 :> senihele left the channel
+05-30 22:22 :> morkums left the channel
+05-30 22:26 :> added zahmtj to database
+05-30 22:27 :> added phlarmf to database
+05-30 22:27 :> zahmtj left the channel
+05-30 22:33 :> phlarmf left the channel
+05-30 22:36 :> ike444 has joined the channel
+05-30 22:42 :> added alexismpxdlol to database
+05-30 22:44 :> added zareht to database
+05-30 22:45 :> alexismpxdlol left the channel
+05-30 22:49 :> zareht left the channel
+05-30 22:50 :> thepretenderr left the channel
+05-30 22:51 :> thepretenderr has joined the channel
+05-30 23:00 :> quickshot1 has joined the channel
+05-30 23:02 :> added mrspuddddies to database
+05-30 23:04 :> added spankfest to database
+05-30 23:07 :> officialp4nd3m1c left the channel
+05-30 23:10 :> spankfest left the channel
+05-30 23:25 :> added ceivent to database
+05-30 23:27 :> ceivent left the channel
+05-30 23:28 :> haladslader has joined the channel
+05-30 23:28 :> quickshot1 left the channel
+05-30 23:39 :> ianzhougaming left the channel
+05-30 23:40 :> added cpt_ginu to database
+05-30 23:43 :> ike444 left the channel
+05-30 23:46 :> added asarge to database
+05-30 23:50 :> asarge left the channel
+05-30 23:52 :> got userstats for thepretenderr : (u'thepretenderr', 69.5217836111111, 0.0, 106)
+05-30 23:53 :> top users requested
+05-30 23:56 :> cpt_ginu left the channel
+05-31 00:08 :> rubusco has joined the channel
+05-31 00:22 :> haladslader left the channel
+05-31 00:26 :> added civperr to database
+05-31 00:38 :> added rasselhag to database
+05-31 00:39 :> rasselhag left the channel
+05-31 00:40 :> mrspuddddies left the channel
+05-31 00:58 :> rubusco left the channel
+05-31 01:00 :> ragfly has joined the channel
+05-31 01:20 :> civperr left the channel
+05-31 01:26 :> ragfly left the channel
+06-02 22:47 :> thepretenderr has joined the channel
+06-02 22:47 :> dabolinkbot has joined the channel
+06-02 22:49 :> haladslader has joined the channel
+06-02 23:32 :> optic_racer77 has joined the channel
+06-02 23:33 :> ianzhougaming has joined the channel
+06-02 23:33 :> added tante_mooh to database
+06-02 23:38 :> optic_racer77 left the channel
+06-02 23:38 :> tante_mooh left the channel
+06-02 23:50 :> added watai210 to database
+06-03 00:01 :> added 420ggrektm8 to database
+06-03 00:05 :> 420ggrektm8 left the channel
+06-03 00:12 :> m00nski has joined the channel
+06-03 00:20 :> watai210 left the channel
+06-03 00:22 :> dabolink has joined the channel
+06-03 00:45 :> ianzhougaming left the channel
+06-03 01:01 :> added daertawar to database
+06-03 01:02 :> daertawar left the channel
+06-03 01:09 :> added gd_moontiger to database
+06-03 01:10 :> gd_moontiger left the channel
+06-03 01:20 :> added dookacha to database
+06-03 01:20 :> added skeetr__300 to database
+06-03 01:20 :> mentrion has joined the channel
+06-03 01:22 :> dookacha left the channel
+06-03 01:33 :> gingytrucking has joined the channel
+06-03 01:33 :> added arcticdefender to database
+06-03 01:33 :> skeetr__300 left the channel
+06-03 01:33 :> mentrion left the channel
+06-03 14:34 :> thepretenderr has joined the channel
+06-03 14:34 :> dabolinkbot has joined the channel
+06-03 15:05 :> dabolink has joined the channel
+06-03 15:05 :> got userstats for dabolink : (u'dabolink', 49.125566111111105, 0.0, 419)
+06-03 15:06 :> got userstats for thepretenderr : (u'thepretenderr', 74.58938138888888, 0.0, 115)
+06-03 15:10 :> dabolink left the channel
+06-03 15:58 :> ianzhougaming has joined the channel
+06-03 16:05 :> ianzhougaming left the channel
+06-03 16:06 :> ianzhougaming has joined the channel
+06-03 16:33 :> ike444 has joined the channel
+06-03 16:42 :> ike444 left the channel
+06-03 16:44 :> ike444 has joined the channel
+06-03 16:49 :> ike444 left the channel
+06-03 16:50 :> thepretenderr left the channel
+06-03 16:51 :> ike444 has joined the channel
+06-03 16:51 :> thepretenderr has joined the channel
+06-03 16:55 :> ike444 left the channel
+06-03 16:56 :> bspoelder has joined the channel
+06-03 16:57 :> bspoelder left the channel
+06-03 16:59 :> ike444 has joined the channel
+06-03 17:02 :> ike444 left the channel
+06-03 17:03 :> added ewtah01 to database
+06-03 17:08 :> ike444 has joined the channel
+06-03 17:13 :> ewtah01 left the channel
+06-03 17:13 :> ike444 left the channel
+06-03 18:42 :> thepretenderr has joined the channel
+06-03 18:42 :> dabolinkbot has joined the channel
+06-03 18:47 :> got userstats for thepretenderr : (u'thepretenderr', 75.07557277777777, 0.0, 116)
+06-03 18:58 :> added deathfirexl to database
+06-03 19:00 :> ianzhougaming has joined the channel
+06-03 19:07 :> deathfirexl left the channel
+06-03 19:11 :> topez64 has joined the channel
+06-03 19:13 :> topez64 left the channel
+06-03 19:14 :> topez64 has joined the channel
+06-03 19:23 :> solarflame5 has joined the channel
+06-03 19:29 :> added kevkevfoprez to database
+06-03 19:29 :> added infernal_tortuga to database
+06-03 19:30 :> added bg_remiix to database
+06-03 19:30 :> added odestroyah to database
+06-03 19:31 :> kevkevfoprez left the channel
+06-03 19:35 :> infernal_tortuga left the channel
+06-03 19:36 :> infernal_tortuga has joined the channel
+06-03 19:36 :> got userstats for thepretenderr : (u'thepretenderr', 75.89862972222221, 0.0, 116)
+06-03 19:43 :> top users requested
+06-03 19:44 :> odestroyah left the channel
+06-03 19:45 :> bg_remiix left the channel
+06-03 19:47 :> infernal_tortuga left the channel
+06-03 19:49 :> m00nski has joined the channel
+06-03 19:57 :> solarflame5 left the channel
+06-03 20:09 :> zenky75 has joined the channel
+06-03 20:10 :> zenky75 left the channel
+06-03 20:13 :> haladslader has joined the channel
+06-03 20:16 :> m00nski left the channel
+06-03 20:17 :> added dtdfiasco to database
+06-03 20:19 :> infernodes78 has joined the channel
+06-03 20:28 :> dtdfiasco left the channel
+06-03 20:33 :> infernodes78 left the channel
+06-03 20:35 :> added crusin_custard to database
+06-03 20:44 :> added krazu8 to database
+06-03 20:45 :> krazu8 left the channel
+06-03 20:51 :> haladslader left the channel
+06-03 20:54 :> added oathbutcher to database
+06-03 20:54 :> added bztplayereu to database
+06-03 20:56 :> crusin_custard left the channel
+06-03 21:00 :> added mykl_ to database
+06-03 21:01 :> added rauelduke to database
+06-03 21:02 :> deadlysilence57 has joined the channel
+06-03 21:02 :> mykl_ left the channel
+06-03 21:02 :> rauelduke left the channel
+06-03 21:03 :> deadlysilence57 left the channel
+06-03 21:03 :> bztplayereu left the channel
+06-03 21:04 :> thepretenderr left the channel
+06-03 21:05 :> thepretenderr has joined the channel
+06-03 21:06 :> got userstats for thepretenderr : (u'thepretenderr', 75.90503138888887, 0.0, 117)
+06-03 21:07 :> added lkstephen8 to database
+06-03 21:13 :> added grumbuskin to database
+06-03 21:13 :> lkstephen8 left the channel
+06-03 21:13 :> top users requested
+06-03 21:14 :> grumbuskin left the channel
+06-03 21:16 :> infernodes78 has joined the channel
+06-03 21:16 :> grumbuskin has joined the channel
+06-03 21:18 :> infernodes78 left the channel
+06-03 21:19 :> dabolink has joined the channel
+06-03 22:44 :> thepretenderr has joined the channel
+06-03 22:44 :> drayfas has joined the channel
+06-03 22:44 :> ianzhougaming has joined the channel
+06-03 22:44 :> oathbutcher has joined the channel
+06-03 22:44 :> topez64 has joined the channel
+06-03 22:44 :> dabolinkbot has joined the channel
+06-03 23:01 :> added ryder_burk to database
+06-03 23:02 :> ryder_burk left the channel
+06-03 23:03 :> ianzhougaming left the channel
+06-04 13:33 :> thepretenderr has joined the channel
+06-04 13:33 :> dabolinkbot has joined the channel
+06-04 13:35 :> topez64 has joined the channel
+06-04 13:51 :> raskalian has joined the channel
+06-04 13:56 :> added dshatt to database
+06-04 13:56 :> captmikey has joined the channel
+06-04 13:57 :> dshatt left the channel
+06-04 14:02 :> raskalian left the channel
+06-04 14:18 :> thepretenderr has joined the channel
+06-04 14:18 :> captmikey has joined the channel
+06-04 14:18 :> topez64 has joined the channel
+06-04 14:18 :> dabolinkbot has joined the channel
+06-04 14:18 :> dabolink has joined the channel
+06-04 14:20 :> infernodes78 has joined the channel
+06-04 14:22 :> ninjakid574 has joined the channel
+06-04 14:23 :> infernodes78 left the channel
+06-04 14:23 :> ninjakid574 left the channel
+06-04 14:25 :> got userstats for thepretenderr : (u'thepretenderr', 76.35306805555554, 0.0, 119)
+06-04 14:29 :> captmikey left the channel
+06-04 14:35 :> added arkolion to database
+06-04 14:36 :> arkolion left the channel
+06-04 14:47 :> ike444 has joined the channel
+06-04 14:48 :> ike444 left the channel
+06-04 14:49 :> ike444 has joined the channel
+06-04 14:52 :> added courageous_curry to database
+06-04 14:53 :> ike444 left the channel
+06-04 14:53 :> courageous_curry left the channel
+06-04 15:11 :> rhulaan has joined the channel
+06-04 15:18 :> added stamatis42 to database
+06-04 15:19 :> stamatis42 left the channel
+06-04 15:50 :> ianzhougaming has joined the channel
+06-04 16:00 :> thepretenderr left the channel
+06-04 16:01 :> thepretenderr has joined the channel
+06-04 16:12 :> added mmbovo to database
+06-04 16:13 :> mmbovo left the channel
+06-04 16:22 :> mentrion has joined the channel
+06-04 16:26 :> infernodes78 has joined the channel
+06-04 16:29 :> rhulaan left the channel
+06-04 17:33 :> m00nski has joined the channel
+06-04 17:34 :> m00nski left the channel
+06-04 18:22 :> mentrion left the channel
+06-04 20:23 :> dabolink has joined the channel
+06-04 20:23 :> thepretenderr has joined the channel
+06-04 20:23 :> dabolinkbot has joined the channel
+06-04 20:24 :> ninjakid574 has joined the channel
+06-04 20:30 :> topez64 has joined the channel
+06-04 20:32 :> tigertank601 has joined the channel
+06-04 20:40 :> ninjakid574 left the channel
+06-04 20:55 :> dabolink left the channel
+06-04 20:56 :> dabolink has joined the channel
+06-04 20:57 :> ianzhougaming has joined the channel
+06-04 21:01 :> added lethita to database
+06-04 21:02 :> tigertank601 left the channel
+06-04 21:16 :> dabolink left the channel
+06-04 21:17 :> dabolink has joined the channel
+06-04 21:17 :> lethita left the channel
+06-04 21:18 :> added xxtitandestroyerxx to database
+06-04 21:18 :> top users requested
+06-04 21:20 :> got userstats for ianzhougaming : (u'ianzhougaming', 9.14622861111111, 0.0, 1584)
+06-04 21:21 :> got userstats for dabolink : (u'dabolink', 53.25679611111111, 0.0, 441)
+06-04 21:21 :> xxtitandestroyerxx left the channel
+06-04 21:22 :> jrkyex has joined the channel
+06-04 21:23 :> jrkyex left the channel
+06-04 21:24 :> jrkyex has joined the channel
+06-04 21:25 :> thepretenderr left the channel
+06-04 21:26 :> thepretenderr has joined the channel
+06-04 21:47 :> added jouke11 to database
+06-04 21:48 :> jouke11 left the channel
+06-04 21:52 :> added lirg03 to database
+06-04 22:10 :> added kreyash to database
+06-04 22:13 :> kreyash left the channel
+06-04 22:20 :> lirg03 left the channel
+06-04 22:37 :> plazalink has joined the channel
+06-04 22:38 :> plazalink left the channel
+06-04 22:52 :> ianzhougaming left the channel
+06-04 22:54 :> ianzhougaming has joined the channel
+06-04 22:55 :> ianzhougaming left the channel
+06-04 22:57 :> rakamakafo_81 has joined the channel
+06-04 22:57 :> ianzhougaming has joined the channel
+06-04 22:59 :> rakamakafo_81 left the channel
+06-04 23:00 :> added undermind to database
+06-04 23:02 :> top users requested
+06-04 23:02 :> got userstats for dabolink : (u'dabolink', 54.952664166666665, 0.0, 464)
+06-04 23:03 :> got userstats for ianzhougaming : (u'ianzhougaming', 9.2389375, 0.0, 1711)
+06-04 23:04 :> got userstats for topez64 : (u'topez64', 22.037275555555553, 0.0, 225)
+06-04 23:05 :> got userstats for ianzhougaming : (u'ianzhougaming', 9.279458055555557, 0.0, 1717)
+06-04 23:05 :> ike444 has joined the channel
+06-04 23:08 :> got userstats for dabolinkbot : (u'dabolinkbot', 97.86967361111111, 0.0, 337)
+06-04 23:09 :> dabolink has joined the channel
+06-04 23:09 :> dabolinkbot has joined the channel
+06-04 23:09 :> jrkyex has joined the channel
+06-04 23:09 :> thepretenderr has joined the channel
+06-04 23:09 :> ianzhougaming has joined the channel
+06-04 23:09 :> ike444 has joined the channel
+06-04 23:09 :> topez64 has joined the channel
+06-04 23:09 :> undermind has joined the channel
+06-04 23:12 :> got userstats for topez64 : (u'topez64', 22.162651111111106, 0.0, 232)
+06-04 23:12 :> haladslader has joined the channel
+06-04 23:15 :> mrspuddddies has joined the channel
+06-04 23:17 :> mrspuddddies left the channel
+06-04 23:17 :> thepretenderr left the channel
+06-04 23:18 :> thepretenderr has joined the channel
+06-04 23:18 :> ike444 left the channel
+06-04 23:37 :> added birgl to database
+06-04 23:38 :> got userstats for haladslader : (u'haladslader', 15.078716666666669, 0.0, 155)
+06-04 23:39 :> got userstats for ianzhougaming : (u'ianzhougaming', 9.828380833333334, 0.0, 1769)
+06-04 23:44 :> dabolink has joined the channel
+06-04 23:44 :> dabolinkbot has joined the channel
+06-04 23:44 :> haladslader has joined the channel
+06-04 23:44 :> jrkyex has joined the channel
+06-04 23:44 :> thepretenderr has joined the channel
+06-04 23:44 :> ianzhougaming has joined the channel
+06-04 23:44 :> topez64 has joined the channel
+06-04 23:44 :> undermind has joined the channel
+06-04 23:48 :> top users requested
+06-04 23:48 :> got userstats for ianzhougaming : (u'ianzhougaming', 9.939282222222223, 0.0, 1797)
+06-04 23:50 :> rakamakafo_81 has joined the channel
+06-04 23:51 :> rakamakafo_81 left the channel
+06-04 23:53 :> got userstats for topez64 : (u'topez64', 22.788598055555553, 0.0, 258)
+06-04 23:53 :> got userstats for ianzhougaming : (u'ianzhougaming', 10.014852500000002, 0.0, 1799)
+06-05 00:00 :> added articrii to database
+06-05 00:01 :> added jonash69 to database
+06-05 00:02 :> added neccoboy to database
+06-05 00:03 :> neccoboy left the channel
+06-05 00:06 :> jonash69 left the channel
+06-05 00:06 :> articrii left the channel
+06-05 00:27 :> ianzhougaming left the channel
+06-05 18:50 :> jrkyex has joined the channel
+06-05 18:50 :> thepretenderr has joined the channel
+06-05 18:50 :> dabolinkbot has joined the channel
+06-05 18:51 :> ninjakid574 has joined the channel
+06-05 18:52 :> top users requested
+06-05 18:55 :> ianzhougaming has joined the channel
+06-05 18:59 :> mrspuddddies has joined the channel
+06-05 19:04 :> added avtomat_ukr to database
+06-05 19:09 :> avtomat_ukr left the channel
+06-05 19:10 :> mrspuddddies left the channel
+06-05 19:47 :> topez64 has joined the channel
+06-05 19:53 :> added laosu1234 to database
+06-05 19:55 :> laosu1234 left the channel
+06-05 20:02 :> topez64 left the channel
+06-05 20:12 :> added glennabbott08 to database
+06-05 20:12 :> desper_pl has joined the channel
+06-05 20:14 :> glennabbott08 left the channel
+06-05 20:15 :> added sandwich1206 to database
+06-05 20:16 :> desper_pl left the channel
+06-05 20:17 :> added gruntsaez92 to database
+06-05 20:17 :> sandwich1206 left the channel
+06-05 20:18 :> gruntsaez92 left the channel
+06-05 20:20 :> got userstats for ninjakid574 : (u'ninjakid574', 21.420432499999997, 0.0, 880)
+06-05 20:22 :> added alween88 to database
+06-05 20:25 :> alween88 left the channel
+06-05 20:26 :> added steve26ccfc to database
+06-05 20:27 :> got userstats for ianzhougaming : (u'ianzhougaming', 11.543749444444446, 0.0, 1842)
+06-05 20:27 :> steve26ccfc left the channel
+06-05 20:30 :> ninjakid574 left the channel
+06-05 20:33 :> haladslader has joined the channel
+06-05 20:39 :> added thunder33sgt to database
+06-05 20:45 :> added toyboxbassist to database
+06-05 20:48 :> bspoelder has joined the channel
+06-05 20:49 :> added convexrook to database
+06-05 20:50 :> added bdiddy1999 to database
+06-05 20:51 :> added jix3rz to database
+06-05 20:52 :> bspoelder left the channel
+06-05 20:53 :> added noendwar to database
+06-05 20:55 :> noendwar left the channel
+06-05 20:55 :> jix3rz left the channel
+06-05 20:56 :> very0angrybeaver has joined the channel
+06-05 20:57 :> very0angrybeaver left the channel
+06-05 20:57 :> convexrook left the channel
+06-05 20:58 :> ninjakid574 has joined the channel
+06-05 20:59 :> added mitchalski to database
+06-05 21:00 :> mitchalski left the channel
+06-05 21:01 :> bdiddy1999 left the channel
+06-05 21:03 :> infernodes78 has joined the channel
+06-05 21:04 :> added jack30198 to database
+06-05 21:08 :> infernodes78 left the channel
+06-05 21:11 :> added iirecii to database
+06-05 21:12 :> iirecii left the channel
+06-05 21:14 :> added lynxpardinus to database
+06-05 21:15 :> noendwar has joined the channel
+06-05 21:15 :> toyboxbassist left the channel
+06-05 21:16 :> added hobboau to database
+06-05 21:16 :> noendwar left the channel
+06-05 21:18 :> lynxpardinus left the channel
+06-05 21:26 :> topez64 has joined the channel
+06-05 21:27 :> added vpronto_gottiv to database
+06-05 21:29 :> added gmail2015 to database
+06-05 21:29 :> vpronto_gottiv left the channel
+06-05 21:31 :> gmail2015 left the channel
+06-05 21:34 :> added callsmecols to database
+06-05 21:34 :> added 1017weirdo_ to database
+06-05 21:34 :> added l0c4lkilla to database
+06-05 21:36 :> 1017weirdo_ left the channel
+06-05 21:37 :> added acotito to database
+06-05 21:38 :> l0c4lkilla left the channel
+06-05 21:38 :> acotito left the channel
+06-05 21:39 :> hobboau left the channel
+06-05 21:39 :> callsmecols left the channel
+06-05 21:42 :> added immaalwaysbeme to database
+06-05 21:42 :> topez64 left the channel
+06-05 21:43 :> added overwatch_echo to database
+06-05 21:44 :> m00nski has joined the channel
+06-05 21:48 :> added zhero33 to database
+06-05 21:49 :> ike444 has joined the channel
+06-05 21:50 :> added helldoggz to database
+06-05 21:50 :> zhero33 left the channel
+06-05 21:54 :> overwatch_echo left the channel
+06-05 21:55 :> added pivalmax to database
+06-05 21:58 :> got userstats for thepretenderr : (u'thepretenderr', 84.84664944444442, 0.0, 143)
+06-05 21:59 :> pivalmax left the channel
+06-05 22:00 :> ninjakid574 left the channel
+06-05 22:02 :> ninjakid574 has joined the channel
+06-05 22:02 :> added ggth1901 to database
+06-05 22:04 :> immaalwaysbeme left the channel
+06-05 22:05 :> ianzhougaming left the channel
+06-05 22:05 :> helldoggz left the channel
+06-05 22:07 :> abaddonwar has joined the channel
+06-05 22:07 :> ggth1901 left the channel
+06-05 22:08 :> top users requested
+06-05 22:08 :> added drasticrave to database
+06-05 22:08 :> added plibbb to database
+06-05 22:09 :> got userstats for ninjakid574 : (u'ninjakid574', 21.536334722222218, 0.0, 886)
+06-05 22:09 :> added goatoz to database
+06-05 22:09 :> added oncloud9420 to database
+06-05 22:09 :> plibbb left the channel
+06-05 22:10 :> goatoz left the channel
+06-05 22:13 :> oncloud9420 left the channel
+06-05 22:16 :> added gotterdammerdom to database
+06-05 22:16 :> ike444 left the channel
+06-05 22:17 :> gotterdammerdom left the channel
+06-05 22:18 :> ike444 has joined the channel
+06-05 22:18 :> abaddonwar left the channel
+06-05 22:24 :> added zaumero to database
+06-05 22:25 :> added jamelqueens to database
+06-05 22:27 :> jamelqueens left the channel
+06-05 22:29 :> ike444 left the channel
+06-06 16:46 :> jrkyex has joined the channel
+06-06 16:46 :> thepretenderr has joined the channel
+06-06 16:46 :> dabolinkbot has joined the channel
+06-06 16:47 :> top users requested
+06-06 16:48 :> mrspuddddies has joined the channel
+06-06 16:48 :> thepretenderr left the channel
+06-06 16:49 :> thepretenderr has joined the channel
+06-06 16:52 :> loxebi has joined the channel
+06-06 16:54 :> loxebi left the channel
+06-06 17:01 :> added coolkid5665 to database
+06-06 17:03 :> coolkid5665 left the channel
+06-06 17:18 :> mrspuddddies left the channel
+06-06 17:19 :> mrspuddddies has joined the channel
+06-06 17:24 :> locagiess has joined the channel
+06-06 17:38 :> captmikey has joined the channel
+06-06 17:40 :> meetnik_ has joined the channel
+06-06 18:07 :> added dzspart to database
+06-06 18:08 :> meetnik_ left the channel
+06-06 18:08 :> dzspart left the channel
+06-06 18:40 :> jrkyex left the channel
+06-06 18:41 :> jrkyex has joined the channel
+06-06 18:57 :> m00nski has joined the channel
+06-06 19:00 :> m00nski left the channel
+06-06 19:04 :> infernodes78 has joined the channel
+06-06 19:06 :> thepretenderr left the channel
+06-07 20:05 :> jrkyex has joined the channel
+06-07 20:05 :> thepretenderr has joined the channel
+06-07 20:05 :> dabolinkbot has joined the channel
+06-07 20:07 :> ninjakid574 has joined the channel
+06-07 20:14 :> haladslader has joined the channel
+06-07 20:21 :> got userstats for thepretenderr : (u'thepretenderr', 85.63142999999998, 0.0, 145)
+06-07 20:21 :> yukichama has joined the channel
+06-07 20:21 :> top users requested
+06-07 20:28 :> officialp4nd3m1c has joined the channel
+06-07 20:31 :> topez64 has joined the channel
+06-07 20:33 :> officialp4nd3m1c left the channel
+06-07 20:36 :> infernodes78 has joined the channel
+06-07 20:44 :> ianzhougaming has joined the channel
+06-07 20:49 :> yukichama left the channel
+06-07 20:56 :> added slapthatmonkey9 to database
+06-07 20:59 :> dabolinkbot has joined the channel
+06-07 20:59 :> haladslader has joined the channel
+06-07 20:59 :> jrkyex has joined the channel
+06-07 20:59 :> thepretenderr has joined the channel
+06-07 20:59 :> ianzhougaming has joined the channel
+06-07 20:59 :> infernodes78 has joined the channel
+06-07 20:59 :> ninjakid574 has joined the channel
+06-07 20:59 :> topez64 has joined the channel
+06-07 21:01 :> topez64 left the channel
+06-07 21:05 :> topez64 has joined the channel
+06-07 21:14 :> added happyhousenut to database
+06-07 21:17 :> happyhousenut left the channel
+06-07 21:18 :> got userstats for topez64 : (u'topez64', 24.251713888888887, 0.0, 282)
+06-07 21:18 :> got userstats for infernodes78 : (u'infernodes78', 16.392380555555558, 0.0, 332)
+06-07 21:19 :> got userstats for ianzhougaming : (u'ianzhougaming', 12.118085833333335, 0.0, 1931)
+06-07 21:20 :> got userstats for dabolinkbot : (u'dabolinkbot', 106.56310972222221, 0.0, 407)
+06-07 21:20 :> dabolink has joined the channel
+06-07 21:20 :> got userstats for dabolink : (u'dabolink', 56.510559722222226, 0.0, 495)
+06-07 21:21 :> top users requested
+06-07 21:37 :> infernodes78 left the channel
+06-07 21:49 :> added kobraru to database
+06-07 21:50 :> kobraru left the channel
+06-07 21:52 :> ninjakid574 left the channel
+06-07 21:52 :> jrkyex left the channel
+06-07 21:52 :> haladslader left the channel
+06-07 21:53 :> ninjakid574 has joined the channel
+06-07 21:53 :> haladslader has joined the channel
+06-07 21:53 :> dabolink left the channel
+06-07 21:58 :> jrkyex has joined the channel
+06-07 21:59 :> infernodes78 has joined the channel
+06-07 22:02 :> jrkyex left the channel
+06-07 22:10 :> infernodes78 left the channel
+06-07 22:19 :> dabolink has joined the channel
+06-07 22:20 :> topez64 left the channel
+06-07 22:32 :> topez64 has joined the channel
+06-07 22:34 :> added dank__doge to database
+06-07 22:49 :> dank__doge left the channel
+06-07 22:51 :> haladslader left the channel
+06-07 23:09 :> dabolink has joined the channel
+06-07 23:09 :> dabolinkbot has joined the channel
+06-07 23:09 :> thepretenderr has joined the channel
+06-07 23:09 :> ianzhougaming has joined the channel
+06-07 23:12 :> topez64 has joined the channel
+06-07 23:12 :> got userstats for topez64 : (u'topez64', 24.765539722222222, 0.0, 289)
+06-07 23:16 :> got userstats for dabolink : (u'dabolink', 57.33932361111111, 0.0, 525)
+06-07 23:28 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.157833055555557, 0.0, 1961)
+06-07 23:29 :> raskalian has joined the channel
+06-07 23:29 :> got userstats for thepretenderr : (u'thepretenderr', 88.65758749999998, 0.0, 145)
+06-07 23:29 :> got userstats for raskalian : (u'raskalian', 9.723994166666667, 0.0, 535)
+06-07 23:32 :> got userstats for topez64 : (u'topez64', 25.102841388888887, 0.0, 301)
+06-07 23:34 :> added rowendeln to database
+06-07 23:35 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.272934722222223, 0.0, 1972)
+06-07 23:35 :> got userstats for topez64 : (u'topez64', 25.146830833333333, 0.0, 315)
+06-07 23:35 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.2788725, 0.0, 1974)
+06-07 23:35 :> rowendeln left the channel
+06-07 23:37 :> omgilikeitalot has joined the channel
+06-07 23:38 :> omgilikeitalot left the channel
+06-07 23:39 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.334278611111111, 0.0, 1982)
+06-07 23:45 :> added jacerzz to database
+06-07 23:46 :> rowendeln has joined the channel
+06-07 23:47 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.47611, 0.0, 1990)
+06-07 23:58 :> rowendeln left the channel
+06-08 00:01 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.700199722222223, 0.0, 1993)
+06-08 00:01 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.710396111111113, 0.0, 1995)
+06-08 00:02 :> jologaming598 has joined the channel
+06-08 00:02 :> jacerzz left the channel
+06-08 00:02 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.727829444444446, 0.0, 1998)
+06-08 00:03 :> jologaming598 left the channel
+06-08 00:04 :> got userstats for ianzhougaming : (u'ianzhougaming', 14.757506666666668, 0.0, 2003)
+06-08 00:06 :> ianzhougaming left the channel
+06-08 00:07 :> jacerzz has joined the channel
+06-08 00:25 :> got userstats for topez64 : (u'topez64', 25.984090833333333, 0.0, 323)
+06-08 00:37 :> dabolink left the channel
+06-08 00:38 :> added easorucoa to database
+06-08 00:38 :> dabolink has joined the channel
+06-08 00:41 :> easorucoa left the channel
+06-08 00:44 :> got userstats for topez64 : (u'topez64', 26.29412333333333, 0.0, 323)
+06-08 01:10 :> added beben to database
+06-08 01:12 :> got userstats for topez64 : (u'topez64', 26.756166666666665, 0.0, 323)
+06-08 01:14 :> beben left the channel
+06-08 01:15 :> added manplatypusfrog to database
+06-08 01:18 :> added hanz0_hattori to database
+06-08 01:20 :> manplatypusfrog left the channel
+06-08 01:30 :> easorucoa has joined the channel
+06-08 01:34 :> easorucoa left the channel
+06-08 01:47 :> dabolink has joined the channel
+06-08 01:47 :> raskalian has joined the channel
+06-08 01:47 :> thepretenderr has joined the channel
+06-08 01:47 :> topez64 has joined the channel
+06-08 01:47 :> added godzhand007 to database
+06-08 01:47 :> hanz0_hattori has joined the channel
+06-08 01:47 :> dabolinkbot has joined the channel
+06-08 01:47 :> got userstats for topez64 : (u'topez64', 26.76187861111111, 0.0, 324)
+06-08 01:47 :> got userstats for thepretenderr : (u'thepretenderr', 88.66441749999997, 0.0, 146)
+06-08 01:47 :> got userstats for dabolink : (u'dabolink', 57.34998972222222, 0.0, 537)
+06-08 01:47 :> got userstats for raskalian : (u'raskalian', 9.737038055555557, 0.0, 535)
+06-08 01:48 :> got userstats for hanz0_hattori : (u'hanz0_hattori', 0.018074999999999997, 0.0, 8)
+06-08 01:51 :> added geralboss to database
+06-08 01:53 :> geralboss left the channel
+06-08 01:54 :> added napalmpoem to database
+06-08 01:57 :> added ultimate_danny to database
+06-08 01:57 :> godzhand007 left the channel
+06-08 01:58 :> ultimate_danny left the channel
+06-08 02:02 :> napalmpoem left the channel
+06-08 02:09 :> hanz0_hattori left the channel
+06-08 02:13 :> topez64 left the channel
+06-08 02:14 :> topez64 has joined the channel
+06-08 02:21 :> jacerzz has joined the channel
+06-08 23:07 :> dabolink has joined the channel
+06-08 23:07 :> thepretenderr has joined the channel
+06-08 23:07 :> dabolinkbot has joined the channel
+06-08 23:08 :> ninjakid574 has joined the channel
+06-08 23:09 :> haladslader has joined the channel
+06-08 23:09 :> dabolink left the channel
+06-08 23:09 :> ninjakid574 left the channel
+06-08 23:10 :> dabolink has joined the channel
+06-08 23:11 :> thecakeisyum has joined the channel
+06-08 23:11 :> added bailepoint3 to database
+06-08 23:14 :> bailepoint3 left the channel
+06-08 23:14 :> thecakeisyum left the channel
+06-08 23:27 :> dabolink has joined the channel
+06-08 23:27 :> dabolinkbot has joined the channel
+06-08 23:27 :> haladslader has joined the channel
+06-08 23:27 :> thepretenderr has joined the channel
+06-08 23:27 :> added chris_dot to database
+06-08 23:28 :> chris_dot left the channel
+06-08 23:33 :> dabolink has joined the channel
+06-08 23:33 :> haladslader has joined the channel
+06-08 23:33 :> thepretenderr has joined the channel
+06-08 23:33 :> ianzhougaming has joined the channel
+06-08 23:33 :> dabolinkbot has joined the channel
+06-08 23:38 :> got userstats for dabolink : (u'dabolink', 58.250724166666664, 0.0, 542)
+06-08 23:38 :> got userstats for thepretenderr : (u'thepretenderr', 89.57212166666663, 0.0, 147)
+06-08 23:40 :> added ccc0416 to database
+06-08 23:43 :> added kyoshimo to database
+06-08 23:44 :> added toiganus to database
+06-08 23:45 :> kyoshimo left the channel
+06-08 23:46 :> added ovldnz to database
+06-08 23:49 :> got userstats for thepretenderr : (u'thepretenderr', 89.7499694444444, 0.0, 147)
+06-08 23:50 :> omgilikeitalot has joined the channel
+06-08 23:54 :> omgilikeitalot left the channel
+06-08 23:56 :> added maksimtim to database
+06-08 23:57 :> ovldnz left the channel
+06-08 23:57 :> got userstats for ianzhougaming : (u'ianzhougaming', 15.17229777777778, 0.0, 2037)
+06-08 23:58 :> got userstats for haladslader : (u'haladslader', 19.165048055555555, 0.0, 223)
+06-09 00:03 :> added razetedgy to database
+06-09 00:04 :> maksimtim left the channel
+06-09 00:05 :> mrspuddddies has joined the channel
+06-09 00:05 :> ianzhougaming left the channel
+06-09 00:06 :> ianzhougaming has joined the channel
+06-09 00:06 :> razetedgy left the channel
+06-09 00:11 :> tuokki has joined the channel
+06-09 00:11 :> mrspuddddies left the channel
+06-09 00:13 :> added lionsblackjack to database
+06-09 00:15 :> lionsblackjack left the channel
+06-09 13:23 :> thepretenderr has joined the channel
+06-09 13:23 :> dabolinkbot has joined the channel
+06-09 13:26 :> loxebi has joined the channel
+06-09 13:26 :> haladslader has joined the channel
+06-09 13:34 :> loxebi left the channel
+06-09 13:35 :> raskalian has joined the channel
+06-09 14:13 :> thepretenderr has joined the channel
+06-09 14:13 :> dabolinkbot has joined the channel
+06-09 14:15 :> raskalian has joined the channel
+06-09 14:25 :> ianzhougaming has joined the channel
+06-09 14:33 :> added autistic_dog to database
+06-09 14:36 :> raskalian left the channel
+06-09 14:36 :> thepretenderr left the channel
+06-12 17:10 :> thepretenderr has joined the channel
+06-12 17:10 :> dabolinkbot has joined the channel
+06-12 17:11 :> raskalian has joined the channel
+06-12 17:13 :> got userstats for raskalian : (u'raskalian', 11.024568055555557, 0.0, 553)
+06-12 17:17 :> got userstats for thepretenderr : (u'thepretenderr', 90.95318083333329, 0.0, 149)
+06-12 17:22 :> todstelzer has joined the channel
+06-12 17:25 :> raskalian left the channel
+06-12 17:26 :> raskalian has joined the channel
+06-12 17:26 :> todstelzer left the channel
+06-12 17:29 :> raskalian left the channel
+06-12 17:30 :> added meshabob to database
+06-12 17:35 :> meshabob left the channel
+06-12 17:36 :> meshabob has joined the channel
+06-12 17:39 :> infernodes78 has joined the channel
+06-12 17:42 :> raskalian has joined the channel
+06-12 18:04 :> m00nski has joined the channel
+06-12 18:07 :> m00nski left the channel
+06-12 18:08 :> ianzhougaming has joined the channel
+06-12 18:10 :> ianzhougaming left the channel
+06-12 18:24 :> raskalian left the channel
+06-12 18:34 :> raskalian has joined the channel
+06-12 18:43 :> raskalian left the channel
+06-12 18:51 :> meshabob left the channel
+06-12 18:58 :> rhulaan has joined the channel
+06-12 19:00 :> rhulaan left the channel
+06-12 19:15 :> raskalian has joined the channel
+06-12 19:18 :> raskalian left the channel
+06-12 19:18 :> infernodes78 left the channel
+06-12 19:46 :> captmikey has joined the channel
+06-12 19:49 :> captmikey left the channel
+06-12 20:05 :> topez64 has joined the channel
+06-12 20:43 :> topez64 left the channel
+06-12 20:52 :> m00nski has joined the channel
+06-12 21:06 :> topez64 has joined the channel
+06-12 21:22 :> ianzhougaming has joined the channel
+06-12 21:23 :> got userstats for topez64 : (u'topez64', 27.41545, 0.0, 326)
+06-12 21:24 :> got userstats for ianzhougaming : (u'ianzhougaming', 15.587487500000002, 0.0, 2087)
+06-12 22:31 :> m00nski left the channel
+06-12 22:32 :> topez64 left the channel
+06-12 22:33 :> topez64 has joined the channel
+06-12 22:44 :> topez64 left the channel
+06-13 18:39 :> dabolinkbot has joined the channel
+06-15 22:47 :> dabolink has joined the channel
+06-15 22:47 :> haladslader has joined the channel
+06-15 22:47 :> nightbot has joined the channel
+06-15 22:47 :> thepretenderr has joined the channel
+06-15 22:47 :> ianzhougaming has joined the channel
+06-15 22:47 :> jacerzz has joined the channel
+06-15 22:47 :> dabolinkbot has joined the channel
+06-15 23:06 :> got userstats for dabolink : (u'dabolink', 59.2067675, 0.0, 553)
+06-15 23:06 :> top users requested
+06-16 00:30 :> haladslader has joined the channel
+06-16 00:30 :> nightbot has joined the channel
+06-16 00:30 :> raskalian has joined the channel
+06-16 00:30 :> thepretenderr has joined the channel
+06-16 00:30 :> ianzhougaming has joined the channel
+06-16 00:30 :> dabolinkbot has joined the channel
+06-24 15:54 :> nightbot has joined the channel
+06-24 15:54 :> thepretenderr has joined the channel
+06-24 15:54 :> captmikey has joined the channel
+06-24 15:54 :> added cityboy6661 to database
+06-24 15:54 :> deathfirexl has joined the channel
+06-24 15:54 :> jacerzz has joined the channel
+06-24 15:54 :> dabolinkbot has joined the channel
+06-24 21:30 :> thepretenderr has joined the channel
+06-24 21:30 :> deathfirexl has joined the channel
+06-24 21:30 :> dabolinkbot has joined the channel
+06-26 19:13 :> thepretenderr has joined the channel
+06-26 19:13 :> dabolinkbot has joined the channel
+07-08 17:07 :> dabolinkbot has joined the channel
+07-08 17:10 :> dabolinkbot has joined the channel
+07-08 17:13 :> dabolinkbot has joined the channel
+07-08 17:45 :> dabolink has joined the channel
+07-08 17:45 :> thepretenderr has joined the channel
+07-08 17:45 :> added alvin3639 to database
+07-08 17:45 :> dabolinkbot has joined the channel
+07-08 17:48 :> dabolink has joined the channel
+07-08 17:48 :> thepretenderr has joined the channel
+07-08 17:48 :> alvin3639 has joined the channel
+07-08 17:48 :> dabolinkbot has joined the channel
+07-08 17:49 :> dabolink has joined the channel
+07-08 17:49 :> dabolinkbot has joined the channel
+07-08 17:49 :> thepretenderr has joined the channel
+07-08 17:49 :> topez64 has joined the channel
+07-08 17:49 :> alvin3639 has joined the channel
+07-08 17:50 :> dabolinkbot has joined the channel
+07-08 17:57 :> dabolinkbot has joined the channel
+07-08 17:58 :> dabolink has joined the channel
+07-08 17:58 :> thepretenderr has joined the channel
+07-08 17:58 :> topez64 has joined the channel
+07-08 17:58 :> alvin3639 has joined the channel
+07-08 17:58 :> dabolinkbot has joined the channel
+07-08 17:58 :> got userstats for thepretenderr : (u'thepretenderr', 99.22543527777775, 0.0, 151)
+07-08 17:59 :> got userstats for topez64 : (u'topez64', 27.429771388888888, 0.0, 346)
+07-08 17:59 :> got userstats for alvin3639 : (u'alvin3639', 0.02818388888888889, 0.0, 1)
+07-08 18:25 :> top users requested
+07-08 18:34 :> dabolink has joined the channel
+07-08 18:34 :> dabolinkbot has joined the channel
+07-08 18:34 :> thepretenderr has joined the channel
+07-08 18:34 :> topez64 has joined the channel
+07-08 18:41 :> got userstats for topez64 : (u'topez64', 28.129960277777776, 0.0, 360)
+07-08 18:43 :> got userstats for thepretenderr : (u'thepretenderr', 99.96757666666663, 0.0, 153)
+07-08 18:54 :> dabolink has joined the channel
+07-08 18:54 :> dabolinkbot has joined the channel
+07-08 18:54 :> thepretenderr has joined the channel
+07-08 18:54 :> topez64 has joined the channel
+07-08 19:06 :> dabolink has joined the channel
+07-08 19:06 :> dabolinkbot has joined the channel
+07-08 19:06 :> thepretenderr has joined the channel
+07-08 19:06 :> topez64 has joined the channel
+07-08 19:06 :> alvin3639 has joined the channel
+07-08 19:42 :> got userstats for thepretenderr : (u'thepretenderr', 100.82693777777774, 0.0, 153)
+07-08 19:42 :> top users requested
+07-08 19:44 :> got userstats for thepretenderr : (u'thepretenderr', 100.86604722222219, 0.0, 153)
+07-08 19:50 :> got userstats for topez64 : (u'topez64', 29.16636833333333, 0.0, 373)
+07-08 20:08 :> top users requested
+07-08 21:43 :> dabolink has joined the channel
+07-08 21:43 :> haladslader has joined the channel
+07-08 21:43 :> thepretenderr has joined the channel
+07-08 21:43 :> topez64 has joined the channel
+07-08 21:43 :> alvin3639 has joined the channel
+07-08 21:43 :> added fctwentegirl to database
+07-08 21:43 :> ianzhougaming has joined the channel
+07-08 21:43 :> added zakthezombie to database
+07-08 21:43 :> dabolinkbot has joined the channel
+07-08 21:44 :> dabolink has joined the channel
+07-08 21:44 :> dabolinkbot has joined the channel
+07-08 21:44 :> haladslader has joined the channel
+07-08 21:44 :> thepretenderr has joined the channel
+07-08 21:44 :> topez64 has joined the channel
+07-08 21:44 :> alvin3639 has joined the channel
+07-08 21:44 :> fctwentegirl has joined the channel
+07-08 21:44 :> ianzhougaming has joined the channel
+07-08 21:44 :> zakthezombie has joined the channel
+07-08 22:07 :> got userstats for topez64 : (u'topez64', 31.431290555555556, 0.0, 394)
+07-08 22:07 :> top users requested
+07-08 22:15 :> got userstats for alvin3639 : (u'alvin3639', 3.737553611111111, 0.0, 48)
+07-09 18:59 :> dabolinkbot has joined the channel
+07-09 19:00 :> dabolinkbot has joined the channel
+07-09 19:01 :> dabolinkbot has joined the channel
+07-09 19:09 :> dabolink has joined the channel
+07-09 19:09 :> dabolinkbot has joined the channel
+07-09 19:10 :> dabolink has joined the channel
+07-09 19:10 :> dabolinkbot has joined the channel
+07-09 20:15 :> thepretenderr has joined the channel
+07-09 20:15 :> dabolinkbot has joined the channel
+07-09 20:21 :> dabolink has joined the channel
+07-09 20:21 :> thepretenderr has joined the channel
+07-09 20:21 :> dabolinkbot has joined the channel
+07-09 20:23 :> dabolink has joined the channel
+07-09 20:23 :> dabolinkbot has joined the channel
+07-09 20:23 :> thepretenderr has joined the channel
+07-09 20:28 :> dabolinkbot has joined the channel
+07-09 20:28 :> jrkyex has joined the channel
+07-09 20:28 :> thepretenderr has joined the channel
+07-09 20:33 :> dabolinkbot has joined the channel
+07-09 20:33 :> jrkyex has joined the channel
+07-09 20:33 :> thepretenderr has joined the channel
+07-09 20:34 :> dabolinkbot has joined the channel
+07-09 20:34 :> jrkyex has joined the channel
+07-09 20:34 :> thepretenderr has joined the channel
+07-09 20:35 :> dabolinkbot has joined the channel
+07-09 20:35 :> jrkyex has joined the channel
+07-09 20:35 :> thepretenderr has joined the channel
+07-09 20:36 :> dabolinkbot has joined the channel
+07-09 20:36 :> jrkyex has joined the channel
+07-09 20:36 :> thepretenderr has joined the channel
+07-09 20:38 :> jrkyex has joined the channel
+07-09 20:38 :> thepretenderr has joined the channel
+07-09 20:38 :> dabolinkbot has joined the channel
+07-09 20:38 :> jrkyex has joined the channel
+07-09 20:38 :> thepretenderr has joined the channel
+07-09 20:38 :> dabolinkbot has joined the channel
+07-09 20:40 :> dabolink has joined the channel
+07-09 20:40 :> jrkyex has joined the channel
+07-09 20:40 :> thepretenderr has joined the channel
+07-09 20:40 :> dabolinkbot has joined the channel
+07-09 21:10 :> thepretenderr has joined the channel
+07-09 21:10 :> dabolinkbot has joined the channel
+07-09 21:26 :> added mowudown to database
+07-09 21:27 :> mowudown left the channel
+07-09 21:34 :> haladslader has joined the channel
+07-09 21:35 :> got userstats for thepretenderr : (u'thepretenderr', 104.20228333333331, 0.0, 155)
+07-09 21:45 :> dabolink has joined the channel
+07-09 21:52 :> jacerzz has joined the channel
+07-09 21:56 :> thepretenderr left the channel
+07-09 21:57 :> thepretenderr has joined the channel
+07-09 22:01 :> added billyg120898 to database
+07-09 22:05 :> jacerzz left the channel
+07-09 22:07 :> billyg120898 left the channel
+07-09 22:41 :> added fatalan87 to database
+07-09 22:42 :> top users requested
+07-09 22:44 :> fatalan87 left the channel
+07-09 22:53 :> got userstats for dabolink : (u'dabolink', 64.91678027777776, 0.0, 580)
+07-09 22:54 :> dabolink left the channel
+07-09 22:55 :> dabolink has joined the channel
+07-09 23:07 :> added vegasmafia to database
+07-09 23:08 :> vegasmafia left the channel
+07-09 23:16 :> haladslader left the channel
+07-09 23:26 :> added trojan_jo to database
+07-11 11:53 :> thepretenderr has joined the channel
+07-11 11:53 :> dabolinkbot has joined the channel
+07-11 11:55 :> haladslader has joined the channel
+07-11 12:09 :> haladslader left the channel
+07-11 13:04 :> alvin3639 has joined the channel
+07-11 13:08 :> dabolinkbot has joined the channel
+07-11 13:08 :> thepretenderr has joined the channel
+07-11 13:08 :> alvin3639 has joined the channel
+07-11 13:10 :> dabolinkbot has joined the channel
+07-11 13:10 :> thepretenderr has joined the channel
+07-11 13:10 :> alvin3639 has joined the channel
+07-11 13:13 :> ziompolskiwroc has joined the channel
+07-11 13:17 :> gingytrucking has joined the channel
+07-11 13:22 :> got userstats for thepretenderr : (u'thepretenderr', 105.93424944444442, 0.0, 155)
+07-11 13:22 :> top users requested
+07-11 13:23 :> ziompolskiwroc left the channel
+07-11 13:24 :> gingytrucking left the channel
+07-11 13:26 :> dabolink has joined the channel
+07-11 13:28 :> added filthdog to database
+07-11 13:28 :> zakthezombie has joined the channel
+07-11 13:33 :> filthdog left the channel
+07-11 13:57 :> dabolink has joined the channel
+07-11 13:57 :> dabolinkbot has joined the channel
+07-11 13:57 :> thepretenderr has joined the channel
+07-11 13:57 :> alvin3639 has joined the channel
+07-11 13:57 :> zakthezombie has joined the channel
+07-11 14:37 :> added sofa_bro to database
+07-11 14:38 :> sofa_bro left the channel
+07-11 15:31 :> dabolink has joined the channel
+07-11 15:31 :> thepretenderr has joined the channel
+07-11 15:31 :> gingytrucking has joined the channel
+07-11 15:31 :> zakthezombie has joined the channel
+07-11 15:31 :> dabolinkbot has joined the channel
+07-11 15:31 :> dabolink has joined the channel
+07-11 15:31 :> thepretenderr has joined the channel
+07-11 15:31 :> gingytrucking has joined the channel
+07-11 15:31 :> zakthezombie has joined the channel
+07-11 15:31 :> dabolinkbot has joined the channel
+07-11 15:33 :> dabolink has joined the channel
+07-11 15:33 :> dabolinkbot has joined the channel
+07-11 15:33 :> thepretenderr has joined the channel
+07-11 15:33 :> gingytrucking has joined the channel
+07-11 15:33 :> zakthezombie has joined the channel
+07-11 15:35 :> captmikey has joined the channel
+07-11 15:44 :> captmikey left the channel
+07-11 15:51 :> alvin3639 has joined the channel
+07-11 15:57 :> ianzhougaming has joined the channel
+07-11 16:05 :> got userstats for thepretenderr : (u'thepretenderr', 108.63868277777775, 0.0, 155)
+07-11 16:06 :> got userstats for ianzhougaming : (u'ianzhougaming', 18.030323611111108, 0.0, 2262)
+07-11 16:23 :> added derpishland to database
+07-11 16:24 :> derpishland left the channel
+07-11 16:49 :> ianzhougaming left the channel
+07-11 16:50 :> gingytrucking left the channel
+07-11 18:16 :> thepretenderr has joined the channel
+07-11 18:16 :> dabolinkbot has joined the channel
+07-11 18:19 :> raskalian has joined the channel
+07-11 18:20 :> raskalian left the channel
+07-11 18:27 :> added coidasice to database
+07-11 18:29 :> coidasice left the channel
+07-11 18:34 :> jacerzz has joined the channel
+07-11 18:40 :> jacerzz left the channel
+07-11 18:52 :> drinkingninja has joined the channel
+07-11 18:53 :> drinkingninja left the channel
+07-11 19:12 :> raskalian has joined the channel
+07-11 19:31 :> jacerzz has joined the channel
+07-11 19:33 :> jacerzz left the channel
+07-11 20:05 :> dabolinkbot has joined the channel
+07-11 20:05 :> raskalian has joined the channel
+07-11 20:05 :> thepretenderr has joined the channel
+07-11 20:23 :> added woodhoda to database
+07-11 20:30 :> woodhoda left the channel
+07-11 21:28 :> added ray66h to database
+07-11 21:29 :> ray66h left the channel
+07-11 21:39 :> raskalian left the channel
+07-11 21:40 :> raskalian has joined the channel
+07-11 22:00 :> topez64 has joined the channel
+07-11 22:03 :> top users requested
+07-11 22:42 :> jrkyex has joined the channel
+07-11 22:43 :> jrkyex left the channel
+07-11 23:07 :> meetnik_ has joined the channel
+07-11 23:09 :> meetnik_ left the channel
+07-11 23:10 :> meetnik_ has joined the channel
+07-11 23:12 :> added sxsst02 to database
+07-11 23:13 :> sxsst02 left the channel
+07-11 23:14 :> added dawnoble to database
+07-11 23:16 :> dawnoble left the channel
+07-11 23:17 :> added fabinhorox to database
+07-11 23:18 :> fabinhorox left the channel
+07-11 23:34 :> got userstats for topez64 : (u'topez64', 33.54774444444445, 0.0, 407)
+07-11 23:34 :> top users requested
+07-11 23:55 :> added eylareth to database
+07-11 23:56 :> eylareth left the channel
+07-11 23:59 :> dabolink has joined the channel
+07-12 00:02 :> got userstats for dabolink : (u'dabolink', 68.94647444444442, 0.0, 594)
+07-12 00:07 :> dabolink left the channel
+07-12 00:24 :> meetnik_ left the channel
+07-12 00:46 :> ianzhougaming has joined the channel
+07-12 00:47 :> ianzhougaming left the channel
+07-12 01:19 :> added oakfloorboard to database
+07-12 01:25 :> oakfloorboard left the channel
+07-12 01:26 :> omgilikeitalot has joined the channel
+07-12 01:27 :> omgilikeitalot left the channel
+07-12 01:28 :> dabolink has joined the channel
+07-12 01:28 :> dabolink left the channel
+07-12 01:29 :> added phaedra1973 to database
+07-12 01:34 :> phaedra1973 left the channel
+07-12 01:45 :> added draconixx to database
+07-12 01:46 :> draconixx left the channel
+07-12 02:03 :> added dizzycatt to database
+07-12 02:04 :> dizzycatt left the channel
+07-12 02:09 :> added madoxs to database
+07-12 02:17 :> added ultima_ken to database
+07-12 02:19 :> ultima_ken left the channel

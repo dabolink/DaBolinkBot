@@ -1,0 +1,13 @@
+Process Process-1:6:
+Traceback (most recent call last):
+  File "E:\Python27\lib\multiprocessing\process.py", line 258, in _bootstrap
+    self.run()
+  File "E:\Python27\lib\multiprocessing\process.py", line 114, in run
+    self._target(*self._args, **self._kwargs)
+  File "E:\Projects\PycharmProjects\DaBolinkBot\Backend\Irc\Out.py", line 71, in start
+    parse_output(bot, irc, output)
+  File "E:\Projects\PycharmProjects\DaBolinkBot\Backend\Irc\Out.py", line 12, in parse_output
+    irc_send(bot, irc, output[1])
+  File "E:\Projects\PycharmProjects\DaBolinkBot\Backend\Irc\Out.py", line 7, in irc_send
+    irc.send("PRIVMSG #{} :{}\r\n".format(bot.channel, message))
+UnicodeEncodeError: 'ascii' codec can't encode character u'\u5350' in position 0: ordinal not in range(128)

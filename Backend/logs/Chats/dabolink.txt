@@ -1,0 +1,188 @@
+05-25 21:41:> <dabolink> !dabolinkbot
+05-25 21:41:> <dabolinkbot> dabolinkbot is superior to non-bots
+05-25 21:41:> <dabolink> !execute
+05-25 22:23:> <dabolink> !execute
+05-25 22:25:> <dabolink> !execute
+05-26 00:10 :> <dabolink> hello
+05-26 00:10 :> <dabolink> !cmd
+05-26 00:10 :> <dabolink> !cv
+05-26 00:10 :> <dabolinkbot> curse voice has not been set
+05-26 00:10 :> <dabolink> !add dabolink
+05-26 00:10 :> <dabolinkbot> you are special dabolink, dabolink has added you to the front of the line
+05-26 00:10 :> <dabolink> !next
+05-26 00:10 :> <dabolinkbot> next up... the amazing: dabolink
+05-26 16:03 :> <dabolink> this is a test
+05-26 16:03 :> <dabolink> !dabolinkbot
+05-26 16:03 :> <dabolinkbot> dabolinkbot is superior to non-bots
+05-26 16:03 :> <dabolink> !userstats
+05-26 16:03 :> <dabolinkbot> dabolink has been in chat for 0 hour(s) and 4 minute(s) and has written 3 line(s) of text
+05-26 16:07 :> <dabolink> this is a test
+05-26 16:07 :> <dabolink> !dabolinkbot
+05-26 16:07 :> <dabolinkbot> dabolinkbot is superior to non-bots
+05-26 16:07 :> <dabolink> !queue clear
+05-26 16:07 :> <dabolink> !clear
+05-26 16:09 :> <dabolink> !execute
+05-26 16:09 :> <dabolink> !clear
+05-26 16:09 :> <dabolinkbot> queue has been cleared
+05-26 16:09 :> <dabolink> !print queue
+05-26 16:09 :> <dabolink> !print viewers
+05-26 16:10 :> <dabolink> !print followers
+05-26 16:10 :> <dabolinkbot> [u'raverfx', u'thepretenderr', u'jrkyex', u'kkkradical']
+05-26 16:10 :> <dabolinkbot> 4
+05-26 16:11 :> <dabolink> !print permits
+05-26 16:11 :> <dabolinkbot> {'dabolink': 1}
+05-26 16:11 :> <dabolink> !print queues
+05-26 16:11 :> <dabolinkbot> [], []
+05-26 16:11 :> <dabolink> !print users
+05-26 16:11 :> <dabolinkbot> [(dabolink, 2015-05-26 23:09:16.464000, true), (dabolinkbot, 2015-05-26 23:09:16.464000, true)]
+05-26 16:11 :> <dabolink> !printmods
+05-26 16:11 :> <dabolink> !print mods
+05-26 16:11 :> <dabolinkbot> ['dabolinkbot', 'jrkyex', 'dabolink']
+05-26 16:13 :> <dabolinkbot> new follower!!!! raverfx, thepretenderr, jrkyex, kkkradical !!!! raise your kappas kappa kappa kappa kappa !!!!
+05-26 16:13 :> <dabolink> it worked
+05-26 16:13 :> <dabolink> !execute
+05-26 16:14 :> <dabolinkbot> new follower!!!! raverfx, thepretenderr, jrkyex, kkkradical !!!! raise your kappas kappa kappa kappa kappa !!!!
+05-26 16:14 :> <dabolinkbot> new follower!!!! raverfx, thepretenderr, jrkyex, kkkradical !!!! raise your kappas kappa kappa kappa kappa !!!!
+05-26 16:15 :> <dabolink> !execute
+05-28 00:06 :> <dabolink> !dabolink
+05-28 00:06 :> <dabolink> !dabolinkbot
+05-28 00:06 :> <dabolinkbot> dabolinkbot is superior to non-bots
+05-28 00:06 :> <dabolink> !friendshi
+05-28 00:07 :> <dabolink> !friendship
+05-28 00:07 :> <dabolink> !execute
+05-28 00:08 :> <dabolink> !friendship
+05-28 00:08 :> <dabolink> !execute
+05-28 00:10 :> <dabolink> !friendship
+05-28 00:11 :> <dabolink> !execute
+05-28 00:13 :> <dabolink> !friendship
+05-28 00:14 :> <dabolink> !friendship
+05-28 00:17 :> <dabolink> !friendship
+05-28 00:17 :> <dabolinkbot>  u+0048 repost this windmill of friendship if you think europe should embrace racial diversity u+0048
+05-28 00:19 :> <dabolink> !friendshipo
+05-28 00:19 :> <dabolink> !friendshi
+05-28 00:19 :> <dabolink> !friendship
+05-28 00:19 :> <dabolinkbot>  ಠ_ಠ repost this windmill of friendship if you think europe should embrace racial diversity 
+05-28 00:20 :> <dabolink> !friendship
+05-28 00:20 :> <dabolinkbot>  28 repost this windmill of friendship if you think europe should embrace racial diversity 
+05-28 00:26 :> <dabolink> 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 repost this windmill of friendship if you think 
+05-28 00:27 :> <dabolink> 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 repost this windmill of friendship if you think 
+05-28 00:28 :> <dabolink> !friendship
+05-28 00:28 :> <dabolinkbot>  å repost this windmill of friendship if you think europe should embrace racial diversity 
+05-28 00:29 :> <dabolink> !friendship
+05-28 00:30 :> <dabolink> !friendship
+05-28 00:30 :> <dabolink> 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 卐 repost this windmill of friendship if you think 
+05-28 00:31 :> <dabolink> !friendship
+05-28 00:31 :> <dabolinkbot>  å  repost this windmill of friendship if you think europe should embrace racial diversity 
+05-28 00:34 :> <dabolink> !friendship
+05-28 00:34 :> <dabolinkbot>  å repost this windmill of friendship if you think europe should embrace racial diversity 
+05-29 10:52 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 10:53 :> <dabolink> !uptime
+05-29 10:53 :> <dabolinkbot>  stream is not up
+05-29 11:00 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 11:01 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 11:03 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 11:04 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 11:05 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 13:21 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 13:21 :> <dabolink> hello
+05-29 13:22 :> <dabolink> !add quote hello world
+05-29 13:22 :> <dabolinkbot>  you are special quote hello world, dabolink has added you to the front of the line
+05-29 13:22 :> <dabolink> !quote add hello world
+05-29 13:22 :> <dabolink> !execute
+05-29 13:24 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 13:24 :> <dabolink> !quote add hello world
+05-29 13:24 :> <dabolinkbot>  added quote to database
+05-29 13:24 :> <dabolink> !execute
+05-29 13:27 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 13:28 :> <dabolink> !quote add hello world
+05-29 13:28 :> <dabolinkbot>  added quote to database
+05-29 13:28 :> <dabolink> !quote
+05-29 13:29 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 13:29 :> <dabolink> !quote
+05-29 13:29 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 13:29 :> <dabolink> !quote
+05-29 13:29 :> <dabolinkbot>  "hello world" - dabolink(may 29 2015)
+05-29 13:46 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+05-29 13:46 :> <dabolink> !commands
+05-29 13:47 :> <dabolinkbot>  http://www.twitch.tv/dabolinkbot <- list of commands
+05-29 13:47 :> <dabolink> !execute
+06-03 00:30 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+06-03 00:32 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+06-03 00:36 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+06-03 00:39 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 15:11 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 15:57 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 15:57 :> <dabolinkbot>  goodbye stream :(
+07-08 16:04 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 16:06 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 16:15 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 16:15 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 17:53 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 17:54 :> <dabolink> !dabolinkbot
+07-08 17:54 :> <dabolinkbot>  dabolinkbot is superior to non-bots and other bots
+07-08 18:41 :> <dabolink> !print mods
+07-08 18:41 :> <dabolinkbot>  []
+07-08 18:43 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 18:43 :> <dabolink> !update mods
+07-08 18:46 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 18:46 :> <dabolinkbot>  /mods
+07-08 18:53 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-08 18:53 :> <dabolink> !mods
+07-08 18:54 :> <dabolink> !print mods
+07-08 18:54 :> <dabolinkbot>  [u'dabolink', u'dabolinkbot']
+07-08 18:54 :> <dabolink> !execute
+07-09 13:39 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 13:40 :> <dabolink> hi
+07-09 13:40 :> <dabolinkbot>  goodbye stream :(
+07-09 13:40 :> <dabolink> !userstats
+07-09 13:40 :> <dabolinkbot>  dabolink has been in chat for 0 hour(s) and 23 minute(s) and has written 9 line(s) of text. 
+07-09 13:40 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 13:41 :> <dabolink> !userstats
+07-09 13:41 :> <dabolinkbot>  dabolink has been in chat for 0 hour(s) and 24 minute(s) and has written 9 line(s) of text. 
+07-09 13:42 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 13:42 :> <dabolink> !userstats
+07-09 13:42 :> <dabolinkbot>  dabolink has been in chat for 0 hour(s) and 24 minute(s) and has written 9 line(s) of text. 
+07-09 13:42 :> <dabolink> !executre
+07-09 13:42 :> <dabolink> !execute
+07-09 13:42 :> <dabolink> !print mods
+07-09 13:43 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 13:43 :> <dabolink> !mods
+07-09 13:44 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 13:45 :> <dabolink> !mods
+07-09 13:45 :> <dabolink> !print mods
+07-09 13:45 :> <dabolinkbot>  [u'dabolink', u'dabolinkbot']
+07-09 13:45 :> <dabolink> !execute
+07-09 18:38 :> <dabolinkbot>  hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 18:39 :> <dabolinkbot>  goodbye stream :(
+07-09 20:19 :> <dabolinkbot> hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 20:20 :> <dabolinkbot> hello, i am dabolinkbot, i am here to help moderate the chat
+07-09 20:21 :> <dabolink> !mods
+07-10 12:38 :> <dabolink> test
+07-10 12:39 :> <dabolink> Test.
+07-10 12:40 :> <dabolink> this is a.aesfa
+07-10 12:40 :> <dabolink> abc.ade
+07-10 12:40 :> <dabolink> www.google.ca
+07-10 12:41 :> <dabolink> google.ca
+07-10 12:41 :> <dabolink> www.google.ca
+07-10 12:41 :> <dabolink> !print mods
+07-10 12:41 :> <dabolinkbot> ['dabolinkbot', 'jrkyex', 'dabolink']
+07-10 12:41 :> <dabolink> !print viewers
+07-10 12:41 :> <dabolink> !print users
+07-10 12:42 :> <dabolinkbot> [(dabolink, 2015-07-10 19:41:15.682000, True), (dabolinkbot, 2015-07-10 19:41:15.682000, True)]
+07-10 12:42 :> <dabolink> thisisatest.ca
+07-10 12:42 :> <dabolink> www.google.ca
+07-10 13:00 :> <dabolink> !execute
+07-10 13:01 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-10 13:01 :> <dabolink> !execute
+07-10 13:01 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-10 13:01 :> <dabolink> !userstats
+07-10 13:01 :> <dabolinkbot> dabolink has been in chat for 0 hour(s) and 27 minute(s) and has written 14 line(s) of text. 
+07-10 13:02 :> <dabolink> !execute
+07-10 13:02 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-10 13:02 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-10 13:02 :> <dabolink> !exeucute
+07-10 13:02 :> <dabolink> !execute
+07-10 13:02 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-10 13:03 :> <dabolink> !exeucte
+07-10 13:03 :> <dabolink> !execute
+07-10 13:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
