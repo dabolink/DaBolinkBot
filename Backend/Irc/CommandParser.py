@@ -27,7 +27,7 @@ def admin_commands(bot, q, user, command, parameters=None):
                 if parameters[1] == "off":
                     q.out_queue.put(("TOGGLE", "OFF"))
                 elif parameters[1] == "on":
-                    q.out.queue.put(("TOGGLE", "ON"))
+                    q.out_queue.put(("TOGGLE", "ON"))
 
     elif command == "bookmark":
         q.log_queue.put(("BOOKMARK",))

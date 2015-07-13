@@ -68,6 +68,8 @@ def start(bot, q):
     socket.setdefaulttimeout(5)
     while q.kill_queue.empty():
         msgData = irc.recv(2048)
+        if len(msgData) == 0:
+            print "msgData len = 0"
         print msgData
         i = 0
         try:
