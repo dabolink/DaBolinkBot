@@ -56,7 +56,7 @@ def start(bot, q):
     cur.execute("create table if not exists Quotes (date text, quote text)")
     # cur.execute("create table if not exists Channels (timeout  integer, follow_string text, curse_voice text)")
     conn.commit()
-
+    q.chat_queue.put(("VIEWERS", cur.execute("SELECT user FROM USERS WHERE hours >= ?", (bot.freq_viewer_time,)).fetchall()))
     while q.kill_queue.empty() or not killSecure:
         if not q.database_queue.empty():
             cmd = q.database_queue.get()
@@ -120,5 +120,5 @@ def start(bot, q):
             if not LOT == {}:
                 incrementLOTS(LOT)
                 LOT = {}
-            time.sleep(1)
+            time.sleep(bot.sleep_time)
     print "DATABASE UPDATER"

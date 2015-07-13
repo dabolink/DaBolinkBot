@@ -81,6 +81,6 @@ def start(bot, q):
             output = q.out_queue.get()
             parse_output(bot, irc, output)
         else:
-            sleep(1)
+            sleep(bot.sleep_time)
     print "OUT"
     irc_send_message(bot, irc, "Goodbye Stream :(")

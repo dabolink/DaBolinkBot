@@ -67,7 +67,7 @@ def startup(channel, check_online=False, q=None):
                 processes.append(multiprocessing.Process(target=VariableManager.VarManager.start, args=(bot, q)))
                 print "reset"
         else:
-            sleep(5)
+            sleep(bot.sleep_time*10)
     for process in processes:
         process.join()
 

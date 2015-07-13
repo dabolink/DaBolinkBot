@@ -119,5 +119,5 @@ def start(bot, q):
             else:
                 commands(bot, q, cmd[0].name, cmd[1][0][1:], cmd[1][1:])
         else:
-            sleep(1)
+            sleep(bot.sleep_time)
     print "COMMAND PARSER"

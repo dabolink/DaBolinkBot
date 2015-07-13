@@ -65,6 +65,8 @@ def start(bot, q):
     except TypeError:
         pass
     mods.append(bot.channel)
+    print mods
+    q.chat_queue.put(("MODS", mods))
     socket.setdefaulttimeout(5)
     while q.kill_queue.empty():
         msgData = irc.recv(2048)
@@ -75,38 +77,19 @@ def start(bot, q):
         try:
             while msgData.split("\n")[i]:
                 msg = Objects.Message.Message(msgData.split("\r\n")[i], mods)
-                if msg.type == "PRIVMSG":
-                    if not msg.user.admin and msg.url:
-                        q.var_queue.put(("PERMIT", "-", msg.user.name))
-                        q.log_queue.put(("LOG", msg.user.name + " posted a link: " + msg.message))
-                    if msg.message:
-                        q.log_queue.put(("CHAT", "<" + msg.user.name + "> " + msg.message))
-                        if msg.message[0] == "!":
-                            command = msg.message.split(" ")
-                            q.command_queue.put((msg.user, command))
-                        else:
-                            if not msg.user.name == "dabolinkbot":
-                                print "<{}>{}".format(msg.user.name, repr(msg.message))
-                            if len(msg.message) >= 10:
-                                q.database_queue.put(("incLOT", msg.user.name))
-                elif msg.type == "JOIN" or msg.type == "PART":
-                    q.var_queue.put(("VIEWER", msg.type, msg.user))
-                elif msg.type == "PING":
-                    q.out_queue.put(("PING",))
-                    irc.send("PONG tmi.twitch.tv\r\n")
-                    print "PONG"
-                elif msg.type == "MODS":
-                    if bot.channel not in msg.LoM:
-                        msg.LoM.append(bot.channel)
-                    q.var_queue.put(("MODS", msg.LoM))
-                    mods = msg.LoM
-                    print "mods updated"
-                elif msg.type == "ADMIN":
-                    if not mods.__contains__(msg.user.name):
-                        mods.append(msg.user.name)
-                        q.var_queue.put(("MODS", mods))
+                if msg.type:
+                    print msg.type
+                    if msg.type == "PING":
+                        q.out_queue.put(("PING",))
+                        irc_send("PING time.twitch.tv\r\n")
+                        print "PONG"
+                    if msg.type == "MODS":
+                        mods = msg.LoM
+                    q.chat_queue.put((msg,))
+                else:
+                    print "que?"
                 i += 1
-            sleep(1)
+            sleep(bot.sleep_time)
         except IndexError:
             pass
     print "IN"

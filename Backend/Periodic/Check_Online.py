@@ -21,7 +21,7 @@ def start(bot, q):
                 i = 0
                 sleep(30)
         except (TypeError, ConnectionError) as e:
-            sleep(30)
+            sleep(bot.periodic_sleep)
             print "connection error > check online"
             q.log_queue.put(("ERROR", str(e) + " : some error occurred in check online"))
     print "CHECK ONLINE"

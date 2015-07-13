@@ -139,7 +139,7 @@ def start(bot, q):
                 elif var[1] == "mods":
                     q.out_queue.put(("PRIVMSG", str(mods)))
         else:
-            sleep(1)
+            sleep(bot.sleep_time)
     print "sending final numbers..."
     for viewer in viewers:
         print viewer

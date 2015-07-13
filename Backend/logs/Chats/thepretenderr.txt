@@ -7460,3 +7460,40 @@
 07-12 02:16 :> <thepretenderr> !uptime
 07-12 02:16 :> <dabolinkbot> Stream has been up for: 7 hours, 59 minutes, and 31 seconds
 07-12 02:19 :> <thepretenderr> goodnight guys
+07-13 14:02 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:04 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:06 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:06 :> <dabolink> !test
+07-13 14:06 :> <dabolink> !dabolinkbot
+07-13 14:06 :> <dabolinkbot> DaBolinkbot is superior to non-bots and other bots
+07-13 14:07 :> <dabolink> !print mods
+07-13 14:07 :> <dabolink> !print mod
+07-13 14:07 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:07 :> <dabolink> !commands
+07-13 14:08 :> <dabolinkbot> http://www.twitch.tv/dabolinkbot <- list of commands
+07-13 14:08 :> <dabolink> !cv set 1234
+07-13 14:08 :> <dabolinkbot> Curse Voice has not been set
+07-13 14:08 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:08 :> <dabolink> !cv set 1234
+07-13 14:08 :> <dabolinkbot> Curse Voice has not been set
+07-13 14:09 :> <dabolink> !mods
+07-13 14:12 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:12 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:12 :> <dabolink> !mods
+07-13 14:13 :> <dabolink> !print mods
+07-13 14:13 :> <dabolinkbot> ['dabolink', 'dabolinkbot', 'haladslader', 'jrkyex', 'm00nski', 'meetnik_', 'nightbot', 'raskalian', 'raverfx', 'thepretenderr', 'topez64']
+07-13 14:13 :> <dabolink> !commands
+07-13 14:13 :> <dabolinkbot> http://www.twitch.tv/dabolinkbot <- list of commands
+07-13 14:13 :> <dabolink> !dabolinkbot
+07-13 14:13 :> <dabolinkbot> DaBolinkbot is superior to non-bots and other bots
+07-13 14:13 :> <dabolink> !add dabolink
+07-13 14:13 :> <dabolinkbot> added dabolink to the queue
+07-13 14:13 :> <dabolink> !clear
+07-13 14:13 :> <dabolinkbot> Queue has been cleared
+07-13 14:14 :> <dabolink> !execute
+07-13 14:27 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 14:27 :> <dabolink> !userstats
+07-13 14:27 :> <dabolinkbot> dabolink has been in chat for 68 hour(s) and 57 minute(s) and has written 597 line(s) of text. 
+07-13 15:00 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat

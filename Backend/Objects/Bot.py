@@ -9,3 +9,6 @@ class Bot:
         self.timeout_time = 1
         self.offline_counter = 5
         self.hello_message = "hello, i am DaBolinkBot, i am here to help moderate the chat"
+        self.sleep_time = 0.5
+        self.periodic_sleep = 30
+        self.freq_viewer_time = 3
