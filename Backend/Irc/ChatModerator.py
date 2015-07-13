@@ -2,14 +2,14 @@ from time import sleep
 
 
 def start(bot, q):
-    mods = []
-    frequent_viewers = []
+    mods = None
+    frequent_viewers = None
     if bot.debug:
         import sys
         sys.stderr = open('Logs/Errors/{}/ChatModerator.txt'.format(bot.channel), 'w')
     print "chat moderator staring up"
-    while mods == [] or frequent_viewers == []:
-        # print mods, frequent_viewers
+    while mods == None or frequent_viewers == None:
+        print mods, frequent_viewers
         if not q.chat_queue.empty():
             msg = q.chat_queue.get()
             if msg[0] == "MODS":
@@ -25,7 +25,7 @@ def start(bot, q):
     while q.kill_queue.empty():
         if not q.chat_queue.empty():
             msg = q.chat_queue.get()[0]
-            print msg
+            print msg.type
             if msg.type:
                 if msg.type == "PRIVMSG":
                     print repr(msg.message)
