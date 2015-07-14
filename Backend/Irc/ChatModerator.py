@@ -78,7 +78,7 @@ def start(bot, q):
                         mods.append(msg.user.name)
                         q.var_queue.put(("MODS", mods))
                 else:
-                    print msg
+                    print msg.message
         else:
             sleep(bot.sleep_time)
     print "CHAT MODERATOR"
