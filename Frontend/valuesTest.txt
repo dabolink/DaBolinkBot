@@ -1,4 +1,0 @@
-client_id a4h8t2hmjzc5tjm0gbe4xw3tcewt8mm
-client_secret nsno22r4lneuhuv89rsskh7s22k71zu
-redirect_uri http://localhost:8000
-backend_server_ip http://localhost:5000
