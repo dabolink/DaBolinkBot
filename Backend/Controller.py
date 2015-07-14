@@ -13,6 +13,8 @@ import Irc.Out
 import Irc.CommandParser
 import Irc.ChatModerator
 
+import Whisperer.Whisperer
+
 import Logger.Logger
 
 import Database.DatabaseUpdater
@@ -39,6 +41,7 @@ def startup(channel, check_online=False, q=None):
     processes.append(multiprocessing.Process(target=Irc.Out.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Irc.CommandParser.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=VariableManager.VarManager.start, args=(bot, q)))
+    processes.append(multiprocessing.Process(target=Whisperer.Whisperer.start, args=(bot, q)))
 
     for process in processes:
         process.start()
@@ -68,8 +71,12 @@ def startup(channel, check_online=False, q=None):
                 print "reset"
         else:
             sleep(bot.sleep_time*10)
+    i = 0
     for process in processes:
         process.join()
+        i += 1
+        print str(i) + "/" + str(len(processes))
+    print "bot ended in stream", bot.channel
 
 if __name__ == "__main__":
     import sys

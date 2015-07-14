@@ -205,3 +205,69 @@
 07-13 17:03 :> <dabolink> !print users
 07-13 17:03 :> <dabolinkbot> [(dabolink, 2015-07-14 00:03:18.204000, True), (dabolinkbot, 2015-07-14 00:03:18.204000, True)]
 07-13 17:03 :> <dabolink> !execute
+07-13 17:07 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 17:07 :> <dabolink> !userstats
+07-13 17:07 :> <dabolinkbot> dabolink has been in chat for 0 hour(s) and 28 minute(s) and has written 14 line(s) of text. 
+07-13 17:07 :> <dabolink> !print mods
+07-13 17:07 :> <dabolinkbot> ['dabolinkbot', 'jrkyex', u'dabolink']
+07-13 17:07 :> <dabolink> !execute
+07-13 18:25 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 18:25 :> <dabolink> yrdy
+07-13 18:36 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 19:48 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 19:48 :> <dabolink> hi
+07-13 19:48 :> <dabolink> dick
+07-13 19:48 :> <dabolinkbot> That word is not allowed here
+07-13 19:49 :> <dabolink> !execute
+07-13 19:51 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 19:51 :> <dabolink> dick
+07-13 19:51 :> <dabolinkbot> That word is not allowed here
+07-13 19:51 :> <dabolink> !execute
+07-13 19:55 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 19:55 :> <dabolink> !execute
+07-13 19:56 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 19:57 :> <dabolink> !execute
+07-13 20:01 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 20:01 :> <dabolink> !execute
+07-13 20:58 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 20:59 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 20:59 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:00 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:01 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:02 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:03 :> <dabolink> !execute
+07-13 21:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:05 :> <dabolink> !execute
+07-13 21:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:05 :> <dabolink> !execute
+07-13 21:10 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:11 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:11 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:12 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:12 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:13 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:13 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:14 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:15 :> <dabolink> !execute
+07-13 21:15 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:16 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:21 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:21 :> <dabolink> !execute
+07-13 21:24 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:24 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:36 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:36 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:37 :> <kkkradical> something
+07-13 21:37 :> <kkkradical> while you are in there
+07-13 21:38 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:38 :> <kkkradical> moderate this donger
+07-13 21:38 :> <dabolink> !userstats
+07-13 21:38 :> <dabolinkbot> dabolink has been in chat for 0 hour(s) and 36 minute(s) and has written 14 line(s) of text. 
+07-13 21:38 :> <dabolink> !userstats kkKradical
+07-13 21:38 :> <kkkradical> !destroybots
+07-13 21:39 :> <kkkradical> !userstats
+07-13 21:39 :> <dabolinkbot> kkkradical has been in chat for 0 hour(s) and 1 minute(s) and has written 1 line(s) of text. 
+07-13 21:39 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 21:39 :> <kkkradical> !userstats
+07-13 21:39 :> <dabolinkbot> kkkradical has been in chat for 0 hour(s) and 1 minute(s) and has written 1 line(s) of text. 
+07-13 21:40 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat

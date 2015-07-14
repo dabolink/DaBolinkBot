@@ -72,7 +72,6 @@ def start(bot, q):
         msgData = irc.recv(2048)
         if len(msgData) == 0:
             print "msgData len = 0"
-        print msgData
         i = 0
         try:
             while msgData.split("\n")[i]:
@@ -87,7 +86,6 @@ def start(bot, q):
                         mods = msg.LoM
                         if bot.channel not in mods:
                             mods.append(bot.channel)
-                        print mods
                     q.chat_queue.put((msg,))
                 else:
                     print "que?"

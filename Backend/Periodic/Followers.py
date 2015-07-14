@@ -22,6 +22,7 @@ def update_followers(channel, q):
 
 
 def start(bot, q):
+    i = 0
     if bot.debug:
         import sys
         sys.stderr = open('Logs/Errors/{}/Followers.txt'.format(bot.channel), 'w')
@@ -60,6 +61,9 @@ def start(bot, q):
             update_followers(bot.channel, q)
         else:
             print "no new followers", num_followers
-            # q.database_queue(("QUOTE", "GET"))
+            i += bot.periodic_sleep/60
+            if i >= 5:
+                i = 0
+                q.out_queue(("MESSAGE",))
         sleep(bot.periodic_sleep)
     print "FOLLOWERS"

@@ -32,9 +32,13 @@ def parse_output(bot, irc, output):
     elif output[0] == "PING":
         irc.send("PONG tmi.twitch.tv\r\n")
     elif output[0] == "TIMEOUT":
-        if links:
-            irc_send_message(bot, irc, "Please no links unless you are given permission")
-            irc_send_command(bot, irc, "timeout {} {}".format(output[1], str(15)))
+        if output[1] == "LINK":
+            if links:
+                irc_send_message(bot, irc, "Please no links unless you are given permission")
+                irc_send_command(bot, irc, "timeout {} {}".format(output[2], str(bot.timeout_time)))
+        elif output[1] == "WORD":
+            irc_send_message(bot, irc, "That word is not allowed here")
+            irc_send_command(bot, irc, "timeout {} {}".format(output[2], str(bot.timeout_time)))
     elif output[0] == "MODS":
         print "mod request sent"
         irc_send_command(bot, irc, "mods")
@@ -75,7 +79,6 @@ def start(bot, q):
     irc.send("NICK {}\r\n".format(botnick))
     irc.send("JOIN #{}\r\n".format(channel))
     irc_send_message(bot, irc, bot.hello_message)
-    print "message sent"
     while q.kill_queue.empty():
         if not q.out_queue.empty():
             output = q.out_queue.get()

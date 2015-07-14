@@ -39,6 +39,7 @@ def bot_end(channel):
             c[2].kill_queue.put(("",))
             print channels
             channels.remove(c)
+            print "remove", channel, "from channel"
             print channels
             return jsonify({'result': 'success'})
     return jsonify({'result': 'failure'})
@@ -47,7 +48,11 @@ def bot_end(channel):
 def bot_status(channel):
     for c in channels:
         if c[0] == channel:
-            return jsonify({'online': True})
+            if c[1].is_alive():
+                return jsonify({'online': True})
+            else:
+                channels.remove(c)
+                print channels
     return jsonify({'online': False})
 
 @app.route('/dabolinkbot/api/v1.0/channel/<channel>/<user>')

@@ -120,5 +120,6 @@ def start(bot, q):
             if not LOT == {}:
                 incrementLOTS(LOT)
                 LOT = {}
-            time.sleep(bot.sleep_time)
+            if q.database_queue.empty():
+                time.sleep(bot.sleep_time)
     print "DATABASE UPDATER"

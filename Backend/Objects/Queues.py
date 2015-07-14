@@ -11,3 +11,4 @@ class queues():
         self.control_queue = multiprocessing.Queue()
         self.database_queue = multiprocessing.Queue()
         self.chat_queue = multiprocessing.Queue()
+        self.whisper_queue = multiprocessing.Queue()

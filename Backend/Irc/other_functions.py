@@ -1,8 +1,10 @@
 
 
 def binary_search(list, value):
-    print list, value
+    # print list, value
     mid = int(len(list)/2)
+    if len(list) == 0:
+        return False
     if len(list) == 1:
         return value == list[0]
     if value < list[mid]:
@@ -13,7 +15,7 @@ def binary_search(list, value):
         return binary_search(list[mid:], value)
 
 def insert(list, value):
-    print list, value
+    # print list, value
     if len(list) == 0:
         return [value]
     elif len(list) == 1:

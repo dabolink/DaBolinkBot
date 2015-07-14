@@ -1,3 +1,4 @@
 .idea/
 Backend/Logs/**/*
+Backend/Values*
 Frontend/homelogin/__init__.py

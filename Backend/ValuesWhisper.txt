@@ -1,0 +1,7 @@
+Oauth oauth:y6cofk0p01xq6nf0980zja84u6elkw
+Botnick dabolinkbot
+Botowner Dabolink
+Server 199.9.253.119
+Port 443
+Clientid nec642fe1th1bqxccovwy89dz2hzk8f
+Channel #_dabolink_1436844183523

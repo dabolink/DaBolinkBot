@@ -22,7 +22,6 @@ class Message:
                 self.type = "JOIN"
             elif result1.group(4) == "PRIVMSG":
                 self.message = result1.group(9)
-                print self.message
                 self.type = "PRIVMSG"
             elif result1.group(4) == "PART":
                 self.type = "PART"
@@ -31,7 +30,6 @@ class Message:
 
         elif result2:
             self.message = result2.group(3).lower()
-            print self.message
             self.type = "TWITCH"
             result6 = re.match("the moderators of this room are: (.+)", self.message)
             if result6:
@@ -52,4 +50,6 @@ class Message:
     def is_link(self):
         if self.message:
             link = re.match(".*(http(s)?://)?(www.)?[a-zA-Z]+[.][a-zA-Z]+(/[a-zA-Z]*)?.*", self.message)
+            if link:
+                return True
         return False
