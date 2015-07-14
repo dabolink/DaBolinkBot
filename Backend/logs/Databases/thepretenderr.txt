@@ -1906,3 +1906,4 @@
 07-13 16:44 :> dabolink has joined the channel
 07-13 16:44 :> dabolinkbot has joined the channel
 07-13 16:44 :> got userstats for dabolink : (u'dabolink', 68.96994999999997, 0.0, 597)
+07-13 16:55 :> dabolinkbot has joined the channel

@@ -187,3 +187,21 @@
 07-10 13:03 :> <dabolink> !execute
 07-10 13:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
 07-13 16:40 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 16:57 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 16:57 :> <dabolink> !execute
+07-13 16:58 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 16:58 :> <dabolink> !clear
+07-13 16:58 :> <dabolink> !execute
+07-13 16:59 :> <dabolink> !print users
+07-13 16:59 :> <dabolink> !print viewers
+07-13 17:00 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 17:01 :> <dabolink> !print mods
+07-13 17:01 :> <dabolinkbot> ['dabolinkbot', 'jrkyex', 'dabolink']
+07-13 17:01 :> <dabolink> !execute
+07-13 17:01 :> <dabolink> !execute
+07-13 17:03 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-13 17:03 :> <dabolink> !print mods
+07-13 17:03 :> <dabolinkbot> ['dabolinkbot', 'jrkyex', 'dabolink']
+07-13 17:03 :> <dabolink> !print users
+07-13 17:03 :> <dabolinkbot> [(dabolink, 2015-07-14 00:03:18.204000, True), (dabolinkbot, 2015-07-14 00:03:18.204000, True)]
+07-13 17:03 :> <dabolink> !execute

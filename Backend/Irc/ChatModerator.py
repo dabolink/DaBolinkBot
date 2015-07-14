@@ -49,9 +49,9 @@ def start(bot, q):
                         print "no link"
                 elif msg.type == "MODS":
                     mods = msg.LoM
-                    print mods
                     if bot.channel not in mods:
                         mods.append(bot.channel)
+                    print mods
                     q.var_queue.put(("MODS", mods))
                     print "mods updated"
                 elif msg.type == "JOIN" or msg.type == "PART":

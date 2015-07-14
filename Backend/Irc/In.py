@@ -85,6 +85,9 @@ def start(bot, q):
                         print "PONG"
                     if msg.type == "MODS":
                         mods = msg.LoM
+                        if bot.channel not in mods:
+                            mods.append(bot.channel)
+                        print mods
                     q.chat_queue.put((msg,))
                 else:
                     print "que?"

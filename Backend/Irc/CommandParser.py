@@ -101,7 +101,10 @@ def commands(bot, q, user, command, parameters):
         q.out_queue.put(("PRIVMSG", "http://www.twitch.tv/dabolinkbot <- list of commands"))
     elif command == "update":
         if parameters[0] == "mods":
-	        q.out_queue.put(("/mods",))	
+            q.out_queue.put(("/mods",))
+    elif command == "print":
+        if parameters:
+            q.var_queue.put(("PRINT", parameters[0]))
     else:
         pass
 
@@ -113,6 +116,7 @@ def start(bot, q):
     while q.kill_queue.empty():
         if not q.command_queue.empty():
             cmd = q.command_queue.get()
+            print cmd
             #(T/F,  (command, params))
             if cmd[0].admin:
                 admin_commands(bot, q, cmd[0].name, cmd[1][0][1:], cmd[1][1:])
