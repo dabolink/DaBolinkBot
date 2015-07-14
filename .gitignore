@@ -1,4 +1,5 @@
 .idea/
 Backend/Logs/**/*
+!Backend/Logs/**/dabolink*
 Backend/Values*
 Frontend/homelogin/__init__.py
