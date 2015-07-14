@@ -9,8 +9,6 @@ Backend/Values*
 *.bat
 !startuplive.bat
 *.lnk
-*__init__.py
-!Frontend/__init__.py
 client_secrets.json
 DaBolinkBot-969873726721.json
 test.py
