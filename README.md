@@ -23,3 +23,7 @@ requests library
 to run locally navigate to DabolinkBot/Backend/ and run "python server.py"
 
 documentation can be found in the v1_resources folder
+
+## Alternativly
+
+run startupLive.bat from within the DaBolinkBot directory
