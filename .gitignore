@@ -1,5 +1,16 @@
 .idea/
+Backend/Controller.pyc
 Backend/Logs/**/*
 !Backend/Logs/**/dabolink*
 Backend/Values*
-Frontend/homelogin/__init__.py
+*.pyc
+*~
+*.swp
+*.bat
+!startuplive.bat
+*.lnk
+*__init__.py
+client_secrets.json
+DaBolinkBot-969873726721.json
+test.py
+Frontend/values*
