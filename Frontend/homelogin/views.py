@@ -39,6 +39,6 @@ class Twitch(View):
     def get(self, request):
         print repr(d["client_id"])
         print repr(d["redirect_uri"])
-        redirectString = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=nec642fe1th1bqxccovwy89dz2hzk8f&redirect_uri=http://24.108.13.249:8000&scope=user_read'
+        redirectString = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=' + d["client_id"] + '&redirect_uri=' + d["redirect_uri"] + "&scope=user_read"
         return HttpResponseRedirect(redirectString)
         #  twitch also takes &scope= and &state=
