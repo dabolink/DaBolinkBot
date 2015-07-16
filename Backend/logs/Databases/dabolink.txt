@@ -248,3 +248,19 @@
 07-14 12:31 :> dabolinkbot has joined the channel
 07-14 12:32 :> dabolinkbot has joined the channel
 07-14 12:34 :> dabolinkbot has joined the channel
+07-15 15:02 :> dabolinkbot has joined the channel
+07-15 15:04 :> dabolink has joined the channel
+07-15 15:04 :> dabolinkbot has joined the channel
+07-15 15:04 :> got userstats for dabolink : (u'dabolink', 0.6067919444444445, 0.0, 14)
+07-15 15:04 :> got userstats for dabolink : (u'dabolink', 0.6083416666666668, 0.0, 14)
+07-15 15:05 :> dabolink has joined the channel
+07-15 15:05 :> dabolinkbot has joined the channel
+07-15 15:05 :> got userstats for dabolink : (u'dabolink', 0.630063888888889, 0.0, 14)
+07-15 15:06 :> top users requested
+07-15 15:06 :> got userstats for dabolinkbot : (u'dabolinkbot', 0.9204991666666664, 0.0, 95)
+07-15 20:09 :> dabolinkbot has joined the channel
+07-15 20:09 :> dabolink has joined the channel
+07-15 20:11 :> dabolink has joined the channel
+07-15 20:11 :> dabolinkbot has joined the channel
+07-15 20:13 :> dabolink has joined the channel
+07-15 20:13 :> dabolinkbot has joined the channel

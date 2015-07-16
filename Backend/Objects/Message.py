@@ -20,6 +20,7 @@ class Message:
                 self.user = Objects.User.User(result1.group(1), datetime.datetime.utcnow(), False)
             if result1.group(4) == "JOIN":
                 self.type = "JOIN"
+                print self.user.name
             elif result1.group(4) == "PRIVMSG":
                 self.message = result1.group(9)
                 self.type = "PRIVMSG"
@@ -49,7 +50,7 @@ class Message:
 
     def is_link(self):
         if self.message:
-            link = re.match(".*(http(s)?://)?(www.)?[a-zA-Z]+[.][a-zA-Z]+(/[a-zA-Z]*)?.*", self.message)
+            link = re.match(".*(http(s)?://)?(www.)?[a-zA-Z]{3,}[.][a-zA-Z]{3,}(/[a-zA-Z]*)?.*", self.message)
             if link:
                 return True
         return False

@@ -129,6 +129,7 @@ def start(bot, q):
             elif var[0] == "PRINT":
                 if var[1] == "followers":
                     q.out_queue.put(("PRIVMSG", str(followers)))
+                    print followers
                     q.out_queue.put(("PRIVMSG", str(len(followers))))
                 elif var[1] == "permits":
                     q.out_queue.put(("PRIVMSG", str(permits)))

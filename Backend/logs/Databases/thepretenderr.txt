@@ -1927,3 +1927,256 @@
 07-13 20:41 :> dabolinkbot has joined the channel
 07-14 12:29 :> thepretenderr has joined the channel
 07-14 12:29 :> dabolinkbot has joined the channel
+07-15 14:24 :> dabolink has joined the channel
+07-15 14:24 :> thepretenderr has joined the channel
+07-15 14:24 :> dabolinkbot has joined the channel
+07-15 14:25 :> raskalian has joined the channel
+07-15 14:52 :> dabolink has joined the channel
+07-15 14:52 :> m00nski has joined the channel
+07-15 14:52 :> raskalian has joined the channel
+07-15 14:52 :> thepretenderr has joined the channel
+07-15 14:52 :> topez64 has joined the channel
+07-15 14:52 :> dabolinkbot has joined the channel
+07-15 14:53 :> dabolink has joined the channel
+07-15 14:53 :> m00nski has joined the channel
+07-15 14:53 :> raskalian has joined the channel
+07-15 14:53 :> thepretenderr has joined the channel
+07-15 14:53 :> topez64 has joined the channel
+07-15 14:53 :> dabolinkbot has joined the channel
+07-15 14:53 :> top users requested
+07-15 14:54 :> dabolink has joined the channel
+07-15 14:54 :> dabolinkbot has joined the channel
+07-15 14:54 :> m00nski has joined the channel
+07-15 14:54 :> raskalian has joined the channel
+07-15 14:54 :> thepretenderr has joined the channel
+07-15 14:54 :> topez64 has joined the channel
+07-15 14:55 :> got userstats for dabolink : (u'dabolink', 69.23303611111106, 0.0, 601)
+07-15 14:56 :> got userstats for topez64 : (u'topez64', 36.364848333333335, 0.0, 407)
+07-15 14:56 :> got userstats for thepretenderr : (u'thepretenderr', 117.74374166666664, 0.0, 157)
+07-15 14:56 :> got userstats for raskalian : (u'raskalian', 16.80308861111111, 0.0, 601)
+07-15 15:06 :> dabolink has joined the channel
+07-15 15:06 :> dabolinkbot has joined the channel
+07-15 15:06 :> m00nski has joined the channel
+07-15 15:06 :> raskalian has joined the channel
+07-15 15:06 :> thepretenderr has joined the channel
+07-15 15:06 :> topez64 has joined the channel
+07-15 15:06 :> got userstats for dabolinkbot : (u'dabolinkbot', 138.61160972222223, 0.0, 581)
+07-15 15:14 :> dabolink has joined the channel
+07-15 15:14 :> dabolinkbot has joined the channel
+07-15 15:14 :> m00nski has joined the channel
+07-15 15:14 :> raskalian has joined the channel
+07-15 15:14 :> thepretenderr has joined the channel
+07-15 15:14 :> topez64 has joined the channel
+07-15 15:16 :> dabolink has joined the channel
+07-15 15:16 :> dabolinkbot has joined the channel
+07-15 15:16 :> m00nski has joined the channel
+07-15 15:16 :> raskalian has joined the channel
+07-15 15:16 :> thepretenderr has joined the channel
+07-15 15:16 :> topez64 has joined the channel
+07-15 15:16 :> added saphster to database
+07-15 15:17 :> saphster left the channel
+07-15 15:23 :> dabolink has joined the channel
+07-15 15:23 :> dabolinkbot has joined the channel
+07-15 15:23 :> m00nski has joined the channel
+07-15 15:23 :> raskalian has joined the channel
+07-15 15:23 :> thepretenderr has joined the channel
+07-15 15:23 :> topez64 has joined the channel
+07-15 15:24 :> dabolink has joined the channel
+07-15 15:24 :> dabolinkbot has joined the channel
+07-15 15:24 :> m00nski has joined the channel
+07-15 15:24 :> raskalian has joined the channel
+07-15 15:24 :> thepretenderr has joined the channel
+07-15 15:24 :> topez64 has joined the channel
+07-15 15:24 :> dabolink has joined the channel
+07-15 15:24 :> dabolinkbot has joined the channel
+07-15 15:24 :> m00nski has joined the channel
+07-15 15:24 :> raskalian has joined the channel
+07-15 15:24 :> thepretenderr has joined the channel
+07-15 15:24 :> topez64 has joined the channel
+07-15 15:30 :> dabolink has joined the channel
+07-15 15:30 :> dabolinkbot has joined the channel
+07-15 15:30 :> m00nski has joined the channel
+07-15 15:30 :> raskalian has joined the channel
+07-15 15:30 :> thepretenderr has joined the channel
+07-15 15:30 :> topez64 has joined the channel
+07-15 15:31 :> dabolink has joined the channel
+07-15 15:31 :> dabolinkbot has joined the channel
+07-15 15:31 :> m00nski has joined the channel
+07-15 15:31 :> raskalian has joined the channel
+07-15 15:31 :> thepretenderr has joined the channel
+07-15 15:31 :> topez64 has joined the channel
+07-15 15:33 :> meetnik_ has joined the channel
+07-15 15:34 :> meetnik_ left the channel
+07-15 15:40 :> raskalian left the channel
+07-15 15:55 :> jacerzz has joined the channel
+07-15 15:55 :> m00nski left the channel
+07-15 15:59 :> top users requested
+07-15 16:00 :> alvin3639 has joined the channel
+07-15 16:02 :> meetnik_ has joined the channel
+07-15 16:03 :> jacerzz left the channel
+07-15 16:04 :> meshabob has joined the channel
+07-15 16:20 :> meetnik_ left the channel
+07-15 16:22 :> meetnik_ has joined the channel
+07-15 16:23 :> meetnik_ left the channel
+07-15 16:32 :> jacerzz has joined the channel
+07-15 16:37 :> meshabob left the channel
+07-15 16:46 :> jacerzz left the channel
+07-15 17:01 :> raskalian has joined the channel
+07-15 17:10 :> got userstats for topez64 : (u'topez64', 38.587498888888895, 0.0, 417)
+07-15 17:37 :> alvin3639 left the channel
+07-15 17:39 :> got userstats for topez64 : (u'topez64', 39.071333888888894, 0.0, 417)
+07-15 18:04 :> added stewfoo to database
+07-15 18:05 :> stewfoo left the channel
+07-15 18:11 :> haladslader has joined the channel
+07-15 18:12 :> got userstats for topez64 : (u'topez64', 39.62129666666667, 0.0, 418)
+07-15 18:20 :> top users requested
+07-15 18:20 :> added jmac50 to database
+07-15 18:21 :> jmac50 left the channel
+07-15 18:40 :> got userstats for topez64 : (u'topez64', 40.08710277777779, 0.0, 421)
+07-15 18:41 :> added veach to database
+07-15 18:41 :> got userstats for dabolink : (u'dabolink', 72.99036055555551, 0.0, 608)
+07-15 18:42 :> veach left the channel
+07-15 18:47 :> dabolink has joined the channel
+07-15 18:47 :> dabolinkbot has joined the channel
+07-15 18:47 :> haladslader has joined the channel
+07-15 18:47 :> raskalian has joined the channel
+07-15 18:47 :> thepretenderr has joined the channel
+07-15 18:47 :> topez64 has joined the channel
+07-15 19:00 :> meetnik_ has joined the channel
+07-15 19:01 :> meetnik_ left the channel
+07-15 19:04 :> topez64 left the channel
+07-15 19:04 :> meetnik_ has joined the channel
+07-15 19:05 :> dabolink has joined the channel
+07-15 19:05 :> dabolinkbot has joined the channel
+07-15 19:05 :> haladslader has joined the channel
+07-15 19:05 :> meetnik_ has joined the channel
+07-15 19:05 :> raskalian has joined the channel
+07-15 19:05 :> thepretenderr has joined the channel
+07-15 19:09 :> dabolink left the channel
+07-15 19:10 :> dabolink has joined the channel
+07-15 19:11 :> dabolink has joined the channel
+07-15 19:11 :> dabolinkbot has joined the channel
+07-15 19:11 :> haladslader has joined the channel
+07-15 19:11 :> meetnik_ has joined the channel
+07-15 19:11 :> raskalian has joined the channel
+07-15 19:11 :> thepretenderr has joined the channel
+07-15 19:12 :> dabolink has joined the channel
+07-15 19:12 :> dabolinkbot has joined the channel
+07-15 19:12 :> haladslader has joined the channel
+07-15 19:12 :> meetnik_ has joined the channel
+07-15 19:12 :> raskalian has joined the channel
+07-15 19:12 :> thepretenderr has joined the channel
+07-15 19:13 :> top users requested
+07-15 19:13 :> dabolink has joined the channel
+07-15 19:13 :> dabolinkbot has joined the channel
+07-15 19:13 :> haladslader has joined the channel
+07-15 19:13 :> meetnik_ has joined the channel
+07-15 19:13 :> raskalian has joined the channel
+07-15 19:13 :> thepretenderr has joined the channel
+07-15 19:15 :> meshabob has joined the channel
+07-15 19:15 :> dabolink left the channel
+07-15 19:17 :> dabolink has joined the channel
+07-15 19:17 :> meshabob left the channel
+07-15 19:20 :> dabolink has joined the channel
+07-15 19:20 :> dabolinkbot has joined the channel
+07-15 19:20 :> haladslader has joined the channel
+07-15 19:20 :> meetnik_ has joined the channel
+07-15 19:20 :> raskalian has joined the channel
+07-15 19:20 :> thepretenderr has joined the channel
+07-15 19:42 :> haladslader has joined the channel
+07-15 19:42 :> meetnik_ has joined the channel
+07-15 19:42 :> raskalian has joined the channel
+07-15 19:42 :> thepretenderr has joined the channel
+07-15 19:42 :> added rigoleto85x to database
+07-15 19:42 :> dabolinkbot has joined the channel
+07-15 19:44 :> dabolink has joined the channel
+07-15 19:48 :> rigoleto85x left the channel
+07-15 19:49 :> dabolink has joined the channel
+07-15 19:49 :> dabolinkbot has joined the channel
+07-15 19:49 :> haladslader has joined the channel
+07-15 19:49 :> meetnik_ has joined the channel
+07-15 19:49 :> raskalian has joined the channel
+07-15 19:49 :> thepretenderr has joined the channel
+07-15 19:50 :> dabolink has joined the channel
+07-15 19:50 :> dabolinkbot has joined the channel
+07-15 19:50 :> haladslader has joined the channel
+07-15 19:50 :> meetnik_ has joined the channel
+07-15 19:50 :> raskalian has joined the channel
+07-15 19:50 :> thepretenderr has joined the channel
+07-15 19:52 :> dabolink has joined the channel
+07-15 19:52 :> dabolinkbot has joined the channel
+07-15 19:52 :> haladslader has joined the channel
+07-15 19:52 :> meetnik_ has joined the channel
+07-15 19:52 :> raskalian has joined the channel
+07-15 19:52 :> thepretenderr has joined the channel
+07-15 19:56 :> dabolink left the channel
+07-15 19:57 :> dabolink has joined the channel
+07-15 20:00 :> dabolink has joined the channel
+07-15 20:00 :> dabolinkbot has joined the channel
+07-15 20:00 :> haladslader has joined the channel
+07-15 20:00 :> meetnik_ has joined the channel
+07-15 20:00 :> raskalian has joined the channel
+07-15 20:00 :> thepretenderr has joined the channel
+07-15 20:00 :> added 4ipon to database
+07-15 20:03 :> dabolink left the channel
+07-15 20:04 :> dabolink has joined the channel
+07-15 20:08 :> dabolink has joined the channel
+07-15 20:08 :> dabolinkbot has joined the channel
+07-15 20:08 :> haladslader has joined the channel
+07-15 20:08 :> meetnik_ has joined the channel
+07-15 20:08 :> raskalian has joined the channel
+07-15 20:08 :> thepretenderr has joined the channel
+07-15 20:13 :> dabolink has joined the channel
+07-15 20:13 :> dabolinkbot has joined the channel
+07-15 20:13 :> haladslader has joined the channel
+07-15 20:13 :> meetnik_ has joined the channel
+07-15 20:13 :> raskalian has joined the channel
+07-15 20:13 :> thepretenderr has joined the channel
+07-15 20:15 :> thepretenderr left the channel
+07-15 20:16 :> thepretenderr has joined the channel
+07-15 20:18 :> dabolink left the channel
+07-15 20:19 :> dabolink has joined the channel
+07-15 20:29 :> dabolink left the channel
+07-15 20:31 :> added theredino to database
+07-15 20:34 :> theredino left the channel
+07-15 20:57 :> haladslader left the channel
+07-15 20:58 :> dabolink has joined the channel
+07-15 20:59 :> alvin3639 has joined the channel
+07-15 21:14 :> added paraiya to database
+07-15 21:16 :> paraiya left the channel
+07-15 21:23 :> dabolink left the channel
+07-15 21:29 :> alvin3639 left the channel
+07-15 21:54 :> dabolink has joined the channel
+07-15 21:54 :> raskalian left the channel
+07-15 22:02 :> raskalian has joined the channel
+07-15 22:07 :> raskalian left the channel
+07-15 22:12 :> billyg120898 has joined the channel
+07-15 22:13 :> ray66h has joined the channel
+07-15 22:14 :> ray66h left the channel
+07-15 22:15 :> raskalian has joined the channel
+07-15 22:16 :> billyg120898 left the channel
+07-15 22:20 :> billyg120898 has joined the channel
+07-15 22:21 :> billyg120898 left the channel
+07-15 22:22 :> billyg120898 has joined the channel
+07-15 22:23 :> added caporise to database
+07-15 22:24 :> raskalian left the channel
+07-15 22:24 :> billyg120898 left the channel
+07-15 22:25 :> caporise left the channel
+07-15 22:26 :> added luriamsa to database
+07-15 22:27 :> luriamsa left the channel
+07-15 22:28 :> dabolink left the channel
+07-15 22:46 :> top users requested
+07-15 22:47 :> topez64 has joined the channel
+07-15 22:49 :> raskalian has joined the channel
+07-15 22:51 :> raskalian left the channel
+07-15 22:53 :> added demonninja52 to database
+07-15 22:58 :> meetnik_ left the channel
+07-15 23:16 :> demonninja52 left the channel
+07-15 23:17 :> demonninja52 has joined the channel
+07-15 23:20 :> billyg120898 has joined the channel
+07-15 23:22 :> mrspuddddies has joined the channel
+07-15 23:22 :> demonninja52 left the channel
+07-15 23:23 :> got userstats for topez64 : (u'topez64', 40.788299166666675, 0.0, 444)
+07-15 23:23 :> mrspuddddies left the channel
+07-15 23:28 :> alvin3639 has joined the channel
+07-15 23:29 :> demonninja52 has joined the channel

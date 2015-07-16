@@ -80,7 +80,7 @@ def start(bot, q):
                     print msg.type
                     if msg.type == "PING":
                         q.out_queue.put(("PING",))
-                        irc_send("PING time.twitch.tv\r\n")
+                        irc.send("PING time.twitch.tv\r\n")
                         print "PONG"
                     if msg.type == "MODS":
                         mods = msg.LoM

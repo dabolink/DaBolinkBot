@@ -7515,3 +7515,451 @@
 07-13 20:41 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
 07-13 20:41 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
 07-14 12:29 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 14:24 :> <dabolink> there ya go
+07-15 14:24 :> <thepretenderr> !cv set http://cv.gg/j8PDn45SeE
+07-15 14:24 :> <dabolinkbot> Curse Voice set to: http://cv.gg/j8PDn45SeE
+07-15 14:24 :> <dabolink> i think i changed a number and forgot to change it back
+07-15 14:25 :> <dabolink> did u get the whisper?
+07-15 14:52 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 14:53 :> <dabolink> !execute
+07-15 14:53 :> <topez64> !topstats
+07-15 14:53 :> <dabolinkbot> dabolinkbot : 138 hours, 581 lines of text. thepretenderr : 117 hours, 157 lines of text. dabolink : 69 hours, 600 lines of text. jrkyex : 42 hours, 107 lines of text. topez64 : 36 hours, 407 lines of text. ninjakid574 : 23 hours, 899 lines of text. haladslader : 21 hours, 282 lines of text. ianzhougaming : 18 hours, 2270 lines of text. raskalian : 16 hours, 601 lines of text. infernodes78 : 16 hours, 382 lines of text. 
+07-15 14:54 :> <dabolink> !execute
+07-15 14:54 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 14:55 :> <dabolink> ok, i think i fixed it
+07-15 14:55 :> <dabolink> !userstats
+07-15 14:55 :> <dabolinkbot> dabolink has been in chat for 69 hour(s) and 13 minute(s) and has written 601 line(s) of text. 
+07-15 14:55 :> <dabolink> !userstats ToPez64
+07-15 14:56 :> <topez64> !userstats
+07-15 14:56 :> <dabolinkbot> topez64 has been in chat for 36 hour(s) and 21 minute(s) and has written 407 line(s) of text. 
+07-15 14:56 :> <thepretenderr> !userstats
+07-15 14:56 :> <dabolinkbot> thepretenderr has been in chat for 117 hour(s) and 44 minute(s) and has written 157 line(s) of text. 
+07-15 14:56 :> <raskalian> !userstats
+07-15 14:56 :> <dabolinkbot> raskalian has been in chat for 16 hour(s) and 48 minute(s) and has written 601 line(s) of text. 
+07-15 14:57 :> <dabolink> you cant type in other peoples names atm, cause i brok it
+07-15 15:06 :> <dabolink> !userstats dabolinkbot
+07-15 15:06 :> <dabolinkbot> dabolinkbot has been in chat for 138 hour(s) and 36 minute(s) and has written 581 line(s) of text. 
+07-15 15:06 :> <dabolink> there we go
+07-15 15:07 :> <dabolink> kk, brb
+07-15 15:14 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:16 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:16 :> <dabolink> ok, that should fix it
+07-15 15:22 :> <dabolink> !print followers
+07-15 15:22 :> <dabolinkbot> []
+07-15 15:22 :> <dabolinkbot> 0
+07-15 15:22 :> <dabolink> opps
+07-15 15:23 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:24 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:24 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:25 :> <dabolink> !print followers
+07-15 15:25 :> <dabolinkbot> 98
+07-15 15:30 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:30 :> <dabolink> !print followers
+07-15 15:30 :> <dabolinkbot> 121
+07-15 15:31 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:31 :> <dabolink> print followers
+07-15 15:31 :> <dabolink> !print followers
+07-15 15:31 :> <dabolinkbot> 121
+07-15 15:36 :> <dabolink> twitch's follower api is stupid
+07-15 15:36 :> <dabolink> should only break the !add functionallity, so you should be good
+07-15 15:54 :> <thepretenderr> !cv set http://cv.gg/i4Y6
+07-15 15:54 :> <dabolinkbot> Curse Voice set to: http://cv.gg/i4Y6
+07-15 15:55 :> <jacerzz> matt at work?
+07-15 15:56 :> <jacerzz> lol im in vegas
+07-15 15:58 :> <jacerzz> yea its freakin hot here xD
+07-15 15:59 :> <thepretenderr> !topstats
+07-15 15:59 :> <dabolinkbot> dabolinkbot : 139 hours, 581 lines of text. thepretenderr : 118 hours, 157 lines of text. dabolink : 69 hours, 607 lines of text. jrkyex : 42 hours, 107 lines of text. topez64 : 36 hours, 407 lines of text. ninjakid574 : 23 hours, 899 lines of text. haladslader : 21 hours, 282 lines of text. ianzhougaming : 18 hours, 2270 lines of text. raskalian : 17 hours, 601 lines of text. infernodes78 : 16 hours, 382 lines of text. 
+07-15 15:59 :> <alvin3639> Hey o/
+07-15 15:59 :> <alvin3639> I now have all u.s. Tier 4 ships
+07-15 15:59 :> <dabolinkbot> Please no links unless you are given permission
+07-15 16:00 :> <alvin3639> What
+07-15 16:00 :> <thepretenderr> !toggle links
+07-15 16:00 :> <dabolinkbot> Link Timeout Disabled
+07-15 16:00 :> <topez64> Bad bot
+07-15 16:00 :> <alvin3639> Your bot don't like me
+07-15 16:00 :> <alvin3639> I now have all tier 4 U.S. Ships
+07-15 16:00 :> <topez64> Hi bot.
+07-15 16:01 :> <topez64> It like my grammar.
+07-15 16:01 :> <jacerzz> lol
+07-15 16:01 :> <meetnik_> got back form the store and your WowShips 
+07-15 16:02 :> <jacerzz> ok brb gonna eat first.  
+07-15 16:02 :> <alvin3639> I will get it
+07-15 16:02 :> <meetnik_> FUCK FREE I GOT IT 2 DAYS AGO  hahaha
+07-15 16:03 :> <meetnik_> i think im 1.5 -1.7 ya there is no god form yet 
+07-15 16:04 :> <meshabob> hi
+07-15 16:04 :> <meshabob> squad
+07-15 16:04 :> <meshabob> nvm
+07-15 16:05 :> <meetnik_> i have the berserk you cant work backwards on its circle so i have to start at Paliden then get around Berserker 
+07-15 16:06 :> <meetnik_> oh ya i like it like that 
+07-15 16:06 :> <topez64> For the gun show
+07-15 16:06 :> <meetnik_> i dont have gunner tho 
+07-15 16:06 :> <meetnik_> i just want to berserk
+07-15 16:06 :> <meetnik_> yes i have i want  Archer
+07-15 16:07 :> <meetnik_> its really cool 
+07-15 16:07 :> <topez64> Tyler is skyforge coming to console
+07-15 16:07 :> <meetnik_> i Just want Berserk 
+07-15 16:10 :> <topez64> It's not coming yet I went to games coming soon and there is no shyforge
+07-15 16:10 :> <meetnik_> Meetnik
+07-15 16:10 :> <alvin3639> I'm updating my computer then I will get on
+07-15 16:10 :> <meetnik_> like come on you know what it is 
+07-15 16:10 :> <alvin3639> Just restarting my computer
+07-15 16:11 :> <topez64> Skyforge I mean
+07-15 16:11 :> <meetnik_> -_- really 
+07-15 16:12 :> <meetnik_> T3
+07-15 16:12 :> <meetnik_> The load up time is just takeing a while 
+07-15 16:13 :> <alvin3639> I know a pretty good song but it's 41 mins long
+07-15 16:13 :> <meetnik_> Curse ?
+07-15 16:14 :> <topez64> Tyler did you pay for project cars
+07-15 16:14 :> <meetnik_> I think it froze 
+07-15 16:14 :> <meetnik_> oh wait there it goes 
+07-15 16:14 :> <meshabob> wait do you play warframe prentenderr
+07-15 16:15 :> <meshabob> ever since you showed it to me i started playing
+07-15 16:15 :> <meshabob> i have rhino with ether reaper!
+07-15 16:16 :> <meetnik_> ok im in add me 
+07-15 16:16 :> <alvin3639> I have warframe but my computer can barely run it
+07-15 16:17 :> <meetnik_> open up Curse 
+07-15 16:17 :> <alvin3639> I'm getting on now
+07-15 16:18 :> <meetnik_> Its sooo good 
+07-15 16:18 :> <thepretenderr> !cv
+07-15 16:18 :> <dabolinkbot> Curse Voice: http://cv.gg/i4Y6
+07-15 16:19 :> <alvin3639> Loading in
+07-15 16:19 :> <alvin3639> My computer is a bit slow when it just boots up
+07-15 16:20 :> <alvin3639> Dude look up Dell Inspiron 5050
+07-15 16:21 :> <alvin3639> That's my computer
+07-15 16:21 :> <meshabob> its a laptop
+07-15 16:21 :> <meshabob> XD
+07-15 16:21 :> <alvin3639> Yep
+07-15 16:21 :> <meshabob> not really a computer when i think about it
+07-15 16:21 :> <meetnik_> !cv
+07-15 16:21 :> <dabolinkbot> Curse Voice: http://cv.gg/i4Y6
+07-15 16:22 :> <meshabob> i dont think they are as powerful as computers
+07-15 16:22 :> <alvin3639> Yet I can run this game on max graphics and still get 30fps
+07-15 16:22 :> <meshabob> not bad
+07-15 16:24 :> <alvin3639> What ship should I bring I have all t4 U.S. ship
+07-15 16:25 :> <alvin3639> U got it
+07-15 16:26 :> <alvin3639> Good match up
+07-15 16:27 :> <alvin3639> I'm still loading in
+07-15 16:28 :> <alvin3639> Mite change some settings again after this batty
+07-15 16:28 :> <alvin3639> Battle
+07-15 16:29 :> <meshabob> you should play stranded deep it usually costs $15 but you can get it free using this http://oceanofgames.com/stranded-deep-free-download/ i got it no viruses
+07-15 16:29 :> <meshabob> the game is in an early stage
+07-15 16:29 :> <meshabob> so there might be a few bugs
+07-15 16:32 :> <jacerzz> dam matt that mic
+07-15 16:32 :> <jacerzz> was that matt?
+07-15 16:33 :> <alvin3639> We got reckt
+07-15 16:34 :> <alvin3639> I got 15 hits and one enemy destroyed
+07-15 16:38 :> <alvin3639> I'm with you
+07-15 16:39 :> <topez64> No you get a carrier and you duck tape tanks to the deck
+07-15 16:41 :> <topez64> How about we use super glue
+07-15 16:41 :> <topez64> No wait we use craze glue
+07-15 16:41 :> <alvin3639> I had no rudder
+07-15 16:42 :> <alvin3639> And was on fire
+07-15 16:45 :> <topez64> I don't have bob the builder I have glue and tape
+07-15 16:46 :> <alvin3639> You got him
+07-15 16:57 :> <alvin3639> But it always more fun to go middle
+07-15 17:00 :> <raskalian> !cv
+07-15 17:00 :> <dabolinkbot> Curse Voice: http://cv.gg/i4Y6
+07-15 17:01 :> <raskalian> i muted my mic cause my moms got the radio going
+07-15 17:03 :> <alvin3639> We going to lose this one
+07-15 17:03 :> <raskalian> scrubs
+07-15 17:03 :> <raskalian> lol
+07-15 17:05 :> <raskalian> feel free to continue world of warships i can solo this for a bit
+07-15 17:05 :> <raskalian> and catch up
+07-15 17:05 :> <alvin3639> Just realized you left the game
+07-15 17:06 :> <raskalian> wait meetnik has skyforge?
+07-15 17:07 :> <raskalian> my moms got the radio on
+07-15 17:07 :> <raskalian> so i dont have the mic on
+07-15 17:07 :> <raskalian> i dont think u want shitty pop music
+07-15 17:07 :> <raskalian> fucking taylor swift
+07-15 17:08 :> <raskalian> what prestige are u meetnik?
+07-15 17:09 :> <raskalian> theres a streamer at 4.8k prestige trying to get necro and hes still 8 nodes away
+07-15 17:09 :> <raskalian> what a noob
+07-15 17:09 :> <raskalian> meetnik can choose the missions
+07-15 17:09 :> <raskalian> lol
+07-15 17:09 :> <raskalian> yeah
+07-15 17:09 :> <raskalian> probably
+07-15 17:10 :> <raskalian> umm lemme check
+07-15 17:10 :> <topez64> !userstats
+07-15 17:10 :> <raskalian> fuck lanber forest
+07-15 17:10 :> <dabolinkbot> topez64 has been in chat for 38 hour(s) and 35 minute(s) and has written 417 line(s) of text. 
+07-15 17:10 :> <raskalian> umm anything nothing gives me green that i need
+07-15 17:14 :> <raskalian> ys
+07-15 17:14 :> <raskalian> there no green
+07-15 17:14 :> <raskalian> its possible
+07-15 17:14 :> <raskalian> its just pvp
+07-15 17:14 :> <raskalian> its only pvp for green
+07-15 17:14 :> <raskalian> ik
+07-15 17:14 :> <raskalian> thats why  said no green
+07-15 17:15 :> <raskalian>  wait
+07-15 17:15 :> <raskalian> okki island
+07-15 17:15 :> <raskalian> it scales
+07-15 17:15 :> <raskalian> lol
+07-15 17:16 :> <raskalian> cant
+07-15 17:16 :> <raskalian> even veryeasy
+07-15 17:16 :> <raskalian> yeah
+07-15 17:39 :> <topez64> !userstats
+07-15 17:39 :> <dabolinkbot> topez64 has been in chat for 39 hour(s) and 4 minute(s) and has written 417 line(s) of text. 
+07-15 17:57 :> <raskalian> these porkchops are so fucking tasty
+07-15 17:58 :> <raskalian> read twitch
+07-15 17:58 :> <raskalian> im here
+07-15 17:58 :> <raskalian> oh ok, ill just never watch ur stream again
+07-15 18:10 :> <topez64> How long has the stream been going for
+07-15 18:10 :> <haladslader> Hallo
+07-15 18:10 :> <haladslader> !uptime
+07-15 18:10 :> <dabolinkbot> Stream has been up for: 3 hours, 48 minutes, and 0 second
+07-15 18:12 :> <topez64> !userstats
+07-15 18:12 :> <dabolinkbot> topez64 has been in chat for 39 hour(s) and 37 minute(s) and has written 418 line(s) of text. 
+07-15 18:14 :> <topez64> I'm 8hours and 29 minutes from 2 days
+07-15 18:20 :> <topez64> !topstats
+07-15 18:20 :> <dabolinkbot> dabolinkbot : 139 hours, 581 lines of text. thepretenderr : 118 hours, 157 lines of text. dabolink : 69 hours, 607 lines of text. jrkyex : 42 hours, 107 lines of text. topez64 : 39 hours, 419 lines of text. ninjakid574 : 23 hours, 899 lines of text. haladslader : 21 hours, 282 lines of text. ianzhougaming : 18 hours, 2270 lines of text. raskalian : 17 hours, 626 lines of text. infernodes78 : 16 hours, 382 lines of text. 
+07-15 18:20 :> <topez64> I'm getting close to 4th place
+07-15 18:21 :> <haladslader> haha nice
+07-15 18:22 :> <topez64> And then I'm coming for 3rd
+07-15 18:23 :> <raskalian> rip
+07-15 18:23 :> <raskalian> internet
+07-15 18:23 :> <raskalian> lol
+07-15 18:23 :> <raskalian> !cv
+07-15 18:23 :> <dabolinkbot> Curse Voice: http://cv.gg/i4Y6
+07-15 18:40 :> <topez64> !userstats
+07-15 18:40 :> <dabolinkbot> topez64 has been in chat for 40 hour(s) and 5 minute(s) and has written 421 line(s) of text. 
+07-15 18:41 :> <dabolink> halad u still here?
+07-15 18:41 :> <dabolink> !userstats
+07-15 18:41 :> <dabolinkbot> dabolink has been in chat for 72 hour(s) and 59 minute(s) and has written 608 line(s) of text. 
+07-15 18:43 :> <haladslader> sorry i was afk
+07-15 18:46 :> <dabolink> I FOUND IT!
+07-15 18:46 :> <dabolink> !execute
+07-15 18:47 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 18:48 :> <dabolink> he's juking you
+07-15 18:48 :> <dabolink> !print viewers
+07-15 18:48 :> <dabolink> !print users
+07-15 18:48 :> <dabolinkbot> [(dabolink, 2015-07-16 01:47:08.318000, True), (dabolinkbot, 2015-07-16 01:47:08.318000, True), (haladslader, 2015-07-16 01:47:08.318000, True), (raskalian, 2015-07-16 01:47:08.318000, True), (thepretenderr, 2015-07-16 01:47:08.318000, True), (topez64, 2015-07-16 01:47:08.318000, True)]
+07-15 18:49 :> <dabolink> you mean bosses are hard... say what?
+07-15 18:50 :> <topez64> That's what she said
+07-15 18:57 :> <meetnik_> !cv
+07-15 18:57 :> <dabolinkbot> Curse Voice has not been set
+07-15 18:57 :> <thepretenderr> !cv set http://cv.gg/i4Y6
+07-15 18:57 :> <dabolinkbot> Curse Voice set to: http://cv.gg/i4Y6
+07-15 18:57 :> <meetnik_> you have forsaken me Bot Die 
+07-15 18:57 :> <dabolink> !cv set Curse Voice: http://cv.gg/i4Y6
+07-15 18:57 :> <dabolinkbot> Curse Voice set to: Curse
+07-15 18:57 :> <dabolink> opps
+07-15 18:57 :> <dabolink> !cv sethttp://cv.gg/i4Y6
+07-15 18:57 :> <dabolink> dammit
+07-15 18:57 :> <dabolink> i suck
+07-15 18:57 :> <topez64> Bad Dan
+07-15 18:57 :> <dabolink> !cv set http://cv.gg/i4Y6
+07-15 18:57 :> <dabolinkbot> Curse Voice set to: http://cv.gg/i4Y6
+07-15 18:58 :> <dabolink> that's not on me
+07-15 18:59 :> <meetnik_> #Hack
+07-15 19:00 :> <topez64> #hack
+07-15 19:00 :> <topez64> #botisgreat.
+07-15 19:01 :> <dabolink> yo meetnik did u get a message?
+07-15 19:01 :> <topez64> #screwyou
+07-15 19:02 :> <topez64> #thebotisthebest
+07-15 19:02 :> <dabolink> did either of you get a pm?
+07-15 19:02 :> <dabolink> did it work
+07-15 19:02 :> <topez64> Do not know
+07-15 19:03 :> <topez64> Got to go see y'all later
+07-15 19:05 :> <dabolink> !execute
+07-15 19:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:05 :> <dabolink> !cv set http://cv.gg/i4Y6
+07-15 19:06 :> <dabolinkbot> Curse Voice set to: http://cv.gg/i4Y6
+07-15 19:09 :> <dabolink> !dabolinkbot
+07-15 19:09 :> <dabolinkbot> DaBolinkbot is superior to non-bots and other bots
+07-15 19:10 :> <dabolink> !print freq_viewers
+07-15 19:11 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:11 :> <dabolink> !print freq_viewers
+07-15 19:12 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:12 :> <dabolink> !print freq_viewers
+07-15 19:12 :> <dabolinkbot> [(u'dabolink',), (u'dabolinkbot',), (u'damperert',), (u'haladslader',), (u'ianzhougaming',), (u'infernodes78',), (u'jrkyex',), (u'mentrion',), (u'ninjakid574',), (u'omgilikeitalot',), (u'raskalian',), (u'thepretenderr',), (u'topez64',)]
+07-15 19:13 :> <dabolink> !topstats
+07-15 19:13 :> <dabolinkbot> dabolinkbot : 142 hours, 581 lines of text. thepretenderr : 121 hours, 157 lines of text. dabolink : 73 hours, 615 lines of text. jrkyex : 42 hours, 107 lines of text. topez64 : 40 hours, 426 lines of text. ninjakid574 : 23 hours, 899 lines of text. haladslader : 22 hours, 283 lines of text. raskalian : 19 hours, 626 lines of text. ianzhougaming : 18 hours, 2270 lines of text. infernodes78 : 16 hours, 382 lines of text. 
+07-15 19:13 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:13 :> <dabolink> !print freq_viewers
+07-15 19:13 :> <dabolinkbot> [(u'alvin3639',), (u'dabolink',), (u'dabolinkbot',), (u'damperert',), (u'haladslader',), (u'ianzhougaming',), (u'infernodes78',), (u'jrkyex',), (u'locagiess',), (u'mentrion',), (u'ninjakid574',), (u'officialp4nd3m1c',), (u'omgilikeitalot',), (u'raskalian',), (u'thepretenderr',), (u'topez64',), (u'whosurdaddy20',)]
+07-15 19:20 :> <meetnik_> #report
+07-15 19:42 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:43 :> <dabolink> test
+07-15 19:44 :> <dabolink> !print freq_viewers
+07-15 19:44 :> <dabolinkbot> [(u'alvin3639',), (u'dabolink',), (u'dabolinkbot',), (u'damperert',), (u'haladslader',), (u'ianzhougaming',), (u'infernodes78',), (u'jrkyex',), (u'locagiess',), (u'mentrion',), (u'ninjakid574',), (u'officialp4nd3m1c',), (u'omgilikeitalot',), (u'raskalian',), (u'thepretenderr',), (u'topez64',), (u'whosurdaddy20',)]
+07-15 19:49 :> <dabolink> !execute
+07-15 19:49 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:50 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:52 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 19:52 :> <dabolink> !dabolinkbot
+07-15 19:52 :> <dabolinkbot> DaBolinkbot is superior to non-bots and other bots
+07-15 19:58 :> <raskalian> these pork chops are really really good
+07-15 19:59 :> <raskalian> yeah
+07-15 19:59 :> <raskalian> so damn tasty
+07-15 19:59 :> <raskalian> tyler we should qeue for 5man
+07-15 20:00 :> <dabolink> !print freq_viewers
+07-15 20:00 :> <dabolinkbot> [(u'alvin3639',), (u'dabolink',), (u'dabolinkbot',), (u'damperert',), (u'haladslader',), (u'ianzhougaming',), (u'infernodes78',), (u'jrkyex',), (u'locagiess',), (u'mentrion',), (u'ninjakid574',), (u'officialp4nd3m1c',), (u'omgilikeitalot',), (u'raskalian',), (u'thepretenderr',), (u'topez64',), (u'whosurdaddy20',)]
+07-15 20:08 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 20:09 :> <dabolink> did everyone just get that message?
+07-15 20:11 :> <haladslader> what message?
+07-15 20:13 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 20:13 :> <dabolink> ok, this is it
+07-15 20:13 :> <dabolink> !print freq_viewers
+07-15 20:13 :> <dabolinkbot> [u'alvin3639', u'dabolink', u'dabolinkbot', u'damperert', u'haladslader', u'ianzhougaming', u'infernodes78', u'jrkyex', u'locagiess', u'mentrion', u'ninjakid574', u'officialp4nd3m1c', u'omgilikeitalot', u'raskalian', u'thepretenderr', u'topez64', u'whosurdaddy20']
+07-15 20:14 :> <haladslader> got it
+07-15 20:14 :> <dabolink> IT WORKED!
+07-15 20:14 :> <dabolink> i sent too quickly so not everyone got it O.o
+07-15 20:17 :> <raskalian> dan get the fuck in curse
+07-15 20:17 :> <meetnik_> PEANUTBUTTER 
+07-15 20:17 :> <dabolink> what the fuck you want
+07-15 20:17 :> <dabolink> post cv pls
+07-15 20:17 :> <dabolink> !cv
+07-15 20:17 :> <dabolinkbot> Curse Voice has not been set
+07-15 20:17 :> <meetnik_> PEANUTBUTTER SAN WE WANT PEANUTBUTTER 
+07-15 20:17 :> <meetnik_> Dan**
+07-15 20:17 :> <thepretenderr> http://cv.gg/i4Y6
+07-15 20:17 :> <dabolink> !cv set http://cv.gg/i4Y6
+07-15 20:17 :> <dabolinkbot> Curse Voice set to: http://cv.gg/i4Y6
+07-15 20:22 :> <thepretenderr> !uptime
+07-15 20:22 :> <dabolinkbot> Stream has been up for: 6 hours, , and 7 seconds
+07-15 20:26 :> <dabolink> !uptime
+07-15 20:26 :> <dabolinkbot> Stream has been up for: 6 hours, 3 minutes, and 33 seconds
+07-15 20:31 :> <theredino> are u taking requests
+07-15 20:31 :> <theredino> plz?
+07-15 20:31 :> <theredino> sing a song?sing a song?
+07-15 20:31 :> <theredino> plz?
+07-15 20:31 :> <theredino> plz sing this song:
+07-15 20:31 :> <thepretenderr> !toggle links
+07-15 20:31 :> <dabolinkbot> Link Timeout Disabled
+07-15 20:31 :> <theredino> Daft Punk - Around the World
+07-15 20:31 :> <theredino> plz sing this for me
+07-15 20:32 :> <theredino> plz sing around the world
+07-15 20:32 :> <theredino> come on tyler
+07-15 20:32 :> <theredino> sing it
+07-15 20:33 :> <theredino> i dont masturbate
+07-15 20:33 :> <theredino> it against my religion
+07-15 20:59 :> <alvin3639> you eating cookies again?
+07-15 21:00 :> <alvin3639> one day you are going to become the cookie monster
+07-15 21:01 :> <raskalian> one day?
+07-15 21:01 :> <raskalian> he already is
+07-15 21:01 :> <raskalian> im amazed he hasnt died yet
+07-15 21:02 :> <alvin3639> im downloading this game right now
+07-15 21:03 :> <alvin3639> cool I will join once I can
+07-15 21:07 :> <dabolink> swag = secretly we are gay
+07-15 21:08 :> <dabolink> but then we will all be in it...
+07-15 21:09 :> <dabolink> im DPS
+07-15 21:19 :> <alvin3639> So any tips that you can give me since I'm about to be playing
+07-15 21:19 :> <raskalian> win
+07-15 21:20 :> <raskalian> play all the cllasses in the training area and decide which one u want the most and go for it in a straight line in the atles
+07-15 21:20 :> <raskalian> atlas
+07-15 21:21 :> <alvin3639> I watch the YouTube videos from the games page on all the classes
+07-15 21:21 :> <alvin3639> So I kinda have an idea of what one I mite go with
+07-15 21:22 :> <alvin3639> But I will still check them all out
+07-15 21:23 :> <alvin3639> It's going to be a while till the download is done says it will be 2 hours
+07-15 21:23 :> <alvin3639> Because it's 10 GB
+07-15 21:26 :> <alvin3639> Well I'm going to go watch some more YouTube about this game so I will catch you later if your still on
+07-15 22:02 :> <raskalian> ur mic is so loud
+07-15 22:03 :> <raskalian> I'm watching u from my bedroom
+07-15 22:03 :> <raskalian> :)
+07-15 22:04 :> <raskalian> I'm not tired so I'm on my phone
+07-15 22:04 :> <raskalian> #hacks
+07-15 22:05 :> <meetnik_> and now im here 
+07-15 22:06 :> <raskalian> nice
+07-15 22:08 :> <meetnik_> your the 17 on the list of streamers streaming this 
+07-15 22:10 :> <meetnik_> ok there is like 4 ppl streaming and most of them have o watching so your doing good 
+07-15 22:10 :> <meetnik_> 40**
+07-15 22:11 :> <meetnik_> Cannon is Cannon 
+07-15 22:19 :> <meetnik_> Get good son 
+07-15 22:20 :> <billyg120898> ppl are playing and im sitting here watching for no use =_=
+07-15 22:21 :> <raskalian> I'm not playing either
+07-15 22:21 :> <meetnik_> pvp pvp 
+07-15 22:22 :> <raskalian> I. can't hear mic......
+07-15 22:22 :> <raskalian> Only when headphones are plugged in
+07-15 22:45 :> <topez64> Hello
+07-15 22:46 :> <topez64> !topstats
+07-15 22:46 :> <dabolinkbot> dabolinkbot : 143 hours, 581 lines of text. thepretenderr : 122 hours, 158 lines of text. dabolink : 73 hours, 623 lines of text. jrkyex : 42 hours, 107 lines of text. topez64 : 40 hours, 426 lines of text. ninjakid574 : 23 hours, 899 lines of text. haladslader : 22 hours, 284 lines of text. raskalian : 20 hours, 639 lines of text. ianzhougaming : 18 hours, 2270 lines of text. infernodes78 : 16 hours, 382 lines of text. 
+07-15 22:46 :> <topez64> Nothing much
+07-15 22:47 :> <topez64> Wtf your fighting a giant shroom
+07-15 22:48 :> <topez64> Thank you bot for tailing me.
+07-15 22:49 :> <topez64> Well fans the best
+07-15 22:50 :> <topez64> Dans I mane
+07-15 22:50 :> <meetnik_> that penis monster ahahah 
+07-15 22:50 :> <topez64> It's a fucking shroom that eats other shrooms to heal
+07-15 22:51 :> <meetnik_> but replace the word shroom with penis in your sentence  its a lot scarier 
+07-15 22:52 :> <topez64> But shroom are suppose to be eaten by you not the other way around
+07-15 22:52 :> <demonninja52> hey is the bate for skyforge out now shazamicon
+07-15 22:53 :> <topez64> Not yet
+07-15 22:53 :> <demonninja52> do you know
+07-15 22:53 :> <topez64> Tyler you got 360 no scoped
+07-15 22:53 :> <demonninja52> i got it
+07-15 22:54 :> <demonninja52> i can not play it
+07-15 22:54 :> <demonninja52> do i got  a  xbox360
+07-15 22:56 :> <demonninja52> yo topez
+07-15 22:56 :> <topez64> Yes
+07-15 22:56 :> <demonninja52> do you got a xbox 360
+07-15 22:56 :> <topez64> And Tyler fuck you the Xbox360 is great
+07-15 22:56 :> <topez64> Yes
+07-15 22:56 :> <demonninja52> add me
+07-15 22:56 :> <demonninja52> Demonsoulninja1
+07-15 22:57 :> <demonninja52> are you adding me
+07-15 22:57 :> <topez64> Well you are going to have to wait to play games with me I have to get my disc tray fixed
+07-15 22:58 :> <demonninja52> oh
+07-15 22:58 :> <demonninja52> do you got a pc
+07-15 22:58 :> <topez64> No
+07-15 22:58 :> <demonninja52> a psvita
+07-15 22:59 :> <demonninja52> topez
+07-15 22:59 :> <topez64> Yes
+07-15 22:59 :> <demonninja52> do you got a ps vita
+07-15 22:59 :> <topez64> No
+07-15 23:00 :> <demonninja52> a ps 3
+07-15 23:00 :> <topez64> The only ps I like is the ps2
+07-15 23:00 :> <topez64> No I do not have any ps
+07-15 23:02 :> <demonninja52> how can i play skyforge bate topez
+07-15 23:02 :> <topez64> I do not know
+07-15 23:03 :> <dabolinkbot> new follower!!!! demonninja52 !!!! RAISE YOUR KAPPAS Kappa Kappa Kappa Kappa !!!!
+07-15 23:05 :> <topez64> Bot I'll raise your kappas Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa Kappa
+07-15 23:05 :> <demonninja52> is today
+07-15 23:05 :> <thepretenderr> Kappa
+07-15 23:05 :> <demonninja52> today is the 16
+07-15 23:06 :> <topez64> Tyler I have no life at night
+07-15 23:06 :> <demonninja52> yessssssssssssssssssssssssssssssssss
+07-15 23:07 :> <demonninja52> i got skyforge bate
+07-15 23:07 :> <topez64> Tyler I can do more
+07-15 23:08 :> <demonninja52> i can not play the game how come
+07-15 23:09 :> <demonninja52> oh
+07-15 23:16 :> <demonninja52> hey do you got dcuo
+07-15 23:17 :> <demonninja52> dc unvires online
+07-15 23:18 :> <demonninja52> sc universe online
+07-15 23:21 :> <topez64> <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3 <3
+07-15 23:22 :> <topez64> All the Hearts for Tyler
+07-15 23:23 :> <topez64> !bot
+07-15 23:23 :> <topez64> !userstats
+07-15 23:23 :> <dabolinkbot> topez64 has been in chat for 40 hour(s) and 47 minute(s) and has written 444 line(s) of text. 
+07-15 23:25 :> <topez64> Is that a fucking dinosaur
+07-15 23:28 :> <alvin3639> Hey I'm back
+07-15 23:28 :> <topez64> Welcome back
+07-15 23:28 :> <demonninja52> me
+07-15 23:29 :> <demonninja52> how you got the game skyforge
+07-15 23:29 :> <demonninja52> shazamicon
+07-15 23:29 :> <alvin3639> @demonninja52 you can get it
+07-15 23:30 :> <demonninja52> i got the bate
+07-15 23:30 :> <alvin3639> I already downloaded it
+07-15 23:30 :> <demonninja52> the bate
+07-15 23:30 :> <alvin3639> It's just now installing everything
+07-15 23:30 :> <demonninja52> at 12:00 i can play it
+07-15 23:31 :> <alvin3639> What time is it for you
+07-15 23:31 :> <demonninja52> 2:31
+07-15 23:31 :> <alvin3639> Ok I'm 1 hour behind you
+07-15 23:32 :> <alvin3639> I'm one hour behind @demonninja52
+07-15 23:32 :> <alvin3639> I also think I know what class I'm going to choose
+07-15 23:33 :> <demonninja52> me to
+07-15 23:33 :> <demonninja52> do you got dcuo
+07-15 23:33 :> <alvin3639> I'm either going to choose gunner or archer
+07-15 23:33 :> <demonninja52> alvin
+07-15 23:33 :> <alvin3639> What's that
+07-15 23:34 :> <demonninja52> dc universe online
+07-15 23:34 :> <alvin3639> I don't
+07-15 23:34 :> <alvin3639> Thought about it but idk
+07-15 23:35 :> <thepretenderr> !uptime
+07-15 23:35 :> <dabolinkbot> Stream has been up for: 9 hours, 12 minutes, and 40 seconds
+07-15 23:35 :> <demonninja52> you download skyforge bate alvin
+07-15 23:35 :> <thepretenderr> have a good ngiht guys
+07-15 23:35 :> <thepretenderr> cya tomorrow
+07-15 23:35 :> <alvin3639> Cya
+07-15 23:36 :> <alvin3639> @demonninja52 I just finished downloading it
+07-15 23:36 :> <alvin3639> It's just installing the files now

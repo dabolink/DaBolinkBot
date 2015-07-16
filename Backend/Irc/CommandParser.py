@@ -7,7 +7,7 @@ def admin_commands(bot, q, user, command, parameters=None):
             if parameters[0] == "add":
                 # Database.add_time(parameters[1], int(parameters[2]))
                 pass
-            #TODO reimplement
+            # TODO reimplement
     if command == "next":
         q.var_queue.put(("QUEUE", "GET"))
     elif command == "donations":
@@ -80,6 +80,7 @@ def commands(bot, q, user, command, parameters):
         if not parameters:
             q.var_queue.put(("GET USERSTATS", user))
         else:
+            print " ".join(parameters)
             q.var_queue.put(("GET USERSTATS", " ".join(parameters)))
     elif command == "cv":
         q.var_queue.put(("CV",))
@@ -116,7 +117,7 @@ def start(bot, q):
     while q.kill_queue.empty():
         if not q.command_queue.empty():
             cmd = q.command_queue.get()
-            #(T/F,  (command, params))
+            #(user,  (command, params))
             if cmd[0].admin:
                 admin_commands(bot, q, cmd[0].name, cmd[1][0][1:], cmd[1][1:])
             else:

@@ -274,3 +274,20 @@
 07-14 12:31 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
 07-14 12:32 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
 07-14 12:34 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:02 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:02 :> <dabolink> !userstats dabolink
+07-15 15:04 :> <dabolink> !userstats
+07-15 15:04 :> <dabolinkbot> dabolink has been in chat for 0 hour(s) and 36 minute(s) and has written 14 line(s) of text. 
+07-15 15:04 :> <dabolink> !userstats dabolink
+07-15 15:04 :> <dabolinkbot> dabolink has been in chat for 0 hour(s) and 36 minute(s) and has written 14 line(s) of text. 
+07-15 15:04 :> <dabolink> !userstats thepretenderr
+07-15 15:05 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 15:05 :> <dabolink> !userstats dabolink
+07-15 15:05 :> <dabolinkbot> dabolink has been in chat for 0 hour(s) and 37 minute(s) and has written 14 line(s) of text. 
+07-15 15:06 :> <dabolink> !userstats thepretenderr
+07-15 15:06 :> <dabolink> !topstats
+07-15 15:06 :> <dabolinkbot> dabolinkbot : 0 hours, 95 lines of text. dabolink : 0 hours, 14 lines of text. raverfx : 0 hours, 3 lines of text. kkkradical : 0 hours, 1 lines of text. 
+07-15 15:06 :> <dabolink> !userstats dabolinkbot
+07-15 15:06 :> <dabolinkbot> dabolinkbot has been in chat for 0 hour(s) and 55 minute(s) and has written 95 line(s) of text. 
+07-15 20:09 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-15 20:13 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat

@@ -11,18 +11,23 @@ def update_followers(channel, q):
     num_followers = channel_follow["_total"]
     i = 0
     while i < num_followers:
-        if i >= offset + limit:
+        try:
+            if i >= offset + limit:
+                offset += limit
+                channel_follow = get_channel_follows(channel, limit, offset)
+            followers.append(channel_follow["follows"][i - offset]["user"]["name"])
+            i += 1
+        except IndexError:
+            print "INDEX ERROR: ", i, offset, limit
             offset += limit
-            channel_follow = get_channel_follows(channel, limit, offset)
-        followers.append(channel_follow["follows"][i-offset]["user"]["name"])
-        i += 1
-    print followers[0], followers[len(followers)-1]
+    print followers[0], followers[len(followers) - 1]
     q.log_queue.put(("FOLLOWERS", str(followers)))
     q.var_queue.put(("FOLLOWERS", followers))
 
 
 def start(bot, q):
-    i = 0
+    j = 0.0
+    print bot.periodic_sleep
     if bot.debug:
         import sys
         sys.stderr = open('Logs/Errors/{}/Followers.txt'.format(bot.channel), 'w')
@@ -60,10 +65,12 @@ def start(bot, q):
             num_followers = check_num
             update_followers(bot.channel, q)
         else:
-            print "no new followers", num_followers
-            i += bot.periodic_sleep/60
-            if i >= 5:
-                i = 0
-                q.out_queue(("MESSAGE",))
+            incr = bot.periodic_sleep / float(60)
+            print incr
+            j += incr
+            if j >= 5:
+                j = 0
+                q.out_queue.put(("MESSAGE",))
+            print "no new followers", num_followers, j
         sleep(bot.periodic_sleep)
     print "FOLLOWERS"

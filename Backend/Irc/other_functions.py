@@ -14,6 +14,7 @@ def binary_search(list, value):
     elif value > list[mid]:
         return binary_search(list[mid:], value)
 
+
 def insert(list, value):
     # print list, value
     if len(list) == 0:
@@ -30,7 +31,6 @@ def insert(list, value):
         return list[:mid] + insert(list[mid:], value)
     else:
         return list
-
 
 
 if __name__ == "__main__":

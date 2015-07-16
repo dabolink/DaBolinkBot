@@ -41,7 +41,10 @@ def parse_output(bot, irc, output):
             irc_send_command(bot, irc, "timeout {} {}".format(output[2], str(bot.timeout_time)))
     elif output[0] == "MODS":
         print "mod request sent"
-        irc_send_command(bot, irc, "mods")
+        irc_send_message(bot, irc, "/mods")
+    elif output[0] == "MESSAGE":
+        irc_send_message(bot, irc, "/mods")
+
 
 
 def start(bot, q):

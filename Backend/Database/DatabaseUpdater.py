@@ -56,7 +56,8 @@ def start(bot, q):
     cur.execute("create table if not exists Quotes (date text, quote text)")
     # cur.execute("create table if not exists Channels (timeout  integer, follow_string text, curse_voice text)")
     conn.commit()
-    q.chat_queue.put(("VIEWERS", cur.execute("SELECT user FROM USERS WHERE hours >= ?", (bot.freq_viewer_time,)).fetchall()))
+    freq_viewers = [viewer[0] for viewer in cur.execute("SELECT user FROM USERS WHERE hours >= ?", (bot.freq_viewer_time,)).fetchall()]
+    q.chat_queue.put(("VIEWERS", freq_viewers))
     while q.kill_queue.empty() or not killSecure:
         if not q.database_queue.empty():
             cmd = q.database_queue.get()

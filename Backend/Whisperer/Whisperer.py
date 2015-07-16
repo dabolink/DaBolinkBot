@@ -48,16 +48,21 @@ def start(bot, q):
     irc.send("NICK {}\r\n".format(botnick))
     irc.send("JOIN #{}\r\n".format(channel))
     print "Whisper started"
+    i = 0
     q.whisper_queue.put((bot.channel, "Hello, I am here to help moderate the chat :D"))
     while q.kill_queue.empty():
+        i+=1
         if not q.whisper_queue.empty():
             output = q.whisper_queue.get()
-            if output == "PONG":
+            print output
+            if output == "PING":
                 irc.send("PONG tmi.twitch.tv\r\n")
             else:
-                recipient = output[0]
-                message = output[1]
-                irc_send_whisper(irc, recipient, message)
-        else:
-            sleep(bot.sleep_time)
+                try:
+                    recipient = output[0]
+                    message = output[1]
+                    irc_send_whisper(irc, recipient, message)
+                except IndexError:
+                    print "whisper error:", output
+        sleep(bot.sleep_time * 6)
     print "WHISPER"

@@ -18,6 +18,7 @@ def start(bot, q):
                 print "mods got"
             elif msg[0] == "VIEWERS":
                 frequent_viewers = []
+                print "msg[1]", msg[1]
                 for user in msg[1]:
                     frequent_viewers = insert(frequent_viewers, user)
                 print frequent_viewers
@@ -39,8 +40,12 @@ def start(bot, q):
                 if msg.type == "PRIVMSG":
                     q.log_queue.put(("CHAT", "<" + msg.user.name + "> " + msg.message))
                     if msg.message[0] == "!":
+                        if msg.message == "!print freq_viewers":
+                            print frequent_viewers
+                            q.out_queue.put(("PRIVMSG", str(frequent_viewers)))
                         print "command found"
                         command = msg.message.split(" ")
+                        print command
                         q.command_queue.put((msg.user, command))
                     else:
                         if not msg.user.name == "dabolinkbot":
@@ -66,13 +71,15 @@ def start(bot, q):
                     print "mods updated"
                 elif msg.type == "JOIN" or msg.type == "PART":
                     q.var_queue.put(("VIEWER", msg.type, msg.user))
-                    if binary_search(frequent_viewers, msg.user):
-                        q.whisper_queue.put((msg.user, bot.freq_viewer_message))
+                    print frequent_viewers, msg.user.name
+                    if binary_search(frequent_viewers, msg.user.name) and msg.type == "JOIN":
+                        q.whisper_queue.put((msg.user.name, bot.freq_viewer_message))
                 elif msg.type == "NOTICE":
                     pass
                 elif msg.type == "PING":
                     print "PONG"
                     q.out_queue.put(("PING",))
+                    q.whisper_queue.put("PING")
                 elif msg.type == "ADMIN":
                     if not mods.__contains__(msg.user.name):
                         mods.append(msg.user.name)
