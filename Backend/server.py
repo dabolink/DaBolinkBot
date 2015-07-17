@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, make_response
+from flask import Flask, jsonify, make_response, request
 import multiprocessing
 import sqlite3
 import Controller
@@ -73,6 +73,50 @@ def get_channel_userstats(channel, user):
         })
     return make_response(jsonify({'error': 'User Not found'}), 404)
 
+
+@app.route('/dabolinkbot/api/v1.0/channel/settings/<channel>/', methods=["GET", "POST"])
+def get_channel_settings(channel):
+    print "here"
+    conn = sqlite3.connect("Database/Master.db")
+    cur = conn.cursor()
+    print request.method
+    if request.method == 'GET':
+        result = cur.execute("SELECT * FROM Channels WHERE channel = ?", (channel,)).fetchone()
+        if not result:
+
+            res = cur.execute('PRAGMA table_info(Channels)').fetchall()
+            print res
+            defaults = (channel,)
+            for val in res:
+                print val[4]
+                if val[4]:
+                    defaults += (val[4],)
+            print defaults
+            cur.execute("""INSERT INTO Channels VALUES (?, ?, ?, ?)""", defaults)
+            conn.commit()
+            result = cur.execute("SELECT * FROM Channels WHERE channel = ?", (channel,)).fetchone()
+        j = {
+            "channel": result[0],
+            "timeout_time": result[1],
+            "freq_viewer_time": result[2],
+            "follow_message": result[3]
+        }
+        return jsonify(j)
+    if request.method == 'POST':
+        result = request.get_json(force=True)
+        if "timeout_time" not in result and "freq_viewer_time" not in result and "follow_message" not in result:
+            return make_response(jsonify({'error': 'JSON missing values'}))
+        if "timeout_time" in result:
+            cur.execute("""UPDATE Channels SET timeout_time = ? WHERE channel = ?""", (result['timeout_time'], channel))
+        if "freq_viewer_time" in result:
+            cur.execute("""UPDATE Channels SET freq_viewer_time = ? WHERE channel = ?""", (result["freq_viewer_time"], channel))
+        if "follow_message" in result:
+            cur.execute("""UPDATE Channels SET folow_message = ? WHERE channel = ?""", (result["follow_message"], channel))
+        conn.commit()
+        return jsonify({'result': 'success'})
+    if not channel:
+        return make_response(jsonify({'error': 'Channel not found'}))
+
 @app.route("/dabolinkbot/api/v1.0/user/<user>")
 def get_userstats(user):
     import glob
@@ -106,4 +150,6 @@ def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
 
 if __name__ == "__main__":
-    app.run("0.0.0.0")
+    app.debug = True
+    # app.run()
+    app.run(host='0.0.0.0')

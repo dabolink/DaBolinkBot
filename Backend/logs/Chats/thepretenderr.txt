@@ -7963,3 +7963,69 @@
 07-15 23:35 :> <alvin3639> Cya
 07-15 23:36 :> <alvin3639> @demonninja52 I just finished downloading it
 07-15 23:36 :> <alvin3639> It's just installing the files now
+07-16 17:03 :> <dabolinkbot> hello, i am DaBolinkBot, i am here to help moderate the chat
+07-16 17:06 :> <thepretenderr> !cv set http://cv.gg/w7FR
+07-16 17:06 :> <dabolinkbot> Curse Voice set to: http://cv.gg/w7FR
+07-16 17:35 :> <haladslader> Whats up
+07-16 17:36 :> <haladslader> great and you?
+07-16 17:36 :> <alvin3639> Hey
+07-16 17:36 :> <haladslader> whats up alvin
+07-16 17:37 :> <alvin3639> Nothing much I played some skyforge this morning and I am getting on now
+07-16 17:38 :> <alvin3639> I will
+07-16 17:38 :> <alvin3639> Lol
+07-16 17:39 :> <alvin3639> I'm on now
+07-16 17:42 :> <alvin3639> It's Lord knighthawk
+07-16 18:01 :> <dabolink> !print freq_viewers
+07-16 18:01 :> <dabolinkbot> [u'alvin3639', u'dabolink', u'dabolinkbot', u'damperert', u'haladslader', u'ianzhougaming', u'infernodes78', u'jrkyex', u'locagiess', u'mentrion', u'ninjakid574', u'officialp4nd3m1c', u'omgilikeitalot', u'raskalian', u'thepretenderr', u'topez64', u'whosurdaddy20']
+07-16 18:12 :> <alvin3639> You waiting for me or something?
+07-16 18:15 :> <alvin3639> I'm low on prestige
+07-16 18:16 :> <alvin3639> I'm at 528
+07-16 18:43 :> <billyg120898> i have an error
+07-16 18:43 :> <billyg120898> it said "avatar list download error"
+07-16 18:44 :> <raskalian> ive never had that error
+07-16 18:45 :> <billyg120898> well, the error appear with the queue
+07-16 18:45 :> <billyg120898> i think they are fixing the bugs
+07-16 18:46 :> <billyg120898> and some ppl cant login
+07-16 18:47 :> <billyg120898> i ve got a bug that u can get the daily acces bonus every time u change area
+07-16 18:49 :> <raskalian> yeah theyve been restarting some of the game servers
+07-16 18:49 :> <raskalian> tyler and i were having a bug where we couldnt see our groups or pantheons while in the observatory
+07-16 18:50 :> <raskalian> but we played an adventure and we connected to a different server and it was fine
+07-16 18:54 :> <billyg120898> and then boom!!! got disconnect like D3
+07-16 19:05 :> <alvin3639> I'm not in a mission and it didn't disconnect me
+07-16 19:05 :> <alvin3639> Now I just got kicked
+07-16 19:07 :> <alvin3639> Let's see what can I do in 20 mins
+07-16 19:07 :> <alvin3639> I join you?
+07-16 19:08 :> <alvin3639> Lol
+07-16 19:08 :> <alvin3639> I like that map to
+07-16 19:09 :> <billyg120898> wait, why ur cleveland have AA skill?
+07-16 19:09 :> <alvin3639> I find it funny when no one goes middle from the enemy team and half my team dose
+07-16 19:09 :> <billyg120898> mine is just some radio stuff
+07-16 19:11 :> <billyg120898> lol, now i know why my hiryu cant deal with clevelands
+07-16 19:12 :> <alvin3639> That rounds hang time thou
+07-16 19:14 :> <billyg120898> LOL
+07-16 19:14 :> <billyg120898> XD
+07-16 19:15 :> <alvin3639> Lol the ally thought you needed some torps so he was sharing his with you
+07-16 19:16 :> <alvin3639> Lol
+07-16 19:16 :> <alvin3639> It's down for 20 mins don't think it's been that long yet
+07-16 19:17 :> <billyg120898> yay, got in the game
+07-16 19:17 :> <alvin3639> I'm getting on
+07-16 19:18 :> <alvin3639> I already did that mission
+07-16 19:19 :> <alvin3639> Dude they gave everyone premium
+07-16 19:20 :> <billyg120898> lol im still have the daily bonus
+07-16 19:22 :> <billyg120898> im new to the game, how to change ur class?
+07-16 19:23 :> <billyg120898> i only have 3 original class to choose, how can i get the new ones?
+07-16 19:29 :> <raskalian> i just gotta put out the recycling like 5-10minutes
+07-16 19:53 :> <thepretenderr> !uptime
+07-16 19:53 :> <dabolinkbot> Stream has been up for: 3 hours, 6 minutes, and 21 seconds
+07-16 20:03 :> <raskalian> #hacks
+07-16 20:08 :> <alvin3639> I have almost finished the path of the paladin
+07-16 20:17 :> <lovejenny80> why don't you put a banner for goldmine? (http://goo.gl/dMAQle) massive income for streamers..
+07-16 20:28 :> <raskalian> i went down in prestige
+07-16 20:28 :> <raskalian> ..............
+07-16 21:15 :> <thepretenderr> !uptime
+07-16 21:15 :> <dabolinkbot> Stream has been up for: 4 hours, 28 minutes, and 39 seconds
+07-16 21:24 :> <demonninja52> hey man i got the skyforge bate
+07-16 21:28 :> <demonninja52> hey can you do a 10man
+07-16 21:29 :> <demonninja52> not a 3man shazamicon
+07-16 22:06 :> <thepretenderr> goodnight guys
+07-16 22:06 :> <alvin3639> Night

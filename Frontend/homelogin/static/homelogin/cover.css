@@ -117,7 +117,21 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+.half-left {
+    background-color: yellow;
+    float: left;
+    border: dashed 1px;
+    width: 45%;
+    position: absolute;
 
+}
+.half-right{
+    background-color: pink;
+    float: right
+    border: dashed 1px;
+    width: 45%;
+    position: relative;
+}
 .btn-twitch {
   background-color: #6600CC;
   color: #FFFFFF;

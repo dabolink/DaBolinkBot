@@ -12,6 +12,7 @@ class Bot:
         self.sleep_time = 0.5
         self.periodic_sleep = 30
         self.freq_viewer_time = 5
+        self.follow_message = ""
         if self.channel == "dabolink":
             self.freq_viewer_time = 0
         self.freq_viewer_message = "Hey, You are a frequent viewer to this channel, stay tuned for more features coming soon"

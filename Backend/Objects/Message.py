@@ -50,7 +50,7 @@ class Message:
 
     def is_link(self):
         if self.message:
-            link = re.match(".*(http(s)?://)?(www.)?[a-zA-Z]{3,}[.][a-zA-Z]{3,}(/[a-zA-Z]*)?.*", self.message)
+            link = re.match(".*(http(s)?://)?(www.)?[a-zA-Z]{3,}[.][a-zA-Z]{2,}(/[a-zA-Z]*)?.*", self.message)
             if link:
                 return True
         return False
