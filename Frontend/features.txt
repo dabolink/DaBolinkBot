@@ -1,0 +1,17 @@
+!quote add <i>quote</i>:adds a quote to the database:True
+!execute:terminates the bot:True
+!next:prints the next person in the queue:True
+!clear:clears the queue:True
+!toggle links:turns off bots link moderation:True
+!bookmark:saves a bookmark (currently inaccessible by users):True
+!cv set <i>link</i>:sets link to voice chat:True
+!permit <i>user</i>:allows a user to post (1) link:True
+!quote:prints a random quote:False
+!uptime:states how long the broadcast has been going:False
+!highlight:prints url to most recent highlight of the channel:False
+!dabolinkbot:prints witty message:False
+!add <i>ign</i>:adds ign to queue:False
+!userstats <i>name</i>:gets the user's stats for the channel (if no name, default user is used):False
+!topstats:prints the top users of the channel:False
+!cv:prints the url to the voice chat:False
+!commands:links to dabolinkbot channel for list of commands:False

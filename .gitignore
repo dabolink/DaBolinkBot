@@ -3,6 +3,7 @@ Backend/Controller.pyc
 Backend/Logs/**/*
 !Backend/Logs/**/dabolink*
 Backend/Values*
+Backend/Database/Databases/*.db
 *.pyc
 *~
 *.swp

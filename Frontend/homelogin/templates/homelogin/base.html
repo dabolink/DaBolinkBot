@@ -27,13 +27,14 @@
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
+          <div class="masthead clearfix" style="background:inherit">
             <div class="inner">
               <h3 class="masthead-brand">DaBolinkBot</h3>
               <nav>
                 <ul class="nav masthead-nav">
 				  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
                   <li><a data-toggle="tab" href="#features">Features</a></li>
+                  <li><a data-toggle="tab" href="#settings">Settings</a></li>
                   <li><a data-toggle="tab" href="#contact">Contact</a></li>
                 </ul>
               </nav>
@@ -44,7 +45,7 @@
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Landing page for <a href="http://www.twitch.tv/dabolinkbot">DaBolinkBot</a>, by <a href="">kradical</a>.</p>
+              <p>Landing page for <a href="http://www.twitch.tv/dabolinkbot">DaBolinkBot</a>, by <a href="http://github.com/kradical">kradical</a> and <a href="http://github.com/dabolink">DaBolink</a>.</p>
             </div>
           </div>
 
@@ -57,10 +58,10 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="{% static "homelogin/home.js" %}"></script>
-    <script src="{% static "homelogin/jquery.js" %}"></script>
-    <script src="{% static "homelogin/bootstrap.min.js" %}"></script>
+    <script src='{% static "homelogin/home.js" %}'></script>
+    <script src='{% static "homelogin/jquery.js" %}'></script>
+    <script src='{% static "homelogin/bootstrap.min.js" %}'></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="{% static "homelogin/viewportbug.js" %}"></script>
+    <script src='{% static "homelogin/viewportbug.js" %}'></script>
   </body>
 </html>

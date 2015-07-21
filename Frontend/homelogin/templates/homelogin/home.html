@@ -2,30 +2,95 @@
 
 {% block content %}
 <div class="inner cover tab-content">
-  <div id="home" class="tab-pane fade in active">
-    <p class="lead">
-    {% if username %}Hello {{username}}. The bot in your channel is<br><br>
-    <button class="btn btn-lg {{ buttonclass }}" onclick="toggleBot(event, '{{ username }}', '{{ backend_server_ip}}')">{{ botstatus }}</button>
-    <p> Click to toggle! </p>
-    {% else %}
-    <a href="{% url "twitch" %}" class="btn btn-lg btn-default btn-twitch">Login</a>
-    </p>
-    <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span><h1>
-    <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
-    {% endif %}
-  </div>
+    <div id="home" class="tab-pane fade in active">
+        {% if username %}
+            <p class="lead">
+                Hello {{username}}. The bot in your channel is<br><br>
+                <button class="btn btn-lg {{ buttonclass }}" onclick="toggleBot(event, '{{ username }}', '{{ backend_server_ip}}')">{{ botstatus }}</button>
+                <p> Click to toggle! </p>
+            </p>
+        {% else %}
+            <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
+            <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span></h1>
+            <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
+        {% endif %}
+    </div>
 
-  <div id="features" class="tab-pane fade">
-    <h1 class="cover-heading">Features</h1>
-    <p class="lead">Describe Dabolink Bot, pitch page</p>
-  </div>
+    <div id="features" class="tab-pane fade">
+        <h1 class="cover-heading">Features</h1>
+        <div style="min-height: 75%">
+            <div class="">
+                <p class="lead">
+                    <button class="btn btn-md" onclick="toggleCommand(true)">Admin Commands</button>
+                    <button class="btn btn-md" onclick="toggleCommand(false)">User Commands</button>
+                </p>
+                <div class="adminCommands">
+                    <p class="lead">
+                        Admin Commands
+                    </p>
+                    {% for feature in features.admin %}
+                        <bold>{{ feature.command | safe }}</bold><br>
+                        <pre>   {{ feature.description}}</pre><br>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="">
+                <div class="userCommands" style="display: none">
+                    <p class="lead">
+                        User Commands
+                    </p>
+                    {% for feature in features.user %}
+                        <bold>{{ feature.command }}</bold><br>
+                        <pre>   {{ feature.description}}</pre><br>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
 
-  <div id="contact" class="tab-pane fade">
-    <h1 class="cover-heading">Contact</h1>
-    <p class="lead">Email submission box, and email address, and twitch link</p>
-    <p class="lead">
-    <a href="#" class="btn btn-lg btn-default">Send</a>
-    </p>
-  </div>
+    <div id="contact" class="tab-pane fade">
+        <h1 class="cover-heading">Contact</h1>
+        <p class="lead">Email submission box, and email address, and twitch link</p>
+        <p class="lead">
+            <a href="#" class="btn btn-lg btn-default">Send</a>
+        </p>
+    </div>
+
+    <div id="settings" class="tab-pane fade">
+        {% if username %}
+        Hello {{ username }}<br>
+        <table border="1px solid">
+            <tr>
+                <td>Follow Message</td>
+                <td>
+                    <input type="text" size="20" value="{{ userdata.follow_message }}"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>timeout time</td>
+                <td>
+                    <input type="number" value="{{ userdata.timeout_time }}">
+                <td>seconds</td>
+                </td>
+            </tr>
+            <tr>
+                <td>frequent viewer time</td>
+                <td>
+                    <input type="number" value="{{ userdata.freq_viewer_time }}">
+                <td>Hours</td>
+                </td>
+            </tr>
+            <tr>
+                <input type="button" value="Save" onclick="saveUserData('{{ username }}', '{{ backend_server_ip}}')">
+            </tr>
+        </table>
+                    {% else %}
+        <h1 class="cover-heading">Settings</h1>
+        <p class="lead">Here is where you can update your settings</p>
+        <p class="lead">Please Log in</p>
+        <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
+
+        {% endif %}
+    </div>
 </div>
 {% endblock content%}

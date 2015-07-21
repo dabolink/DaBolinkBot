@@ -1,11 +1,55 @@
-from flask import Flask, jsonify, make_response, request
+from datetime import timedelta
+from flask import Flask, jsonify, make_response, request, current_app
 import multiprocessing
+from functools import update_wrapper
 import sqlite3
 import Controller
 import Objects.Queues
 
 channels = []
 app = Flask(__name__)
+
+def crossdomain(origin=None, methods=None, headers=None,
+                max_age=21600, attach_to_all=True,
+                automatic_options=True):
+    if methods is not None:
+        methods = ', '.join(sorted(x.upper() for x in methods))
+    if headers is not None and not isinstance(headers, basestring):
+        headers = ', '.join(x.upper() for x in headers)
+    if not isinstance(origin, basestring):
+        origin = ', '.join(origin)
+    if isinstance(max_age, timedelta):
+        max_age = max_age.total_seconds()
+
+    def get_methods():
+        if methods is not None:
+            return methods
+
+        options_resp = current_app.make_default_options_response()
+        return options_resp.headers['allow']
+
+    def decorator(f):
+        def wrapped_function(*args, **kwargs):
+            if automatic_options and request.method == 'OPTIONS':
+                resp = current_app.make_default_options_response()
+            else:
+                resp = make_response(f(*args, **kwargs))
+            if not attach_to_all and request.method != 'OPTIONS':
+                return resp
+
+            h = resp.headers
+
+            h['Access-Control-Allow-Origin'] = origin
+            h['Access-Control-Allow-Methods'] = get_methods()
+            h['Access-Control-Max-Age'] = str(max_age)
+            if headers is not None:
+                h['Access-Control-Allow-Headers'] = headers
+            return resp
+
+        f.provide_automatic_options = False
+        f.required_methods = ["OPTIONS"]
+        return update_wrapper(wrapped_function, f)
+    return decorator
 
 @app.route("/")
 def index():
@@ -73,13 +117,13 @@ def get_channel_userstats(channel, user):
         })
     return make_response(jsonify({'error': 'User Not found'}), 404)
 
-
-@app.route('/dabolinkbot/api/v1.0/channel/settings/<channel>/', methods=["GET", "POST"])
+@crossdomain(origin="*")
+@app.route('/dabolinkbot/api/v1.0/channel/settings/<channel>', methods=["GET", "POST", "OPTIONS"])
 def get_channel_settings(channel):
     print "here"
     conn = sqlite3.connect("Database/Master.db")
     cur = conn.cursor()
-    print request.method
+    print "request",request
     if request.method == 'GET':
         result = cur.execute("SELECT * FROM Channels WHERE channel = ?", (channel,)).fetchone()
         if not result:
@@ -103,7 +147,9 @@ def get_channel_settings(channel):
         }
         return jsonify(j)
     if request.method == 'POST':
-        result = request.get_json(force=True)
+        result = request.json
+        if not result:
+            return make_response(jsonify({'error': 'JSON not found'}), 404)
         if "timeout_time" not in result and "freq_viewer_time" not in result and "follow_message" not in result:
             return make_response(jsonify({'error': 'JSON missing values'}))
         if "timeout_time" in result:
@@ -114,8 +160,14 @@ def get_channel_settings(channel):
             cur.execute("""UPDATE Channels SET folow_message = ? WHERE channel = ?""", (result["follow_message"], channel))
         conn.commit()
         return jsonify({'result': 'success'})
+    if request.method == "OPTIONS":
+        print "options!"
+        response = app.make_default_options_response()
+        print response
+        print response
+        return response
     if not channel:
-        return make_response(jsonify({'error': 'Channel not found'}))
+        return make_response(jsonify({'error': 'Channel not found'}), 404)
 
 @app.route("/dabolinkbot/api/v1.0/user/<user>")
 def get_userstats(user):
@@ -151,5 +203,5 @@ def not_found(error):
 
 if __name__ == "__main__":
     app.debug = True
-    # app.run()
-    app.run(host='0.0.0.0')
+    app.run()
+    # app.run(host='0.0.0.0')
