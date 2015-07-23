@@ -9,12 +9,18 @@ import json
 class Home(View):
     def get(self, request):
         code = request.GET.get('code', '')
+        if "Settings" in request.POST:
+            print "settings"
+        if request.method == "POST":
+            print "request POST", request
+        if request.method == "GET":
+            print "request GET", request.GET.get('?')
         username = None
         if request.session.get('username'):
             username = request.session.get('username')
-        # print d
-        # print features
-        if code != '' or username:
+        print username, code
+        if code != "" or username:
+            print "logged in"
             # Use the twitch supplied login code if it is present to get an access token
             payload = {"client_id": d["client_id"], "client_secret": d["client_secret"],
                        "grant_type": "authorization_code", "redirect_uri": d["redirect_uri"], "code": code}
@@ -41,8 +47,8 @@ class Home(View):
             return render(request, 'homelogin/home.html',
                           {"features": features, "username": username, "botstatus": botstatus, "buttonclass": buttonclass,
                            "backend_server_ip": d["backend_server_ip"], "userdata": userData})
-        else:
-            print request.COOKIES
+        elif not username:
+            print "no username"
             return render(request, 'homelogin/home.html', {"backend_server_ip": d["backend_server_ip"], "features": features})
 
 

@@ -59,32 +59,13 @@
     <div id="settings" class="tab-pane fade">
         {% if username %}
         Hello {{ username }}<br>
-        <table border="1px solid">
-            <tr>
-                <td>Follow Message</td>
-                <td>
-                    <input type="text" size="20" value="{{ userdata.follow_message }}"><br>
-                </td>
-            </tr>
-            <tr>
-                <td>timeout time</td>
-                <td>
-                    <input type="number" value="{{ userdata.timeout_time }}">
-                <td>seconds</td>
-                </td>
-            </tr>
-            <tr>
-                <td>frequent viewer time</td>
-                <td>
-                    <input type="number" value="{{ userdata.freq_viewer_time }}">
-                <td>Hours</td>
-                </td>
-            </tr>
-            <tr>
-                <input type="button" value="Save" onclick="saveUserData('{{ username }}', '{{ backend_server_ip}}')">
-            </tr>
-        </table>
-                    {% else %}
+        <form action="/" method="post" name="settings">{% csrf_token %}
+            Follow Message<input type="text" size="20" value="{{ userdata.follow_message }}"><br>
+            timeout time length<input type="number" value="{{ userdata.timeout_time }}">seconds<br>
+            frequent viewer time<input type="number" value="{{ userdata.freq_viewer_time }}">Hours<br>
+            <input type="submit" value="Save Settings" name="Settings">
+        </form>
+        {% else %}
         <h1 class="cover-heading">Settings</h1>
         <p class="lead">Here is where you can update your settings</p>
         <p class="lead">Please Log in</p>

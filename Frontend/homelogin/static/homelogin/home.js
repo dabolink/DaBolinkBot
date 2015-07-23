@@ -25,15 +25,3 @@ function toggleCommand(admin){
         $(".userCommands").show();
     }
 }
-
-function saveUserData(username, backend_server_ip){
-    var xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("POST", backend_server_ip + "/dabolinkbot/api/v1.0/channel/settings/"+username);
-    xmlhttp.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
-    xmlhttp.setRequestHeader("Access-Control-Allow-Origin", "http://localhost:8000")
-    xmlhttp.send(JSON.stringify({
-        "channel": username,
-        "freq_viewer_time": 0
-    }));
-    alert(xmlhttp.status)
-}
