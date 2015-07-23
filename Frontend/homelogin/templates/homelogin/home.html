@@ -59,11 +59,9 @@
     <div id="settings" class="tab-pane fade">
         {% if username %}
         Hello {{ username }}<br>
-        <form action="/" method="post" name="settings">{% csrf_token %}
-            Follow Message<input type="text" size="20" value="{{ userdata.follow_message }}"><br>
-            timeout time length<input type="number" value="{{ userdata.timeout_time }}">seconds<br>
-            frequent viewer time<input type="number" value="{{ userdata.freq_viewer_time }}">Hours<br>
-            <input type="submit" value="Save Settings" name="Settings">
+        <form method="post">{% csrf_token %}
+            {{ form.as_p}}
+            <input type="submit">
         </form>
         {% else %}
         <h1 class="cover-heading">Settings</h1>
