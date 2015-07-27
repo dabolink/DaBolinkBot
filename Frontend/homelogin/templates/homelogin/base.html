@@ -34,8 +34,19 @@
                 <ul class="nav masthead-nav">
 				  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
                   <li><a data-toggle="tab" href="#features">Features</a></li>
+                  {% if username %}
+                  <li><a data-toggle="tab" href="#Bookmarks">Bookmarks</a></li>
                   <li><a data-toggle="tab" href="#settings">Settings</a></li>
+                  {% endif %}
                   <li><a data-toggle="tab" href="#contact">Contact</a></li>
+                  {% if username %}
+                  <li>
+                  <form method="post">
+                    {% csrf_token %}
+                  <input type="submit" name="logout">
+                  </form>
+                  </li>
+                  {% endif %}
                 </ul>
               </nav>
             </div>
@@ -45,7 +56,7 @@
 
           <div class="mastfoot">
             <div class="inner">
-              <p>Landing page for <a href="http://www.twitch.tv/dabolinkbot">DaBolinkBot</a>, by <a href="http://github.com/kradical">kradical</a> and <a href="http://github.com/dabolink">DaBolink</a>.</p>
+              <p>Landing page for <a href="http://www.twitch.tv/dabolinkbot">DaBolinkBot</a>, by <a href="http://github.com/kradical">kradical</a> and <a href="http://github.com/dabolink">DaBolink</a> and some assistance from <a href="http://github.com/programmingjoe">Joe</a>.</p>
             </div>
           </div>
 

@@ -12,31 +12,33 @@ from .models import Settings
 
 class Home(View):
     def post(self, request):
-        if request.method == "POST":
-            print "request POST", request
         username = request.session.get('username')
         if not username:
             return render(request, 'homelogin/home.html', {"backend_server_ip": d["backend_server_ip"], "features": features})
         botstatus = requests.get(d["backend_server_ip"] + "/dabolinkbot/api/v1.0/bot/status/" + username).json()[
             "online"]
-        form = SettingsForm(request.POST)
-        if form.is_valid():
-            cd = form.cleaned_data
-            channel = username
-            follow_message = cd.get("follow_message")
-            timeout_time = cd.get("timeout_time")
-            freq_viewer_time = cd.get("freq_viewer_time")
-            header = {'Content-Type': 'application/json'}
-            j = dict()
-            j["channel"] = channel
-            if follow_message:
-                j["follow_message"] = follow_message
-            if timeout_time:
-                j["timeout_time"] = timeout_time
-            if freq_viewer_time:
-                j["freq_viewer_time"] = freq_viewer_time
-            print j
-            print requests.post("http://localhost:5000/dabolinkbot/api/v1.0/channel/settings/{}".format(channel), json=j, headers=header).text
+        if 'settings' in request.POST:
+            form = SettingsForm(request.POST)
+            if form.is_valid():
+                cd = form.cleaned_data
+                channel = username
+                follow_message = cd.get("follow_message")
+                timeout_time = cd.get("timeout_time")
+                freq_viewer_time = cd.get("freq_viewer_time")
+                header = {'Content-Type': 'application/json'}
+                j = dict()
+                j["channel"] = channel
+                if follow_message:
+                    j["follow_message"] = follow_message
+                if timeout_time:
+                    j["timeout_time"] = timeout_time
+                if freq_viewer_time:
+                    j["freq_viewer_time"] = freq_viewer_time
+                print j
+                print requests.post("http://localhost:5000/dabolinkbot/api/v1.0/channel/settings/{}".format(channel), json=j, headers=header).text
+        elif 'logout' in request.POST:
+            request.session.flush()
+            form = SettingsForm(request.POST)
         buttonclass = "btn-success" if botstatus else "btn-danger"
         botstatus = "Online" if botstatus else "Offline"
         return render(request, 'homelogin/home.html',

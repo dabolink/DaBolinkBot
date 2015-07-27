@@ -58,17 +58,30 @@
 
     <div id="settings" class="tab-pane fade">
         {% if username %}
-        Hello {{ username }}<br>
         <form method="post">{% csrf_token %}
             {{ form.as_p}}
-            <input type="submit">
+            <input type="submit" name="settings">
         </form>
         {% else %}
         <h1 class="cover-heading">Settings</h1>
         <p class="lead">Here is where you can update your settings</p>
         <p class="lead">Please Log in</p>
         <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
-
+        {% endif %}
+    </div>
+    <div id="Bookmarks" class="tab-pane fade">
+        {% if username %}
+        <form method="post">
+            {% csrf_token %}
+            {% for bookmark in bookmarks %}
+            <li>
+                {{ bookmark }}
+            </li>
+            {% endfor %}
+            <!--<input type="submit" name="bookmarks-remove-all">-->
+            <!--<input type="submit" name="bookmarks-remove-one">-->
+            <h1>COMING SOON</h1>
+        </form>
         {% endif %}
     </div>
 </div>
