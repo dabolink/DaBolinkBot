@@ -6,8 +6,7 @@ from __init__ import d, features
 import requests
 import json
 
-from .forms import SettingsForm
-from .models import Settings
+from .forms import SettingsForm, SearchForm
 
 
 class Home(View):
@@ -39,12 +38,12 @@ class Home(View):
         elif 'logout' in request.POST:
             request.session.flush()
             form = SettingsForm(request.POST)
+            form2 = SearchForm(request.POST)
         buttonclass = "btn-success" if botstatus else "btn-danger"
         botstatus = "Online" if botstatus else "Offline"
         return render(request, 'homelogin/home.html',
               {"features": features, "username": username, "botstatus": botstatus, "buttonclass": buttonclass,
-               "backend_server_ip": d["backend_server_ip"], "form": form})
-
+               "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2})
 
     def get(self, request):
         print request.method
@@ -76,6 +75,7 @@ class Home(View):
             userData = requests.get(d["backend_server_ip"] + "/dabolinkbot/api/v1.0/channel/settings/" + username).json()
             print userData["follow_message"]
             form = SettingsForm(request.POST)
+            form2 = SearchForm(request.POST)
             for key in userData:
                 if not key == "channel":
                     print key
@@ -89,10 +89,11 @@ class Home(View):
             print request.session
             return render(request, 'homelogin/home.html',
                           {"features": features, "username": username, "botstatus": botstatus, "buttonclass": buttonclass,
-                           "backend_server_ip": d["backend_server_ip"], "form": form})
+                           "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2})
         elif not username:
             print "no username"
-            return render(request, 'homelogin/home.html', {"backend_server_ip": d["backend_server_ip"], "features": features})
+            form2 = SearchForm(request.POST)
+            return render(request, 'homelogin/home.html', {"backend_server_ip": d["backend_server_ip"], "features": features, "form2": form2})
 
 
 class Twitch(View):
@@ -102,3 +103,17 @@ class Twitch(View):
         redirectString = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=' + d["client_id"] + '&redirect_uri=' + d["redirect_uri"] + "&scope=user_read"
         return HttpResponseRedirect(redirectString)
         #  twitch also takes &scope= and &state=
+
+
+class User(View):
+    def get(self, request):
+        return render(request, 'homelogin/user.html', {})
+
+    def post(self, request):
+        if 'user' in request.POST:
+            search = SearchForm(request.POST)
+            if search.is_valid():
+                cd = search.cleaned_data
+                user = cd.get("search_text")
+                print user
+        print "here"

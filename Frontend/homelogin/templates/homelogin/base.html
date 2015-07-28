@@ -46,6 +46,14 @@
                   <input type="submit" name="logout">
                   </form>
                   </li>
+                  {% else %}
+                  <li>
+                    <form name="/user/" method="post">
+                      {% csrf_token %}
+                      {{ form2.as_p}}
+                      <input type="submit" name="search">
+                    </form>
+                  </li>
                   {% endif %}
                 </ul>
               </nav>
