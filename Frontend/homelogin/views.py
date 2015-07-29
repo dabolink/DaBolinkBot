@@ -14,8 +14,7 @@ class Home(View):
         username = request.session.get('username')
         if not username:
             return render(request, 'homelogin/home.html', {"backend_server_ip": d["backend_server_ip"], "features": features})
-        botstatus = requests.get(d["backend_server_ip"] + "/dabolinkbot/api/v1.0/bot/status/" + username).json()[
-            "online"]
+        botstatus = requests.get(d["backend_server_ip"] + "/dabolinkbot/api/v1.0/bot/status/" + username).json()["online"]
         if 'settings' in request.POST:
             form = SettingsForm(request.POST)
             if form.is_valid():
