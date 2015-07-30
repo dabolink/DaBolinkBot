@@ -45,6 +45,8 @@ class Home(View):
                "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2})
 
     def get(self, request):
+        request.session.flush()
+
         print request.method
         code = request.GET.get('code', '')
         if request.method == "GET":

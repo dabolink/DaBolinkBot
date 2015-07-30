@@ -2,7 +2,7 @@
 
 {% block content %}
 <div class="inner cover tab-content">
-    <div id="home" class="tab-pane fade in active">
+    <div id="home" style="height: 100%" class="tab-pane fade in active">
         {% if username %}
         <div style="height: 75%; width: 100%">
             <div>
@@ -28,9 +28,11 @@
             </p>
         </div>
         {% else %}
+        <div style="min-height: 100%;">
             <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
             <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span></h1>
             <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
+        </div>
         {% endif %}
     </div>
 
