@@ -17,6 +17,7 @@ class Home(View):
         botstatus = requests.get(d["backend_server_ip"] + "/dabolinkbot/api/v1.0/bot/status/" + username).json()["online"]
         if 'settings' in request.POST:
             form = SettingsForm(request.POST)
+            form2 = SearchForm(request.POST)
             if form.is_valid():
                 cd = form.cleaned_data
                 channel = username
@@ -45,8 +46,6 @@ class Home(View):
                "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2})
 
     def get(self, request):
-        request.session.flush()
-
         print request.method
         code = request.GET.get('code', '')
         if request.method == "GET":
