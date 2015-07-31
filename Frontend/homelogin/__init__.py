@@ -1,4 +1,4 @@
-fname = "valuesTest.txt"
+fname = "valuesLive.txt"
 featuresText = "features.txt"
 d = dict()
 features = {"admin": [],

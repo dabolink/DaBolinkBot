@@ -2207,3 +2207,86 @@
 07-16 21:21 :> jacerzz left the channel
 07-16 21:24 :> demonninja52 has joined the channel
 07-16 21:32 :> demonninja52 left the channel
+07-20 11:43 :> raskalian has joined the channel
+07-20 11:43 :> thepretenderr has joined the channel
+07-20 11:43 :> dabolinkbot has joined the channel
+07-20 12:10 :> dabolink has joined the channel
+07-20 12:22 :> dabolink left the channel
+07-20 12:55 :> thepretenderr left the channel
+07-20 12:56 :> thepretenderr has joined the channel
+07-20 14:07 :> omgilikeitalot has joined the channel
+07-20 14:14 :> omgilikeitalot left the channel
+07-20 14:20 :> captmikey has joined the channel
+07-20 14:22 :> captmikey left the channel
+07-20 16:42 :> rhulaan has joined the channel
+07-20 16:43 :> rhulaan left the channel
+07-21 17:08 :> thepretenderr has joined the channel
+07-21 17:08 :> dabolinkbot has joined the channel
+07-21 17:09 :> top users requested
+07-21 17:10 :> haladslader has joined the channel
+07-21 17:18 :> jrkyex has joined the channel
+07-21 17:23 :> jrkyex left the channel
+07-21 17:26 :> topez64 has joined the channel
+07-21 17:38 :> raskalian has joined the channel
+07-21 17:42 :> raskalian left the channel
+07-21 17:47 :> haladslader left the channel
+07-21 17:49 :> got userstats for topez64 : (u'topez64', 41.38953055555557, 0.0, 450)
+07-21 18:05 :> raskalian has joined the channel
+07-21 18:30 :> added juanjushs to database
+07-21 18:31 :> juanjushs left the channel
+07-21 18:48 :> raskalian has joined the channel
+07-21 18:48 :> thepretenderr has joined the channel
+07-21 18:48 :> topez64 has joined the channel
+07-21 18:48 :> dabolinkbot has joined the channel
+07-21 18:59 :> billyg120898 has joined the channel
+07-21 19:12 :> billyg120898 left the channel
+07-21 19:26 :> haladslader has joined the channel
+07-21 19:26 :> billyg120898 has joined the channel
+07-21 19:39 :> aksipanda has joined the channel
+07-21 19:41 :> topez64 left the channel
+07-21 19:46 :> aksipanda left the channel
+07-21 19:51 :> topez64 has joined the channel
+07-21 20:03 :> dabolinkbot has joined the channel
+07-21 20:03 :> haladslader has joined the channel
+07-21 20:03 :> raskalian has joined the channel
+07-21 20:03 :> thepretenderr has joined the channel
+07-21 20:03 :> topez64 has joined the channel
+07-21 20:35 :> jacerzz has joined the channel
+07-21 20:43 :> topez64 left the channel
+07-21 20:48 :> jacerzz left the channel
+07-21 20:53 :> alvin3639 has joined the channel
+07-21 20:58 :> added dommmmssssss to database
+07-21 20:59 :> dommmmssssss left the channel
+07-21 21:02 :> haladslader left the channel
+07-21 21:13 :> alvin3639 left the channel
+07-21 21:16 :> alvin3639 has joined the channel
+07-21 22:25 :> topez64 has joined the channel
+07-21 22:25 :> raskalian left the channel
+07-21 22:39 :> kpb415 has joined the channel
+07-21 22:43 :> added nitsoo to database
+07-21 22:48 :> nitsoo left the channel
+07-21 22:48 :> kpb415 left the channel
+07-21 23:08 :> alvin3639 left the channel
+07-21 23:10 :> alvin3639 has joined the channel
+07-23 13:22 :> thepretenderr has joined the channel
+07-23 13:22 :> dabolinkbot has joined the channel
+07-23 13:33 :> haladslader has joined the channel
+07-23 14:20 :> dabolink has joined the channel
+07-23 14:20 :> dabolinkbot has joined the channel
+07-23 14:20 :> haladslader has joined the channel
+07-23 14:20 :> thepretenderr has joined the channel
+07-23 14:28 :> top users requested
+07-23 14:31 :> haladslader left the channel
+07-27 18:22 :> raskalian has joined the channel
+07-27 18:22 :> thepretenderr has joined the channel
+07-27 18:22 :> topez64 has joined the channel
+07-27 18:22 :> dabolinkbot has joined the channel
+07-27 18:34 :> got userstats for topez64 : (u'topez64', 42.45007166666668, 0.0, 468)
+07-27 18:52 :> added frelongty to database
+07-27 18:57 :> frelongty left the channel
+07-27 19:00 :> raskalian left the channel
+07-27 19:05 :> haladslader has joined the channel
+07-27 19:17 :> topez64 left the channel
+07-29 12:08 :> thepretenderr has joined the channel
+07-29 12:08 :> dabolinkbot has joined the channel
+07-29 12:09 :> omgilikeitalot has joined the channel
