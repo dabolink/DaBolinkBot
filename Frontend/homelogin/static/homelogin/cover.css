@@ -20,7 +20,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -42,8 +41,7 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background-color: #333;
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -56,7 +54,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 55px;
 }
 
 
@@ -122,9 +120,15 @@ body {
     width: 50%;
 
 }
+input[type=submit]{
+  margin-top: 5px;
+  background-color: white;
+  color: black;
+}
 input[type="text"], input[type="number"] {
 
   background-color : #787878;
+  color: white;
 
 }
 .half-right{
@@ -151,9 +155,8 @@ input[type="text"], input[type="number"] {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  width: 100%;
 }
-
-
 /*
  * Affix and center
  */
@@ -184,6 +187,10 @@ input[type="text"], input[type="number"] {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 100%;
   }
+}
+
+#my-nav {
+  background-color: black;
 }

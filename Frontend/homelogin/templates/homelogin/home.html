@@ -2,17 +2,37 @@
 
 {% block content %}
 <div class="inner cover tab-content">
-    <div id="home" class="tab-pane fade in active">
+    <div id="home" style="height: 100%" class="tab-pane fade in active">
         {% if username %}
+        <div style="height: 75%; width: 100%">
+            <div>
+                <div style="width: 75%; float: left">
+                    <object type="application/x-shockwave-flash" height=75% width=100% id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel={{ username }}" bgcolor="#000000">
+                        <param name="allowFullScreen" value="true">
+                        <param name="allowScriptAccess" value="always">
+                        <param name="allowNetworking" value="all">
+                        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+                        <param name="wmode" value="opaque">
+                        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel={{ username }}&amp;auto_play=true&amp;start_volume=25">
+                    </object>
+                </div>
+                <div stlye="float: right">
+                    <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/dabolink/chat?popout=" height="75%" width="23%">
+                    </iframe>
+                </div>
+            </div>
             <p class="lead">
                 Hello {{username}}. The bot in your channel is<br><br>
                 <button class="btn btn-lg {{ buttonclass }}" onclick="toggleBot(event, '{{ username }}', '{{ backend_server_ip}}')">{{ botstatus }}</button>
                 <p> Click to toggle! </p>
             </p>
+        </div>
         {% else %}
+        <div style="min-height: 100%; padding: 25%;">
             <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
             <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span></h1>
             <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
+        </div>
         {% endif %}
     </div>
 
@@ -40,7 +60,7 @@
                         User Commands
                     </p>
                     {% for feature in features.user %}
-                        <bold>{{ feature.command }}</bold><br>
+                        <bold>{{ feature.command | safe }}</bold><br>
                         <pre>   {{ feature.description}}</pre><br>
                     {% endfor %}
                 </div>
@@ -56,19 +76,36 @@
         </p>
     </div>
 
-    <div id="settings" class="tab-pane fade">
+    <div id="settings" class="tab-pane fade" style="margin-top:10%">
         {% if username %}
-        Hello {{ username }}<br>
         <form method="post">{% csrf_token %}
-            {{ form.as_p}}
-            <input type="submit">
+            {% for field in form %}
+                <p>
+                    {{ field.label_tag }} {{ field }}
+                </p>
+            {% endfor %}
+            <input type="submit" name="settings" value="save">
         </form>
         {% else %}
         <h1 class="cover-heading">Settings</h1>
         <p class="lead">Here is where you can update your settings</p>
         <p class="lead">Please Log in</p>
-        <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
-
+        <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Log In</a>
+        {% endif %}
+    </div>
+    <div id="bookmarks" class="tab-pane fade">
+        {% if username %}
+        <form method="post">
+            {% csrf_token %}
+            {% for bookmark in bookmarks %}
+            <li>
+                {{ bookmark }}
+            </li>
+            {% endfor %}
+            <!--<input type="submit" name="bookmarks-remove-all">-->
+            <!--<input type="submit" name="bookmarks-remove-one">-->
+            <h1>COMING SOON</h1>
+        </form>
         {% endif %}
     </div>
 </div>
