@@ -30,7 +30,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div>
-                        <a style="background-color:white;" class="navbar-brand" data-toggle="tab" rel="home" href="#home" title="The home of DaBolinkBot">
+                        <a style="background-color:white;" class="navbar-brand" data-toggle="tab" rel="home" href="#home" onclick="$('hometab').addClass('active')">
                             <img style="max-width:100px;"
                                  src="{%static 'homelogin/favicon.ico' %}">
                         </a>
@@ -38,6 +38,7 @@
                 </div>
                 <!-- NAVBAR SELECTIONS -->
                 <ul class="nav nav-tabs" id="my-nav">
+                    <li class="active" id="hometab"><a href="#home" data-toggle="tab">DaBolinkBot</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             Features
@@ -50,7 +51,10 @@
                     </li>
                     <li><a href="#settings" data-toggle="tab">Settings</a></li>
                     <li><a href="#" data-toggle="tab">COMING SOON</a></li>
-                    <a href="#" type="button" class="pull-right">Logout</a>
+                    <form method="post">
+                        {% csrf_token %}
+                        <input type="submit" class="pull-right" name="logout" value="Logout">
+                    </form>
                 </ul>
                 <div class="site-wrapper">
                     <!-- CONTENT -->

@@ -120,9 +120,15 @@ body {
     width: 50%;
 
 }
+input[type=submit]{
+  margin-top: 5px;
+  background-color: white;
+  color: black;
+}
 input[type="text"], input[type="number"] {
 
   background-color : #787878;
+  color: white;
 
 }
 .half-right{

@@ -39,6 +39,7 @@ class Home(View):
             request.session.flush()
             form = SettingsForm(request.POST)
             form2 = SearchForm(request.POST)
+            username = ''
         buttonclass = "btn-success" if botstatus else "btn-danger"
         botstatus = "Online" if botstatus else "Offline"
         return render(request, 'homelogin/home.html',

@@ -28,7 +28,7 @@
             </p>
         </div>
         {% else %}
-        <div style="min-height: 100%;">
+        <div style="min-height: 100%; padding: 25%;">
             <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
             <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span></h1>
             <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
@@ -84,13 +84,13 @@
                     {{ field.label_tag }} {{ field }}
                 </p>
             {% endfor %}
-            <input type="submit" name="settings">
+            <input type="submit" name="settings" value="save">
         </form>
         {% else %}
         <h1 class="cover-heading">Settings</h1>
         <p class="lead">Here is where you can update your settings</p>
         <p class="lead">Please Log in</p>
-        <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
+        <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Log In</a>
         {% endif %}
     </div>
     <div id="bookmarks" class="tab-pane fade">
