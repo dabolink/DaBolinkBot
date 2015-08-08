@@ -6,7 +6,7 @@ from __init__ import d, features
 import requests
 import json
 
-from .forms import SettingsForm, SearchForm
+from .forms import SettingsForm, SearchForm, TitleForm
 
 
 class Home(View):
@@ -14,10 +14,11 @@ class Home(View):
         username = request.session.get('username')
         if not username:
             return render(request, 'homelogin/home.html', {"backend_server_ip": d["backend_server_ip"], "features": features})
+        form = SettingsForm(request.POST)
+        form2 = SearchForm(request.POST)
+        title_form = TitleForm(request.POST)
         botstatus = requests.get(d["backend_server_ip"] + "/dabolinkbot/api/v1.0/bot/status/" + username).json()["online"]
         if 'settings' in request.POST:
-            form = SettingsForm(request.POST)
-            form2 = SearchForm(request.POST)
             if form.is_valid():
                 cd = form.cleaned_data
                 channel = username
@@ -37,14 +38,25 @@ class Home(View):
                 print requests.post("http://localhost:5000/dabolinkbot/api/v1.0/channel/settings/{}".format(channel), json=j, headers=header).text
         elif 'logout' in request.POST:
             request.session.flush()
-            form = SettingsForm(request.POST)
-            form2 = SearchForm(request.POST)
             username = ''
+        elif 'change_title' in request.POST:
+            if title_form.is_valid():
+                cd = title_form.cleaned_data
+                status = cd.get("broadcast_title")
+                game = cd.get("game")
+                j = {
+                    "channel": {
+                        "status": status,
+                        "game": game,
+                    }
+                }
+                req = requests.put('https://api.twitch.tv/kraken/channels/{}'.format(username), json=j, headers=request.session.get('auth')).json()
+                print req
         buttonclass = "btn-success" if botstatus else "btn-danger"
         botstatus = "Online" if botstatus else "Offline"
         return render(request, 'homelogin/home.html',
               {"features": features, "username": username, "botstatus": botstatus, "buttonclass": buttonclass,
-               "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2})
+               "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2, 'title_form': title_form})
 
     def get(self, request):
         print request.method
@@ -69,10 +81,13 @@ class Home(View):
                 except KeyError:
                     print "error", token_response_json
                     return render(request, 'homelogin/home.html')
-                username = requests.get('https://api.twitch.tv/kraken/user', headers=authorization_header).json()[
-                "name"]
+                user = requests.get('https://api.twitch.tv/kraken/user', headers=authorization_header).json()
+                print user
+                username = user["name"]
                 request.session["username"] = username
+                request.session["auth"] = authorization_header
                 print "cookie set"
+
             userData = requests.get(d["backend_server_ip"] + "/dabolinkbot/api/v1.0/channel/settings/" + username).json()
             print userData["follow_message"]
             form = SettingsForm(request.POST)
@@ -86,11 +101,16 @@ class Home(View):
                 "online"]
             buttonclass = "btn-success" if botstatus else "btn-danger"
             botstatus = "Online" if botstatus else "Offline"
-            print userData
-            print request.session
+            title_form = TitleForm(request.POST)
+            channel = requests.get('https://api.twitch.tv/kraken/channels/{}'.format(username)).json()
+            title = channel["status"]
+            game = channel["game"]
+            title_form.data["broadcast_title"] = title
+            title_form.data["game"] = game
+            print title, game
             return render(request, 'homelogin/home.html',
                           {"features": features, "username": username, "botstatus": botstatus, "buttonclass": buttonclass,
-                           "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2})
+                           "backend_server_ip": d["backend_server_ip"], "form": form, "form2": form2, 'title_form': title_form})
         elif not username:
             print "no username"
             form2 = SearchForm(request.POST)
@@ -101,9 +121,8 @@ class Twitch(View):
     def get(self, request):
         print repr(d["client_id"])
         print repr(d["redirect_uri"])
-        redirectString = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=' + d["client_id"] + '&redirect_uri=' + d["redirect_uri"] + "&scope=user_read"
+        redirectString = 'https://api.twitch.tv/kraken/oauth2/authorize?response_type=code&client_id=' + d["client_id"] + '&redirect_uri=' + d["redirect_uri"] + "&scope=user_read+channel_editor"
         return HttpResponseRedirect(redirectString)
-        #  twitch also takes &scope= and &state=
 
 
 class User(View):

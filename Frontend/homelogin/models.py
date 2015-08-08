@@ -9,3 +9,7 @@ class Settings(models.Model):
 
 class Search(models.Model):
     search_text = models.CharField(max_length=200)
+
+class Title(models.Model):
+    broadcast_title = models.CharField(max_length=200)
+    game = models.CharField(max_length=200)

@@ -51,10 +51,14 @@
                     </li>
                     <li><a href="#settings" data-toggle="tab">Settings</a></li>
                     <li><a href="#" data-toggle="tab">COMING SOON</a></li>
+                    {% if username %}
+
+                    <li class=""><a href='{% url "user" %}'>{{ username }}</a></li>
                     <form method="post">
                         {% csrf_token %}
                         <input type="submit" class="pull-right" name="logout" value="Logout">
                     </form>
+                    {% endif %}
                 </ul>
                 <div class="site-wrapper">
                     <!-- CONTENT -->

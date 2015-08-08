@@ -1,7 +1,7 @@
 from django.forms import ModelForm
 
 from django import forms
-from .models import Settings, Search
+from .models import Settings, Search, Title
 
 class SettingsForm(ModelForm):
     class Meta:
@@ -17,3 +17,10 @@ class SearchForm(ModelForm):
         model = Search
         fields = ('search_text',)
     search_text = forms.CharField(required=False)
+
+class TitleForm(ModelForm):
+    class Meta:
+        model = Title
+        fields = ('broadcast_title', 'game')
+    broadcast_title = forms.CharField(required=False)
+    game = forms.CharField(required=False)

@@ -6,6 +6,14 @@
         {% if username %}
         <div style="height: 75%; width: 100%">
             <div>
+                <form align="left" method="post">
+                    {% csrf_token %}
+                    {{ title_form.broadcast_title.label_tag }}
+                    {{ title_form.broadcast_title }}
+                    {{ title_form.game.label_tag}}
+                    {{ title_form.game }}
+                    <input type="submit" name="change_title" value="save">
+                </form>
                 <div style="width: 75%; float: left">
                     <object type="application/x-shockwave-flash" height=75% width=100% id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel={{ username }}" bgcolor="#000000">
                         <param name="allowFullScreen" value="true">
@@ -17,7 +25,7 @@
                     </object>
                 </div>
                 <div stlye="float: right">
-                    <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/dabolink/chat?popout=" height="75%" width="23%">
+                    <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/{{ username }}/chat?popout=" height="75%" width="23%">
                     </iframe>
                 </div>
             </div>
