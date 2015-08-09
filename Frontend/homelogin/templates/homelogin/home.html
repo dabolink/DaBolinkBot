@@ -132,7 +132,6 @@
 {% if username %}
 <script>
     function update(){
-        setInterval(update(), 60000)
         $.ajax({type: "GET",
             url: "https://tmi.twitch.tv/group/user/{{ username }}/chatters",
             dataType: 'jsonp',
@@ -149,6 +148,7 @@
         })
     }
     $(document).ready(update());
+    $(document).ready(setInterval(update(), 60000));
 </script>
 {% endif %}
 {% endblock scripts %}
