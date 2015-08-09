@@ -59,8 +59,8 @@
         <div style="min-height: 75%">
             <div class="">
                 <p class="lead">
-                    <button class="btn btn-md" onclick="toggleCommand(true)">Admin Commands</button>
-                    <button class="btn btn-md" onclick="toggleCommand(false)">User Commands</button>
+                    <button id="adminBtn" class="btn btn-primary btn-md active" onclick="toggleCommand(true)">Admin Commands</button>
+                    <button id="userBtn" class="btn btn-primary btn-md" onclick="toggleCommand(false)">User Commands</button>
                 </p>
                 <div class="adminCommands">
                     <p class="lead">
@@ -132,6 +132,7 @@
 {% if username %}
 <script>
     function update(){
+        setInterval(update(), 60000)
         $.ajax({type: "GET",
             url: "https://tmi.twitch.tv/group/user/{{ username }}/chatters",
             dataType: 'jsonp',
@@ -147,7 +148,6 @@
             }
         })
     }
-    setInterval(update(), 60000)
     $(document).ready(update());
 </script>
 {% endif %}

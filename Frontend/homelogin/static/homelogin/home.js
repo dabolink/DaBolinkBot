@@ -20,8 +20,13 @@ function toggleCommand(admin){
         $(".adminCommands").show();
         $(".userCommands").hide();
 
+        $("#adminBtn").attr("class","btn btn-primary btn-md active");
+        $("#userBtn").attr("class","btn btn-primary btn-md")
     }else {
         $(".adminCommands").hide();
         $(".userCommands").show();
+
+        $("#adminBtn").attr("class","btn btn-primary btn-md");
+        $("#userBtn").attr("class","btn btn-primary btn-md active");
     }
 }
