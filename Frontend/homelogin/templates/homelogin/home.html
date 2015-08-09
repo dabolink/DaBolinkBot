@@ -28,6 +28,12 @@
                     <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/{{ username }}/chat?popout=" height="75%" width="23%">
                     </iframe>
                 </div>
+                <div>
+                    <label>FOLLOWERS</label>
+                    <div id="followers" class="">UNKNOWN</div>
+                    <label>VIEWERS</label>
+                    <div id="viewers" class="">UNKNOWN</div>
+                </div>
             </div>
             <p class="lead">
                 Hello {{username}}. The bot in your channel is<br><br>
@@ -117,4 +123,28 @@
         {% endif %}
     </div>
 </div>
-{% endblock content%}
+{% endblock content %}
+{% block scripts %}
+{% if username %}
+<script>
+    function update(){
+        $.ajax({type: "GET",
+            url: "https://tmi.twitch.tv/group/user/{{ username }}/chatters",
+            dataType: 'jsonp',
+            success: function(data) {
+                $("#viewers").text(data.data.chatter_count)
+            }
+        })
+        $.ajax({type: "GET",
+            url: "https://api.twitch.tv/kraken/channels/{{ username }}",
+            dataType: 'jsonp',
+            success: function(data) {
+                $("#followers").text(data.followers)
+            }
+        })
+    }
+    setInterval(update(), 60000)
+    $(document).ready(update());
+</script>
+{% endif %}
+{% endblock scripts %}
