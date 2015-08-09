@@ -21,7 +21,7 @@
                         <param name="allowNetworking" value="all">
                         <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
                         <param name="wmode" value="opaque">
-                        <param name="flashvars" value="hostname=www.twitch.tv&amp;channel={{ username }}&amp;auto_play=true&amp;start_volume=25">
+                        <param name="flashvars" value="hostname=www.twitch.tv channel={{ username }} auto_play=true start_volume=25">
                     </object>
                 </div>
                 <div stlye="float: right">
@@ -136,6 +136,7 @@
             url: "https://tmi.twitch.tv/group/user/{{ username }}/chatters",
             dataType: 'jsonp',
             success: function(data) {
+                console.log(data.data.chatter_count)
                 $("#viewers").text(data.data.chatter_count)
             }
         })
@@ -148,7 +149,7 @@
         })
     }
     $(document).ready(update());
-    $(document).ready(setInterval(update(), 60000));
+    $(document).ready(setInterval(update, 5000));
 </script>
 {% endif %}
 {% endblock scripts %}
