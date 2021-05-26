@@ -1,9 +1,9 @@
 import json
 import requests
 
-ClientID = "nec642fe1th1bqxccovwy89dz2hzk8f"
+ClientID = "CLIENT_ID"
 redirect = "http://localhost"
-token = "OAuth:n09mei0nol70yuq2u4hpu2537eu6ap"
+token = "OAUTH_TOKEN"
 APIURL = "https://api.twitch.tv/kraken/"
 
 
@@ -52,8 +52,15 @@ def get_channel_viewers(user):
     """
     return formatAPI(requests.get("http://tmi.twitch.tv/group/user/{}/chatters".format(user)))
 
+def get_subscribers(channel):
+    return formatAPI(requests.get(APIURL + "channels/{}/subscriptions".format(channel)))
+
 
 def get_most_recent_highlight(user):
     vids = get_channel_videos(user, False)
     if len(vids["videos"]) > 0:
         return vids["videos"][0]["url"]
+
+if __name__ == "__main__":
+    print get_channel_viewers("thepretenderr")
+    print get_subscribers("thepretenderr")

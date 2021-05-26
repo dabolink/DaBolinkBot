@@ -11,6 +11,9 @@ import VariableManager.VarManager
 import Irc.In
 import Irc.Out
 import Irc.CommandParser
+import Irc.ChatModerator
+
+import Whisperer.Whisperer
 
 import Logger.Logger
 
@@ -19,23 +22,26 @@ import Database.DatabaseUpdater
 import Periodic.Followers
 import Periodic.Check_Online
 
-def startup(channel, check_online=False):
+def startup(channel, check_online=False, q=None):
+    if not q:
+        q = Objects.Queues.queues()
     debug = False
     if debug:
         import sys
         sys.stderr = open('Logs/Errors/{}/Controller.txt'.format(channel), 'w')
     processes = []
     bot = Objects.Bot.Bot(channel, debug)
-    q = Objects.Queues.queues()
-    processes.append(multiprocessing.Process(target=Periodic.Followers.start, args=(bot, q)))
+    processes.append(multiprocessing.Process(target=Irc.ChatModerator.start, args=(bot, q)))
     if check_online:
         processes.append(multiprocessing.Process(target=Periodic.Check_Online.start, args=(bot, q)))
+        processes.append(multiprocessing.Process(target=Periodic.Followers.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Logger.Logger.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Database.DatabaseUpdater.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Irc.In.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Irc.Out.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=Irc.CommandParser.start, args=(bot, q)))
     processes.append(multiprocessing.Process(target=VariableManager.VarManager.start, args=(bot, q)))
+    processes.append(multiprocessing.Process(target=Whisperer.Whisperer.start, args=(bot, q)))
 
     for process in processes:
         process.start()
@@ -53,6 +59,7 @@ def startup(channel, check_online=False):
                 q = Objects.Queues.queues()
                 processes.append(multiprocessing.Process(target=Periodic.Followers.main, args=(bot, q)))
                 if check_online:
+                    print "check online activated"
                     processes.append(multiprocessing.Process(target=Periodic.Check_Online.main, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Periodic.LinesOfText.main, args=(bot, q)))
                 processes.append(multiprocessing.Process(target=Logger.Logger.start, args=(bot, q)))
@@ -63,10 +70,14 @@ def startup(channel, check_online=False):
                 processes.append(multiprocessing.Process(target=VariableManager.VarManager.start, args=(bot, q)))
                 print "reset"
         else:
-            sleep(5)
+            sleep(bot.sleep_time*10)
+    i = 0
     for process in processes:
         process.join()
+        i += 1
+        print str(i) + "/" + str(len(processes))
+    print "bot ended in stream", bot.channel
 
 if __name__ == "__main__":
     import sys
-    startup(sys.argv[1], bool(sys.argv[2]))
+    startup(sys.argv[1])

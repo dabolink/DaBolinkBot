@@ -97,10 +97,10 @@ def start(bot, q):
                             q.out_queue.put(("PRIVMSG", var[2] + " has used up their permit"))
                             permits[var[2]] = 0
                         else:
-                            q.out_queue.put(("TIMEOUT", var[2]))
+                            q.out_queue.put(("TIMEOUT", "LINK", var[2]))
                             q.log_queue.put(("TIMEOUT", "Timed out user: " + var[2]))
                     except KeyError:
-                        q.out_queue.put(("TIMEOUT", var[2]))
+                        q.out_queue.put(("TIMEOUT", "LINK", var[2]))
                         q.log_queue.put(("TIMEOUT", "Timed out user: " + var[2]))
             elif var[0] == "CV":
                 if len(var) > 1:
@@ -129,6 +129,7 @@ def start(bot, q):
             elif var[0] == "PRINT":
                 if var[1] == "followers":
                     q.out_queue.put(("PRIVMSG", str(followers)))
+                    print followers
                     q.out_queue.put(("PRIVMSG", str(len(followers))))
                 elif var[1] == "permits":
                     q.out_queue.put(("PRIVMSG", str(permits)))
@@ -139,7 +140,7 @@ def start(bot, q):
                 elif var[1] == "mods":
                     q.out_queue.put(("PRIVMSG", str(mods)))
         else:
-            sleep(1)
+            sleep(bot.sleep_time)
     print "sending final numbers..."
     for viewer in viewers:
         print viewer

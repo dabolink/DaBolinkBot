@@ -58,6 +58,11 @@ class message:
 def irc_send(message):
     irc.send("PRIVMSG #{} :{}\r\n".format(Channel, message))
 
+
+def database_add(time):
+    pass
+
+
 def main():
     processes = []
 
@@ -128,6 +133,11 @@ def main():
                             p.start()
                             processes.append((chatroom, msg.user, p))
                             print_log("{} added bot to #{}".format(msg.user, chatroom))
+                    elif msg.message[1:9] == "donation":
+                        message1 = msg.message.split(" ")
+                        if message1[1] == "add":
+                            time = int(message1[2])
+                            database_add(time)
                     else:
                         print "INVALD CMD"
                 else:

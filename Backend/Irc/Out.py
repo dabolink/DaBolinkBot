@@ -3,32 +3,49 @@ from time import sleep
 links = True
 cv = None
 
-def irc_send(bot, irc, message):
+
+def irc_send_message(bot, irc, message):
     irc.send("PRIVMSG #{} :{}\r\n".format(bot.channel, message))
+
+
+def irc_send_command(bot, irc, message):
+    irc.send("PRIVMSG #{} :/{}\r\n".format(bot.channel, message))
+
 
 def parse_output(bot, irc, output):
     global links
     if output[0] == "PRIVMSG":
-        irc_send(bot, irc, output[1])
+        irc_send_message(bot, irc, output[1])
     elif output[0] == "TOGGLE":
         if len(output) == 1:
             links = not links
             if links:
-                irc_send(bot, irc, "Link Timeout Enabled")
+                irc_send_message(bot, irc, "Link Timeout Enabled")
             else:
-                irc_send(bot, irc, "Link Timeout Disabled")
+                irc_send_message(bot, irc, "Link Timeout Disabled")
         elif output[1]:
             links = True
-            irc_send(bot, irc, "Link Timeout Enabled")
+            irc_send_message(bot, irc, "Link Timeout Enabled")
         else:
             links = False
-            irc_send(bot, irc, "Link Timeout Disabled")
+            irc_send_message(bot, irc, "Link Timeout Disabled")
     elif output[0] == "PING":
         irc.send("PONG tmi.twitch.tv\r\n")
     elif output[0] == "TIMEOUT":
-        if links:
-            irc_send(bot, irc, "Please no links unless you are given permission")
-            irc_send(bot, irc, "/timeout {} {}".format(output[1], str(bot.timeout_time)))
+        if output[1] == "LINK":
+            if links:
+                irc_send_message(bot, irc, "Please no links unless you are given permission")
+                irc_send_command(bot, irc, "timeout {} {}".format(output[2], str(bot.timeout_time)))
+        elif output[1] == "WORD":
+            irc_send_message(bot, irc, "That word is not allowed here")
+            irc_send_command(bot, irc, "timeout {} {}".format(output[2], str(bot.timeout_time)))
+    elif output[0] == "MODS":
+        print "mod request sent"
+        irc_send_message(bot, irc, "/mods")
+    elif output[0] == "MESSAGE":
+        irc_send_message(bot, irc, "/mods")
+
+
 
 def start(bot, q):
     import sys
@@ -64,12 +81,12 @@ def start(bot, q):
     irc.send("USER {} 0 * :{}\r\n".format(botnick, botowner))
     irc.send("NICK {}\r\n".format(botnick))
     irc.send("JOIN #{}\r\n".format(channel))
-
+    irc_send_message(bot, irc, bot.hello_message)
     while q.kill_queue.empty():
         if not q.out_queue.empty():
             output = q.out_queue.get()
             parse_output(bot, irc, output)
         else:
-            sleep(1)
+            sleep(bot.sleep_time)
     print "OUT"
-    irc_send(bot, irc, "Goodbye Stream :(")
+    irc_send_message(bot, irc, "Goodbye Stream :(")

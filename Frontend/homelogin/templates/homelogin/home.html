@@ -1,0 +1,155 @@
+{% extends "homelogin/base.html" %}
+
+{% block content %}
+<div class="inner cover tab-content">
+    <div id="home" style="height: 100%" class="tab-pane fade in active">
+        {% if username %}
+        <div style="height: 75%; width: 100%">
+            <div>
+                <form align="left" method="post">
+                    {% csrf_token %}
+                    {{ title_form.broadcast_title.label_tag }}
+                    {{ title_form.broadcast_title }}
+                    {{ title_form.game.label_tag}}
+                    {{ title_form.game }}
+                    <input type="submit" name="change_title" value="save">
+                </form>
+                <div style="width: 75%; float: left">
+                    <object type="application/x-shockwave-flash" height=75% width=100% id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel={{ username }}" bgcolor="#000000">
+                        <param name="allowFullScreen" value="true">
+                        <param name="allowScriptAccess" value="always">
+                        <param name="allowNetworking" value="all">
+                        <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf">
+                        <param name="wmode" value="opaque">
+                        <param name="flashvars" value="hostname=www.twitch.tv channel={{ username }} auto_play=true start_volume=25">
+                    </object>
+                </div>
+                <div stlye="float: right">
+                    <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/{{ username }}/chat?popout=" height="75%" width="23%">
+                    </iframe>
+                </div>
+                <div>
+                    <span style="float: right; padding-left:10px"><svg class="svg-glyph_followers" height="16px" version="1.1" viewbox="0 0 16 16" width="16px" x="0px" y="0px">
+                        <path clip-rule="evenodd" d="M8,13.5L1.5,7V4l2-2h3L8,3.5L9.5,2h3l2,2v3L8,13.5z" fill-rule="evenodd"></path>
+                    </svg>
+                    <div id="followers" class="">unknown</div></span>
+                    <span style="float:right; padding-right:10px"><svg class="svg-glyph_views" height="16px" version="1.1" viewbox="0 0 16 16" width="16px" x="0px" y="0px">
+                        <path clip-rule="evenodd" d="M11,13H5L1,9V8V7l4-4h6l4,4v1v1L11,13z M8,5C6.344,5,5,6.343,5,8c0,1.656,1.344,3,3,3c1.657,0,3-1.344,3-3C11,6.343,9.657,5,8,5z M8,9C7.447,9,7,8.552,7,8s0.447-1,1-1s1,0.448,1,1S8.553,9,8,9z" fill-rule="evenodd"></path>
+                    </svg>
+                    <div id="viewers" class="">unknown</div></span>
+                </div>
+            </div>
+            <p class="lead">
+                Hello {{username}}. The bot in your channel is<br><br>
+                <button class="btn btn-lg {{ buttonclass }}" onclick="toggleBot(event, '{{ username }}', '{{ backend_server_ip}}')">{{ botstatus }}</button>
+                <p> Click to toggle! </p>
+            </p>
+        </div>
+        {% else %}
+        <div style="min-height: 100%; padding: 25%;">
+            <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Login</a>
+            <h1 class="cover-heading">Connect with <span class="header-twitch">Twitch.tv</span></h1>
+            <p class="lead">See Features to find out if DaBolinkBot is right for you</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <div id="features" class="tab-pane fade">
+        <h1 class="cover-heading">Features</h1>
+        <div style="min-height: 75%">
+            <div class="">
+                <p class="lead">
+                    <button id="adminBtn" class="btn btn-primary btn-md active" onclick="toggleCommand(true)">Admin Commands</button>
+                    <button id="userBtn" class="btn btn-primary btn-md" onclick="toggleCommand(false)">User Commands</button>
+                </p>
+                <div class="adminCommands">
+                    <p class="lead">
+                        Admin Commands
+                    </p>
+                    {% for feature in features.admin %}
+                        <bold>{{ feature.command | safe }}</bold><br>
+                        <pre>   {{ feature.description}}</pre><br>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="">
+                <div class="userCommands" style="display: none">
+                    <p class="lead">
+                        User Commands
+                    </p>
+                    {% for feature in features.user %}
+                        <bold>{{ feature.command | safe }}</bold><br>
+                        <pre>   {{ feature.description}}</pre><br>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="tab-pane fade">
+        <h1 class="cover-heading">Contact</h1>
+        <p class="lead">Email submission box, and email address, and twitch link</p>
+        <p class="lead">
+            <a href="#" class="btn btn-lg btn-default">Send</a>
+        </p>
+    </div>
+
+    <div id="settings" class="tab-pane fade" style="margin-top:10%">
+        {% if username %}
+        <form method="post">{% csrf_token %}
+            {% for field in form %}
+                <p>
+                    {{ field.label_tag }} {{ field }}
+                </p>
+            {% endfor %}
+            <input type="submit" name="settings" value="save">
+        </form>
+        {% else %}
+        <h1 class="cover-heading">Settings</h1>
+        <p class="lead">Here is where you can update your settings</p>
+        <p class="lead">Please Log in</p>
+        <a href='{% url "twitch" %}' class="btn btn-lg btn-default btn-twitch">Log In</a>
+        {% endif %}
+    </div>
+    <div id="bookmarks" class="tab-pane fade">
+        {% if username %}
+        <form method="post">
+            {% csrf_token %}
+            {% for bookmark in bookmarks %}
+            <li>
+                {{ bookmark }}
+            </li>
+            {% endfor %}
+            <!--<input type="submit" name="bookmarks-remove-all">-->
+            <!--<input type="submit" name="bookmarks-remove-one">-->
+            <h1>COMING SOON</h1>
+        </form>
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}
+{% block scripts %}
+{% if username %}
+<script>
+    function update(){
+        $.ajax({type: "GET",
+            url: "https://tmi.twitch.tv/group/user/{{ username }}/chatters",
+            dataType: 'jsonp',
+            success: function(data) {
+                console.log(data.data.chatter_count)
+                $("#viewers").text(data.data.chatter_count)
+            }
+        })
+        $.ajax({type: "GET",
+            url: "https://api.twitch.tv/kraken/channels/{{ username }}",
+            dataType: 'jsonp',
+            success: function(data) {
+                $("#followers").text(data.followers)
+            }
+        })
+    }
+    $(document).ready(update());
+    $(document).ready(setInterval(update, 5000));
+</script>
+{% endif %}
+{% endblock scripts %}

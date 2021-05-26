@@ -7,32 +7,27 @@ def admin_commands(bot, q, user, command, parameters=None):
             if parameters[0] == "add":
                 # Database.add_time(parameters[1], int(parameters[2]))
                 pass
-            #TODO reimplement
+            # TODO reimplement
     if command == "next":
         q.var_queue.put(("QUEUE", "GET"))
+    elif command == "donations":
+        q.database_queue.put(("DONATION", "GET"))
     elif command == "quote":
         if parameters:
             if parameters[0] == "add":
-
-                #TODO reimplement
-                # Database.add_quote(Variables.Channel, " ".join(parameters[1:]))
-                # IRC.irc_send("added quote to db")
-                pass
+                q.database_queue.put(("QUOTE", "ADD", " ".join(parameters[1:])))
         else:
-            # try:
-            #     quote = Database.get_random_quote(Variables.Channel)
-            #     IRC.irc_send("\"" + quote[1] + "\"" + " - " + quote[2] + "(" + quote[0] + ")")
-            # except IndexError:
-            #     print "no quotes"
-            pass
+            q.database_queue.put(("QUOTE", "GET"))
     elif command == "toggle":
-        if parameters[0] == "links" and len(parameters) == 1:
-            q.out_queue.put(("TOGGLE",))
-        elif parameters[0] == "links":
-            if parameters[1] == "off":
-                q.out_queue.put(("TOGGLE", "OFF"))
-            elif parameters[1] == "on":
-                q.out.queue.put(("TOGGLE", "ON"))
+        if parameters:
+            if len(parameters) == 1:
+                if parameters[0] == "links":
+                    q.out_queue.put(("TOGGLE",))
+            elif parameters[0] == "links":
+                if parameters[1] == "off":
+                    q.out_queue.put(("TOGGLE", "OFF"))
+                elif parameters[1] == "on":
+                    q.out_queue.put(("TOGGLE", "ON"))
 
     elif command == "bookmark":
         q.log_queue.put(("BOOKMARK",))
@@ -66,11 +61,12 @@ def admin_commands(bot, q, user, command, parameters=None):
 
     elif command == "reset":
         pass
+    elif command == "chant":
+        q.out_queue.put(("PRIVMSG", "this man looks gay, i have a boner, with this chant i summon Tyler"))
         # q.control_queue.put(("RESET",))
-
-    elif command == "users":
-        q.var_queue.put(("PRINT", command))
-        pass
+    # elif command == "friendship":
+    #     print "here"
+    #     q.out_queue.put(("PRIVMSG", u'\xE5\x8D\x8D'.encode('utf8') + " Repost this windmill of friendship if you think Europe should embrace racial diversity "))
     else:
         commands(bot, q, user, command, parameters)
 
@@ -84,11 +80,12 @@ def commands(bot, q, user, command, parameters):
         if not parameters:
             q.var_queue.put(("GET USERSTATS", user))
         else:
+            print " ".join(parameters)
             q.var_queue.put(("GET USERSTATS", " ".join(parameters)))
     elif command == "cv":
         q.var_queue.put(("CV",))
     elif command == "dabolinkbot":
-        q.out_queue.put(("PRIVMSG", "DaBolinkbot is superior to non-bots"))
+        q.out_queue.put(("PRIVMSG", "DaBolinkbot is superior to non-bots and other bots"))
     elif command == "uptime":
         import Time.Time
         Time.Time.uptime(bot, q)
@@ -101,6 +98,14 @@ def commands(bot, q, user, command, parameters):
         else:
             u = " ".join(parameters)
             q.var_queue.put(("QUEUE", "PUT", user, u))
+    elif command == "commands" or command == "command":
+        q.out_queue.put(("PRIVMSG", "http://www.twitch.tv/dabolinkbot <- list of commands"))
+    elif command == "update":
+        if parameters[0] == "mods":
+            q.out_queue.put(("/mods",))
+    elif command == "print":
+        if parameters:
+            q.var_queue.put(("PRINT", parameters[0]))
     else:
         pass
 
@@ -112,11 +117,11 @@ def start(bot, q):
     while q.kill_queue.empty():
         if not q.command_queue.empty():
             cmd = q.command_queue.get()
-            #(T/F,  (command, params))
+            #(user,  (command, params))
             if cmd[0].admin:
                 admin_commands(bot, q, cmd[0].name, cmd[1][0][1:], cmd[1][1:])
             else:
                 commands(bot, q, cmd[0].name, cmd[1][0][1:], cmd[1][1:])
         else:
-            sleep(1)
+            sleep(bot.sleep_time)
     print "COMMAND PARSER"
