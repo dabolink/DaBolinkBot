@@ -1,9 +1,9 @@
 import json
 import requests
 
-ClientID = "nec642fe1th1bqxccovwy89dz2hzk8f"
+ClientID = "CLIENT_ID"
 redirect = "http://localhost"
-token = "OAuth:n09mei0nol70yuq2u4hpu2537eu6ap"
+token = "OAUTH_TOKENM"
 APIURL = "https://api.twitch.tv/kraken/"
 
 
