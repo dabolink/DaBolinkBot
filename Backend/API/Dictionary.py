@@ -1,7 +1,7 @@
 import json
 import requests
 
-token = "2cf39203-0dd0-4602-b56a-354963063322"
+token = "DICTIONARY_API_TOKEN"
 APIURL = "http://www.dictionaryapi.com/api/v1/references/"
 
 

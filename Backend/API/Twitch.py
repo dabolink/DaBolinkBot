@@ -3,7 +3,7 @@ import requests
 
 ClientID = "CLIENT_ID"
 redirect = "http://localhost"
-token = "OAUTH_TOKENM"
+token = "OAUTH_TOKEN"
 APIURL = "https://api.twitch.tv/kraken/"
 
 
